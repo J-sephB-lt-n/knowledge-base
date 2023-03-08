@@ -31,4 +31,5 @@ Black              |                                                            
 Great Expectations |                                                            | https://github.com/great-expectations/great_expectations
 ML Flow            |                                                            |
 PyLint             |                                                            |
+PyMC               |                                                            | 
 TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
