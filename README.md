@@ -17,14 +17,16 @@ Survival Analysis                  |                          |                 
 
 # Learning Resources 
 
-Is Free | Name                    | Description | Link(s)
---------|-------------------------|-------------|-------------------
+Is Free | Name                    | Description                                   | Link(s)
+--------|-------------------------|-----------------------------------------------|-------------------
+Yes     | Awesome Time Series     | A large curated list of time series resources | https://github.com/lmmentel/awesome-time-series
 Yes     | Made With ML            | Beautifully curated content (with code examples) on the full Data + Machine Learning Pipeline | https://madewithml.com/ | 
-Yes     | Tech Interview Handbook |             | https://github.com/yangshun/tech-interview-handbook
+Yes     | Tech Interview Handbook |                                               | https://github.com/yangshun/tech-interview-handbook
 
 # Software Tools
 
-Name               | Description | Link(s)
--------------------|-------------|----------
-Great Expectations |             | https://github.com/great-expectations/great_expectations
-ML Flow            |             |
+Name               | Description                                                | Link(s)
+-------------------|------------------------------------------------------------|----------
+Great Expectations |                                                            | https://github.com/great-expectations/great_expectations
+ML Flow            |                                                            |
+TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
