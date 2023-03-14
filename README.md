@@ -1,19 +1,29 @@
 # Useful Algorithms List
 
-When solving a new problem, I like to consult this list in order to identify which algorithmic/software tools might be useful
+When solving a new problem, I like to consult this list in order to identify algorithmic/software tools might be relevant to the problem
 
-Name                               | Description              | Example Use Cases         | Useful Resources
------------------------------------|--------------------------|---------------------------|------------------
-Anomaly Detection                  |                          |                           |
-Bayesian Hierarchical Modelling    |                          |                           | 
-Bayesian Networks                  |                          |                           |  
-Causal (decision) Bayesian Networks|                          |                           |
-Clustering                         |                          |                           | 
-Collaborative Filtering            |                          |                           | 
-Dimension Reduction                |                          |                           | 
-Mathematical Optimisation          |                          |                           | 
-Supervised Learning                |                          |                           |
-Survival Analysis                  |                          |                           |
+* [Algorithms List](#algorithms-list)
+
+* [Learning Resources](#learning-resources)
+
+* [Software Tools](#software-tools)
+
+# Algorithms List 
+Name                                   | Description              | Example Use Cases         | Useful Resources
+---------------------------------------|--------------------------|---------------------------|------------------
+Anomaly Detection                      |                          |                           |
+Bayesian Hierarchical Modelling        |                          |                           | 
+Bayesian Networks                      |                          |                           |  
+Causal (decision) Bayesian Networks    |                          |                           |
+Clustering                             |                          |                           | 
+Collaborative Filtering                |                          |                           | 
+Confidence/Credibility Intervals       |                          |                           | 
+Dimension Reduction                    |                          |                           | 
+Statistical Hypothesis Testing         |                          |                           | 
+Mathematical Optimisation              |                          |                           | 
+Shrinkage Estimators (e.g. James Stein)|                          |                           | 
+Supervised Learning                    |                          |                           |
+Survival Analysis                      |                          |                           |
 
 # Learning Resources 
 
