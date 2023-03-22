@@ -19,8 +19,9 @@ Clustering                             |                          |             
 Collaborative Filtering                |                          |                           | 
 Confidence/Credibility Intervals       |                          |                           | 
 Dimension Reduction                    |                          |                           | 
-Statistical Hypothesis Testing         |                          |                           | 
+Hypothesis Testing                     |                          |                           | 
 Mathematical Optimisation              |                          |                           | 
+Multi-Armed Bandit Algorithms | | | |
 Shrinkage Estimators (e.g. James Stein)|                          |                           | 
 Supervised Learning                    |                          |                           |
 Survival Analysis                      |                          |                           |
