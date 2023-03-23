@@ -20,8 +20,9 @@ Collaborative Filtering                |                          |             
 Confidence/Credibility Intervals       |                          |                           | 
 Dimension Reduction                    |                          |                           | 
 Hypothesis Testing                     |                          |                           | 
+Knowledge Graphs                       |                          |                           | 
 Mathematical Optimisation              |                          |                           | 
-Multi-Armed Bandit Algorithms | | | |
+Multi-Armed Bandit Algorithms          |                          |                           | 
 Shrinkage Estimators (e.g. James Stein)|                          |                           | 
 Supervised Learning                    |                          |                           |
 Survival Analysis                      |                          |                           |
