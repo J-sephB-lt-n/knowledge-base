@@ -8,6 +8,8 @@ When solving a new problem, I like to consult this list in order to identify alg
 
 * [Software Tools](#software-tools)
 
+* [Literature](#literature)
+
 # Algorithms List 
 Name                                   | Description              | Example Use Cases         | Useful Resources
 ---------------------------------------|--------------------------|---------------------------|------------------
@@ -45,3 +47,8 @@ ML Flow            |                                                            
 PyLint             |                                                            |
 PyMC               |                                                            | 
 TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
+
+# Literature
+Name                                  | Description                                                | Link(s)
+--------------------------------------|------------------------------------------------------------|----------------
+Must-read papers on Recommender System| An extensive curated list of papers on recommender systems | https://github.com/hongleizhang/RSPapers
