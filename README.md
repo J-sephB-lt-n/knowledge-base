@@ -19,15 +19,22 @@ Bayesian Networks                      |                          |             
 Causal (decision) Bayesian Networks    |                          |                           |
 Clustering                             |                          |                           | 
 Collaborative Filtering                |                          |                           | 
+Computer Vision: Image Classification  |                          |                           | https://huggingface.co/models
+Computer Vision: Image Segmentation    |                          |                           | https://huggingface.co/models
+Computer Vision: Object Detection      |                          |                           | https://huggingface.co/models
 Confidence/Credibility Intervals       |                          |                           | 
 Dimension Reduction                    |                          |                           | 
+Document Question Answering            |                          |                           | https://huggingface.co/models
 Hypothesis Testing                     |                          |                           | 
+Image Generation (image variation)     |                          |                           | https://huggingface.co/models
+Image Generation (text prompt)         |                          |                           | https://huggingface.co/models
 Knowledge Graphs                       |                          |                           | 
 Mathematical Optimisation              |                          |                           | 
 Multi-Armed Bandit Algorithms          |                          |                           | 
 Shrinkage Estimators (e.g. James Stein)|                          |                           | 
 Supervised Learning                    |                          |                           |
 Survival Analysis                      |                          |                           |
+
 
 # Learning Resources 
 
@@ -43,6 +50,7 @@ Name               | Description                                                
 -------------------|------------------------------------------------------------|----------
 Black              |                                                            |
 Great Expectations |                                                            | https://github.com/great-expectations/great_expectations
+HuggingFace        |                                                            | https://huggingface.co
 ML Flow            |                                                            |
 PyLint             |                                                            |
 PyMC               |                                                            | 
