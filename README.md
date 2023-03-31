@@ -34,7 +34,7 @@ Multi-Armed Bandit Algorithms          |                          |             
 Shrinkage Estimators (e.g. James Stein)|                          |                           | 
 Supervised Learning                    |                          |                           |
 Survival Analysis                      |                          |                           |
-
+Topic Modelling (NLP)                  |                          |                           | 
 
 # Learning Resources 
 
