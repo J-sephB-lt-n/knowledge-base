@@ -53,7 +53,8 @@ Great Expectations |                                                            
 HuggingFace        |                                                            | https://huggingface.co
 ML Flow            |                                                            |
 PyLint             |                                                            |
-PyMC               |                                                            | 
+PyMC               |                                                            |
+Scrapy             | Tools for web scraping                                     | https://github.com/scrapy/scrapy 
 TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
 
 # Literature
