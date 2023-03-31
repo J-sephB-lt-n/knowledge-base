@@ -38,11 +38,12 @@ Topic Modelling (NLP)                  |                          |             
 
 # Learning Resources 
 
-Is Free | Name                    | Description                                   | Link(s)
---------|-------------------------|-----------------------------------------------|-------------------
-Yes     | Awesome Time Series     | A large curated list of time series resources | https://github.com/lmmentel/awesome-time-series
+Is Free | Name                    | Description                                            | Link(s)
+--------|-------------------------|--------------------------------------------------------|-------------------
+Yes     | Awesome Time Series     | A large curated list of time series resources          | https://github.com/lmmentel/awesome-time-series
+Yes     | Big Book of R           | An impossibly big repository of DS, ML and stats books | https://www.bigbookofr.com
 Yes     | Made With ML            | Beautifully curated content (with code examples) on the full Data + Machine Learning Pipeline | https://madewithml.com/ | 
-Yes     | Tech Interview Handbook |                                               | https://github.com/yangshun/tech-interview-handbook
+Yes     | Tech Interview Handbook |                                                        | https://github.com/yangshun/tech-interview-handbook
 
 # Software Tools
 
