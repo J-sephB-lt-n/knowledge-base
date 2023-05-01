@@ -55,6 +55,7 @@ HuggingFace        |                                                            
 ML Flow            |                                                            |
 PyLint             |                                                            |
 PyMC               |                                                            |
+Scalene            | Python program profiling (for speed/memory optimization)   | https://github.com/plasma-umass/scalene
 Scrapy             | Tools for web scraping                                     | https://github.com/scrapy/scrapy 
 TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
 
