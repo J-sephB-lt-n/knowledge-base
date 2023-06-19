@@ -45,6 +45,7 @@ Yes     | Awesome Time Series     | A large curated list of time series resource
 Yes     | Big Book of R           | A staggeringly large repository of Data Science, Machine-Learning and statistics books | https://www.bigbookofr.com
 Yes     | Forecasting: Principles and Practice | A thorough summary of a wide range of time series forecasting topics (with R code) | https://robjhyndman.com/teaching/ or https://otexts.org/fpp3/
 Yes     | Made With ML            | Beautifully curated content (with code examples) on the full Data + Machine Learning Pipeline | https://madewithml.com/ | 
+Yes     | OWASP                   | A global open organization dedicated to cyber security | https://owasp.org
 Yes     | Tech Interview Handbook |                                                        | https://github.com/yangshun/tech-interview-handbook
 
 # Open Source Software Tools
