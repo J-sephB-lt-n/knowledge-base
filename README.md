@@ -44,6 +44,8 @@ Is Free | Name                    | Description                                 
 Yes     | Awesome Time Series     | A large curated list of time series resources          | https://github.com/lmmentel/awesome-time-series
 Yes     | Big Book of R           | A staggeringly large repository of Data Science, Machine-Learning and statistics books | https://www.bigbookofr.com
 Yes     | Forecasting: Principles and Practice | A thorough summary of a wide range of time series forecasting topics (with R code) | https://robjhyndman.com/teaching/ or https://otexts.org/fpp3/
+Yes     | Google user authentication and password best practice |13 best practices for user account, authentication, and password management | https://cloud.google.com/blog/products/identity-security/account-authentication-and-password-management-best-practices
+Yes     | jwt.io                  | Amazing interactive resource for learning about Json Web Tokens (JWTs) | https://jwt.io
 Yes     | Made With ML            | Beautifully curated content (with code examples) on the full Data + Machine Learning Pipeline | https://madewithml.com/ | 
 Yes     | OWASP                   | A global open organization dedicated to cyber security | https://owasp.org
 Yes     | Tech Interview Handbook |                                                        | https://github.com/yangshun/tech-interview-handbook
