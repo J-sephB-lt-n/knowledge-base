@@ -55,6 +55,7 @@ Yes     | Tech Interview Handbook |                                             
 Name               | Description                                                | Link(s)
 -------------------|------------------------------------------------------------|----------
 Black              |                                                            |
+Commitizen         | For standardizing git commit messages                      | https://github.com/commitizen-tools/commitizen (see also https://www.conventionalcommits.org/en/v1.0.0/)
 EGADS              | Open-source Java package to automatically detect anomalies in large scale time-series data | https://github.com/yahoo/egads
 Great Expectations |                                                            | https://github.com/great-expectations/great_expectations
 HuggingFace        |                                                            | https://huggingface.co
@@ -69,3 +70,26 @@ TS Fresh           | Automatic extraction of relevant features from time series 
 Name                                  | Description                                                | Link(s)
 --------------------------------------|------------------------------------------------------------|----------------
 Must-read papers on Recommender System| An extensive curated list of papers on recommender systems | https://github.com/hongleizhang/RSPapers
+
+# Team Git Repo Best Practice
+
+I describe here the **centralized workflow** git strategy (also called [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)), although there are other effective ones. In this strategy, team members work on feature branches which are merged into main when they are completed. 
+
+* Keep the master (main) branch clean. 
+        
+    - Complete a new feature on a new branch and merge the completed feature into main when is is finished
+    
+    - Can use [precommit](https://pre-commit.com) and **git hooks** to automatically reject merges of insufficient quality  
+
+* Keep commits atomic - solve one specific task per commit. 
+
+* Avoid long-running branches (these can diverge a lot from main and make merging difficult). Rather make incremental small changes and merge frequently into main.    
+
+* Before merging a new feature branch into main, **git pull origin main** while on the feature branch and resolve conflicts with main on the feature branch
+
+* Make commit messages descriptive, and formalize their structure. A consistent structure makes it much easier to programmatically search your commit history. A tool like [commitizen](https://github.com/commitizen-tools/commitizen) can make this much easier. An example of a message standard is [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+* Do not allow merges into main without going through a stage of code review
+
+
+
