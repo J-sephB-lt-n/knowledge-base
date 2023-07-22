@@ -48,6 +48,7 @@ Yes     | Google user authentication and password best practice |13 best practic
 Yes     | jwt.io                  | Amazing interactive resource for learning about Json Web Tokens (JWTs) | https://jwt.io
 Yes     | Made With ML            | Beautifully curated content (with code examples) on the full Data + Machine Learning Pipeline | https://madewithml.com/ | 
 Yes     | OWASP                   | A global open organization dedicated to cyber security | https://owasp.org
+Yes     | OWASP Cheat Sheet Series| Articles covering massive range of web security topics | https://github.com/OWASP/CheatSheetSeries
 Yes     | Tech Interview Handbook |                                                        | https://github.com/yangshun/tech-interview-handbook
 
 # Open Source Software Tools
