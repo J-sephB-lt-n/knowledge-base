@@ -35,6 +35,7 @@ When solving a new problem, I like to consult this list in order to identify alg
 | Mathematical Optimisation              |                          |                           | 
 | Multi-Armed Bandit Algorithms          |                          |                           | 
 | Optical Character Recognition (OCR)    | Read text from an image  |                           | https://github.com/kba/awesome-ocr (the [tesseract](https://github.com/tesseract-ocr/tesseract) engine is amazing)
+| Sequential Hypothesis Testing          | Cost-effective experimentation through valid early stopping |                           | https://en.wikipedia.org/wiki/Sequential_analysis
 | Shrinkage Estimators (e.g. James Stein)|                          |                           | 
 | Supervised Learning                    |                          |                           |
 | Survival Analysis                      |                          |                           |
