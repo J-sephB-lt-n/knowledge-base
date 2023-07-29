@@ -11,31 +11,32 @@ When solving a new problem, I like to consult this list in order to identify alg
 * [Literature](#literature)
 
 # Algorithms/Fields List 
-Name                                   | Description              | Example Use Cases         | Useful Resources
----------------------------------------|--------------------------|---------------------------|------------------
-Anomaly Detection                      |                          |                           |
-Bayesian Hierarchical Modelling        |                          |                           | 
-Bayesian Networks                      |                          |                           |  
-Causal (decision) Bayesian Networks    |                          |                           |
-Clustering                             |                          |                           | 
-Collaborative Filtering                |                          |                           | 
-Computer Vision: Image Classification  |                          |                           | https://huggingface.co/models
-Computer Vision: Image Segmentation    |                          |                           | https://huggingface.co/models
-Computer Vision: Object Detection      |                          |                           | https://huggingface.co/models
-Confidence/Credibility Intervals       |                          |                           | 
-Data Drift                             |                          |                           | see also: "Population Stability Index" (PSI), "KL Divergence"
-Dimension Reduction                    |                          |                           | 
-Document Question Answering            |                          |                           | https://huggingface.co/models
-Hypothesis Testing                     |                          |                           | 
-Image Generation (image variation)     |                          |                           | https://huggingface.co/models
-Image Generation (text prompt)         |                          |                           | https://huggingface.co/models
-Knowledge Graphs                       |                          |                           | 
-Mathematical Optimisation              |                          |                           | 
-Multi-Armed Bandit Algorithms          |                          |                           | 
-Shrinkage Estimators (e.g. James Stein)|                          |                           | 
-Supervised Learning                    |                          |                           |
-Survival Analysis                      |                          |                           |
-Topic Modelling (NLP)                  |                          |                           | 
+| Name                                   | Description              | Example Use Cases         | Useful Resources
+|----------------------------------------|--------------------------|---------------------------|------------------
+| Anomaly Detection                      |                          |                           |
+| Bayesian Hierarchical Modelling        |                          |                           | 
+| Bayesian Networks                      |                          |                           |  
+| Causal (decision) Bayesian Networks    |                          |                           |
+| Clustering                             |                          |                           | 
+| Collaborative Filtering                |                          |                           | 
+| Computer Vision: Image Classification  |                          |                           | https://huggingface.co/models
+| Computer Vision: Image Segmentation    |                          |                           | https://huggingface.co/models
+| Computer Vision: Object Detection      |                          |                           | https://huggingface.co/models
+| Confidence/Credibility Intervals       |                          |                           | 
+| Data Drift                             |                          |                           | see also: "Population Stability Index" (PSI), "KL Divergence"
+| Dimension Reduction                    |                          |                           | 
+| Document Question Answering            |                          |                           | https://huggingface.co/models
+| Hypothesis Testing                     |                          |                           | 
+| Image Generation (image variation)     |                          |                           | https://huggingface.co/models
+| Image Generation (text prompt)         |                          |                           | https://huggingface.co/models
+| Knowledge Graphs                       |                          |                           | 
+| Mathematical Optimisation              |                          |                           | 
+| Multi-Armed Bandit Algorithms          |                          |                           | 
+| Optical Character Recognition (OCR)    | Read text from an image  |                           | https://github.com/kba/awesome-ocr (the [tesseract](https://github.com/tesseract-ocr/tesseract) engine is amazing)
+| Shrinkage Estimators (e.g. James Stein)|                          |                           | 
+| Supervised Learning                    |                          |                           |
+| Survival Analysis                      |                          |                           |
+| Topic Modelling (NLP)                  |                          |                           | 
 
 # Learning Resources 
 
@@ -65,6 +66,7 @@ PyLint             |                                                            
 PyMC               |                                                            |
 Scalene            | Python program profiling (for speed/memory optimization)   | https://github.com/plasma-umass/scalene
 Scrapy             | Tools for web scraping                                     | https://github.com/scrapy/scrapy 
+Tesseract          | Extremely good Optical Character Recognition (OCR) engine  | https://github.com/tesseract-ocr/tesseract  
 TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
 
 # Literature
