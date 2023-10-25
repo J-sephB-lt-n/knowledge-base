@@ -53,24 +53,39 @@ When solving a new problem, I like to consult this list in order to identify alg
 | Yes     | Made With ML            | Beautifully curated content (with code examples) on the full Data + Machine Learning Pipeline | https://madewithml.com/ | 
 | Yes     | OWASP                   | A global open organization dedicated to cyber security | https://owasp.org
 | Yes     | OWASP Cheat Sheet Series| Articles covering a large range of web security topics | https://github.com/OWASP/CheatSheetSeries
+| Yes     | OWASP Web Security Testing Guide | Guide to assessing the security of a web application | https://github.com/OWASP/wstg
+| Yes     | RestfulAPI.net          | A wealth of information on REST API architecture and design | https://restfulapi.net/
 | Yes     | Tech Interview Handbook |                                                        | https://github.com/yangshun/tech-interview-handbook
+
+
 
 # Open Source Software Tools
 
 | Name               | Description                                                | Link(s)
 |--------------------|------------------------------------------------------------|----------
-| Black              |                                                            |
+| Black              | Auto-formatting (standardization) of python code           |
 | Commitizen         | For standardizing git commit messages                      | https://github.com/commitizen-tools/commitizen (see also https://www.conventionalcommits.org/en/v1.0.0/)
+| DuckDB             |                                                            |
 | EGADS              | Open-source Java package to automatically detect anomalies in large scale time-series data | https://github.com/yahoo/egads
 | Great Expectations |                                                            | https://github.com/great-expectations/great_expectations
 | HuggingFace        |                                                            | https://huggingface.co
-| ML Flow            |                                                            |
-| PyLint             |                                                            |
-| PyMC               |                                                            |
+| ML Flow            | For managing Machine Learning models in production         |
+| PyLint             | For automatic assessment of python code quality            |
+| PyMC               | For bayesian modelling in python                           |
 | Scalene            | Python program profiling (for speed/memory optimization)   | https://github.com/plasma-umass/scalene
+| Sci-Kit Learn      | Established python Machine Learning framework              |
 | Scrapy             | Established python framework for web scraping              | https://github.com/scrapy/scrapy 
+| SQLite             | In-file SQL database                                       |
 | Tesseract          | Extremely good Optical Character Recognition (OCR) engine  | https://github.com/tesseract-ocr/tesseract  
 | TS Fresh           | Automatic extraction of relevant features from time series | https://github.com/blue-yonder/tsfresh
+
+# Open-Source Data Annotation Tools
+| Name                  | Description                                          | Link(s)
+|-----------------------|------------------------------------------------------|------------------
+| Brat                  | online environment for collaborative text annotation | https://brat.nlplab.org
+| Docanno               |                                                      | https://github.com/doccano/doccano 
+| Prodigy               |                                                      | https://prodi.gy
+| INCEpTION             |                                                      | https://inception-project.github.io
 
 # Literature
 Name                                  | Description                                                | Link(s)
@@ -97,5 +112,9 @@ I describe here the **centralized workflow** git strategy (also called [GitHub f
 
 * Do not allow merges into main without going through a stage of code review.
 
+# Useful Linux Commands
 
+| Task                                                            | Command
+|-----------------------------------------------------------------|----------------------
+| Search for text within multiple files (within multiple folders) | ```bash grep -r "search_string" /path/to/base/folder```
 
