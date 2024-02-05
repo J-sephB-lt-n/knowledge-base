@@ -123,6 +123,7 @@ I describe here the **centralized workflow** git strategy (also called [GitHub f
 | Search for text within multiple files (within multiple folders) | ```grep -r "search_string" /path/to/base/folder```
 | Replace text within a file (```/g``` replaces all occurences)   | ```sed -i "s/text_to_find/text_to_replace_with/g" myfile.txt``` (i.e. same syntax as ```:s``` in [vim](https://www.vim.org/))
 | Convert hex string to utf-8                                     | ```echo 54657374696e672031203220330 | xxd -r -p```
+| Find files by name (using regex)                                | ```find . -name "*.sql"```
 
 # Useful Regex Patterns
 | Pattern                         | Explanation
