@@ -10,8 +10,6 @@ When solving a new problem, I like to consult this list in order to identify alg
 
 * [Literature](#literature)
 
-* [Team Git Repo Best Practice](#team-git-repo-best-practice)
-
 * [Useful Linux Commands](#useful-linux-commands)
 
 * [Useful Regex Patterns](#useful-regex-patterns)
@@ -96,31 +94,11 @@ Name                                  | Description                             
 --------------------------------------|------------------------------------------------------------|----------------
 Must-read papers on Recommender System| An extensive curated list of papers on recommender systems | https://github.com/hongleizhang/RSPapers
 
-# Team Git Repo Best Practice
-
-I describe here the **centralized workflow** git strategy (also called [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)), although there are many other valid strategies. In this strategy, team members work on feature branches which are merged into the main (master) branch once completed. 
-
-* Keep the main branch clean. 
-        
-    - Complete a new feature on a new branch and merge the completed feature into main when it is finished
-    
-    - Can use [precommit](https://pre-commit.com) and **git hooks** to automatically reject merges to main of insufficient quality  
-
-* Keep commits atomic - solve one specific task per commit. 
-
-* Avoid long-running branches (these can diverge a lot from main and make merging difficult). Rather make incremental small changes and merge frequently into main.    
-
-* Before merging a new feature branch into main, **git pull origin main** while on the feature branch and resolve any conflicts with main on the feature branch
-
-* Make commit messages descriptive, and formalize their structure. A consistent structure makes it much easier to programmatically search the commit history. A tool like [commitizen](https://github.com/commitizen-tools/commitizen) makes this much easier. An example of a message standard is [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
-
-* Do not allow merges into main without going through a stage of code review.
-
 # Useful Linux Commands
 
 | Task                                                            | Command
 |-----------------------------------------------------------------|----------------------
-| Convert hex string to utf-8                                     | ```echo 54657374696e672031203220330 | xxd -r -p```
+| Convert hex string to utf-8                                     | <code>echo 54657374696e672031203220330 &#124; xxd -r -p</code>
 | Find files by name (using regex)                                | ```find . -name "*.sql"```
 | Remove all occurences of __pycache__ folder                     | ```find . -type d -name __pycache__ -exec rm -r {} \+```
 | Replace text within a file (```/g``` replaces all occurences)   | ```sed -i "s/text_to_find/text_to_replace_with/g" myfile.txt``` (i.e. same syntax as ```:s``` in [vim](https://www.vim.org/))
