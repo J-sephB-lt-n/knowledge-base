@@ -56,10 +56,9 @@ When solving a new problem, I like to consult this list in order to identify alg
 | Yes     | OWASP                   | A global open organization dedicated to cyber security | https://owasp.org
 | Yes     | OWASP Cheat Sheet Series| Articles covering a large range of web security topics | https://github.com/OWASP/CheatSheetSeries
 | Yes     | OWASP Web Security Testing Guide | Guide to assessing the security of a web application | https://github.com/OWASP/wstg
+| Yes     | Relational Database Normalisation | A very clear explanation of the first 5 normal forms | https://www.youtube.com/watch?v=GFQaEYEc8_8
 | Yes     | RestfulAPI.net          | A wealth of information on REST API architecture and design | https://restfulapi.net/
 | Yes     | Tech Interview Handbook |                                                        | https://github.com/yangshun/tech-interview-handbook
-
-
 
 # Open Source Software Tools
 
