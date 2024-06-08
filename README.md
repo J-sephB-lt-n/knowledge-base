@@ -4,7 +4,7 @@ Whenever I discover something interesting or useful, but is too small to be it's
 
 I've put the sections links in a disordered heap to make serendipity more likely:
 
-[Association, Bias & Causation](#association-bias--causation), [Algorithms list](#algorithms-list), [Database Normalisation (incomplete)](#database-normalisation), [Kelly Criterion](#the-kelly-criterion), [Learning Resources](#learning-resources), [Cool open-source software tools](#cool-open-source-software-tools), [useful bash terminal commands](#useful-bash-terminal-commands), [useful regex patterns](#useful-regex-patterns), [open-source data annotation tools](#open-source-data-annotation-tools)
+[Association, Bias & Causation](#association-bias--causation), [Algorithms list](#algorithms-list), [Database Normalisation (incomplete)](#database-normalisation), [Kelly Criterion](#the-kelly-criterion), [Learning Resources](#learning-resources), [Cool open-source software tools](#cool-open-source-software-tools), [useful bash terminal commands](#useful-bash-terminal-commands), [useful regex patterns](#useful-regex-patterns), [open-source data annotation tools](#open-source-data-annotation-tools), [Rust Traits Example](#rust-traits-example)
 
 # Algorithms List 
 | Name                                   | Description              | Example Use Cases         | Useful Resources
@@ -261,3 +261,159 @@ $$\frac{d}{d r}\frac{log(P_n)}{n} \quad=\quad 0$$
 The solution is:
 
 $$arg\space max_r\space P_n \quad=\quad \displaystyle\frac{w}{b} - \frac{1-w}{g}$$
+
+# Rust Traits Example
+
+Here is an example showing how traits can be used to create shared behaviour between structs:
+
+```bash
+.
+├── Cargo.lock
+├── Cargo.toml
+└── src
+    └── main.rs
+```
+
+```toml
+# Cargo.toml
+
+[package]
+name = "traits_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+strum = "0.26"
+strum_macros = "0.26"
+```
+
+```rust
+// src/main.rs 
+
+use strum_macros::Display;
+
+#[derive(Display)]
+enum PlayerClass {
+    // available valid class choices for the human player
+    Warrior,
+    Rogue,
+    Sorceror,
+}
+
+#[derive(Display)]
+enum EnemyType {
+    // available valid non-player types available
+    Orc,
+    Goblin,
+    Necromancer,
+    Troll,
+}
+
+struct Player {
+    // object to hold information about the player state
+    player_class: PlayerClass,
+    hit_points: u16,
+}
+
+impl Player {
+    fn new(player_class: PlayerClass) -> Self {
+        // method for creating a new player
+        let hit_points = match player_class {
+            PlayerClass::Warrior => 10,
+            PlayerClass::Rogue => 6,
+            PlayerClass::Sorceror => 3,
+        };
+
+        Player {
+            player_class,
+            hit_points,
+        }
+    }
+}
+
+struct Enemy {
+    // object containing information on the state of a non-player character
+    enemy_type: EnemyType,
+    hit_points: u16,
+}
+
+impl Enemy {
+    fn new(enemy_type: EnemyType) -> Self {
+        // method which creates a new enemy
+        let hit_points = match enemy_type {
+            EnemyType::Orc => 8,
+            EnemyType::Goblin => 2,
+            EnemyType::Necromancer => 3,
+            EnemyType::Troll => 50,
+        };
+
+        Enemy {
+            enemy_type,
+            hit_points,
+        }
+    }
+}
+
+trait GameCharacter {
+    // behaviours (methods) common to all game characters
+    fn describe(&self) -> String;
+    fn take_damage(&mut self, damage_amount: u16);
+}
+
+impl GameCharacter for Player {
+    // implement game character behaviours (methods) for the player object
+    fn describe(&self) -> String {
+        format!(
+            "player is a {} with {} hit point(s)",
+            self.player_class, self.hit_points,
+        )
+    }
+
+    fn take_damage(&mut self, damage_amount: u16) {
+        if damage_amount >= self.hit_points {
+            self.hit_points = 0;
+        } else {
+            self.hit_points -= damage_amount;
+        }
+        println!("player took {} damage", damage_amount);
+    }
+}
+
+impl GameCharacter for Enemy {
+    // implement game character behaviours (methods) for the enemy object
+    fn describe(&self) -> String {
+        format!(
+            "enemy is a {} with {} hit point(s)",
+            self.enemy_type, self.hit_points,
+        )
+    }
+
+    fn take_damage(&mut self, damage_amount: u16) {
+        if damage_amount >= self.hit_points {
+            self.hit_points = 0;
+        } else {
+            self.hit_points -= damage_amount;
+        }
+        println!("enemy took {} damage", damage_amount);
+    }
+}
+
+fn describe_game_character(game_character: &impl GameCharacter) {
+    // Function which calls the describe() method of any object which has the `GameCharacter` trait
+    println!("Description: {}", game_character.describe())
+}
+
+fn main() {
+    let mut player = Player::new(PlayerClass::Sorceror);
+    describe_game_character(&player);
+    player.take_damage(2);
+    describe_game_character(&player);
+    player.take_damage(2);
+    describe_game_character(&player);
+    let mut enemy = Enemy::new(EnemyType::Troll);
+    describe_game_character(&enemy);
+    enemy.take_damage(15);
+    describe_game_character(&enemy);
+}
+```
+
