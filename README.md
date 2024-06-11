@@ -422,6 +422,8 @@ fn main() {
 
 OAuth2.0 is an industry-standard protocol for authorization (i.e. managing access to protected HTTP resources).
 
+OAuth2.0 can be used also for authentication (identifying who a user is) by extending it with [OIDC](#oidc)
+
 I never properly understood OAuth2.0 until I read the RFC (6749), which is very well written.
 
 Abstract from the RFC (6749):
@@ -513,3 +515,27 @@ Explanation of the OAuth2.0 Authorisation Code flow, using the example of a web 
 5. (optional) Optionally, the request in step 3. above can return an access token **and** a refresh token. A refresh token is a token which the client (website) can use to generate a new access token when the current one has expired. This helps to provide a better user experience (the resource owner doesn't have to re-authorise in all the time).
 
 For a precise description on this process, refer to <https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type>
+
+## OIDC
+
+Open ID Connect (OIDC):
+
+- is a protocol for user authentication and identity management (i.e. validating the identity of an entity, such as a user, and accessing their attributes)
+
+- is an identity layer built on top of [OAuth2.0](#oauth-20)
+
+- allows 3rd-party applications to verify the identity of the end-user and to obtain basic user profile information
+
+- is secure, centralised, and standardised
+
+- uses [JWTs](https://github.com/J-sephB-lt-n/jwt-checkout/tree/main)
+
+- defines how applications (e.g. a web-based platform) and identity providers (authentication servers) interact in order to establish secure end-user authentication
+
+- is just OAuth2.0 with an additional token (ID token), and extra process for dealing with it (i.e. dictates the required structure of the ID token, how the ID token should be validated by the client etc.)
+
+In the step in an OAuth2.0 flow where an access token is returned, OIDC returns an additional token (an ID token, in the form of a JWT).
+
+Here is the official spec: <https://openid.net/specs/openid-connect-core-1_0.html>
+
+I also enjoyed this: [The OIDC Handbook](https://auth0.com/resources/ebooks/the-openid-connect-handbook)
