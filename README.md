@@ -539,3 +539,47 @@ In the step in an OAuth2.0 flow where an access token is returned, OIDC returns 
 Here is the official spec: <https://openid.net/specs/openid-connect-core-1_0.html>
 
 I also enjoyed this: [The OIDC Handbook](https://auth0.com/resources/ebooks/the-openid-connect-handbook)
+
+## Product Value Proposition Frameworks
+
+People will buy anything which they perceive to have high value to them (example: people buy bottled tap water).
+
+These frameworks are all taken from the Harvard Innovation Labs YouTube video [Value Props: Create a Product People Will Actually Buy](https://youtu.be/q8d9uuO1Cf4)
+
+Value Proposition Statement (it is important to explicitly define the problem being solved):
+
+- For (target customer segments)
+
+- dissatisfied with (existing solution)
+
+- due to (key unmet needs)
+
+- (Venture name) offers a (product category)
+
+- that provides (key benefits of your solution)
+
+**4U Framework**: Problems worth solving are:
+
+- Unworkable (i.e. if the problem is not solved then the consequences are measurable and material)
+
+- Unavoidable (the problem must be addressed by the customer e.g. tax, regulation, medical condition)
+
+- Urgent (problem is at the top of the customer's priority list)
+
+- Underserved (demand for this solution exceeds supply - customers do not have adequate access to good solutions for this problem)
+
+**BLAC & White Framework**: Define the market need:
+
+- "Blatant" problems are ones which are obvious to the customer (don't need to educate/convince the customer of the problem)
+
+- "Latent" problems are ones which the customer is unaware (or not fully aware) of (they must be convinced of/educated about the problem)
+
+- "Aspirational" needs are a customer's needs for success, prestige and social status (desirable but not urgent)
+
+- "Critical" needs are ones which must be urgently fulfilled
+
+|                    |             | CUSTOMER NEED                                               |                                                                               |
+| ------------------ | ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------- |
+|                    |             | **Aspirational**                                            | **Critical**                                                                  |
+| PROBLEM VISIBILITY | **Blatant** | luxury goods                                                | obvious need (accounting, healthcare)                                         |
+|                    | **Latent**  | new products for yet to be recognised needs (e.g. new tech) | important need, but not yet fully recognised by the customer (e.g. insurance) |
