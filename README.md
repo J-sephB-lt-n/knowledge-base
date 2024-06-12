@@ -4,7 +4,7 @@ Whenever I discover something interesting or useful, but is too small to be it's
 
 I've put the sections links in a disordered heap to make serendipity more likely:
 
-[OAuth2.0](#oauth-20), [Association, Bias & Causation](#association-bias--causation), [Algorithms list](#algorithms-list), [Database Normalisation (incomplete)](#database-normalisation), [Kelly Criterion](#the-kelly-criterion), [Learning Resources](#learning-resources), [Cool open-source software tools](#cool-open-source-software-tools), [useful bash terminal commands](#useful-bash-terminal-commands), [useful regex patterns](#useful-regex-patterns), [open-source data annotation tools](#open-source-data-annotation-tools), [Rust Traits Example](#rust-traits-example)
+[OAuth2.0](#oauth-20), [Association, Bias & Causation](#association-bias--causation), [Algorithms list](#algorithms-list), [Database Normalisation (incomplete)](#database-normalisation), [Kelly Criterion](#the-kelly-criterion), [Learning Resources](#learning-resources), [product value proposition frameworks (incomplete)](#product-value-proposition-frameworks), [Cool open-source software tools](#cool-open-source-software-tools), [useful bash terminal commands](#useful-bash-terminal-commands), [useful regex patterns](#useful-regex-patterns), [open-source data annotation tools](#open-source-data-annotation-tools), [Rust Traits Example](#rust-traits-example)
 
 ## Algorithms List
 
@@ -566,7 +566,7 @@ Value Proposition Statement (it is important to explicitly define the problem be
 
 - Urgent (problem is at the top of the customer's priority list)
 
-- Underserved (demand for this solution exceeds supply - customers do not have adequate access to good solutions for this problem)
+- Underserved (demand for a solution exceeds supply - customers do not have adequate access to good solutions for this problem)
 
 **BLAC & White Framework**: Define the market need:
 
@@ -583,3 +583,29 @@ Value Proposition Statement (it is important to explicitly define the problem be
 |                    |             | **Aspirational**                                            | **Critical**                                                                  |
 | PROBLEM VISIBILITY | **Blatant** | luxury goods                                                | obvious need (accounting, healthcare)                                         |
 |                    | **Latent**  | new products for yet to be recognised needs (e.g. new tech) | important need, but not yet fully recognised by the customer (e.g. insurance) |
+
+**DEBT Framework**: Define the market need:
+
+- Dependencies:
+
+- External factors:
+
+- Backlash:
+
+- Timing:
+
+**3D Framework**:
+
+- Disruptive:
+
+- Discontinuous:
+
+- Defensible:
+
+**Before/After** & **Gain/Pain Ratio**:
+
+- > &geq; 10 to overcome inertia and risk
+
+**Bringing it all together**
+
+- TODO
