@@ -558,6 +558,10 @@ Value Proposition Statement (it is important to explicitly define the problem be
 
 - that provides (key benefits of your solution)
 
+**Minimum Viable Segment**:
+
+- TODO
+
 **4U Framework**: Problems worth solving are:
 
 - Unworkable (i.e. if the problem is not solved then the consequences are measurable and material)
@@ -584,15 +588,15 @@ Value Proposition Statement (it is important to explicitly define the problem be
 | PROBLEM VISIBILITY | **Blatant** | luxury goods                                                | obvious need (accounting, healthcare)                                         |
 |                    | **Latent**  | new products for yet to be recognised needs (e.g. new tech) | important need, but not yet fully recognised by the customer (e.g. insurance) |
 
-**DEBT Framework**: Define the market need:
+**DEBT Framework**: WTF is this
 
-- Dependencies:
+- Dependencies: On what external systems/resources does my solution rely in order to function? (e.g. electric cars rely on the availability of public charging stations, a cellphone needs a mobile network carrier)
 
-- External factors:
+- External factors: Are there things acting outside of my control which can affect the effectiveness of my solution? (e.g. new data privacy regulations, availability of component parts, economic conditions, exchange rate fluctuations)
 
-- Backlash:
+- Backlash: Are there individuals or communities who are likely to react adversely to the release of my product? (e.g. workers made obsolete by an automation solution)
 
-- Timing:
+- Timing: When is the best time to launch? A product can be unsuccessful through early launch or late launch, or by missing or coinciding with some relevant event (e.g. competitor launch or cultural event).
 
 **3D Framework**:
 
