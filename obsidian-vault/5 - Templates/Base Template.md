@@ -1,6 +1,6 @@
 ---
 created:
-  - "{{date: YYYY-MM-DD}} {{time}}"
+  - "{{date:YYYY-MM-DD}}T{{time:HH:mm}}"
 modified: 2024-06-20 15:36
 tags: 
 type: 

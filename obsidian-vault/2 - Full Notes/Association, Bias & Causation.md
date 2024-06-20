@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 15:50"
-modified: 2024-06-20 16:00
+modified: 2024-06-20 21:35
 tags:
   - "#causality"
   - "#statistics"
@@ -10,6 +10,7 @@ tags:
 type: note
 status: completed
 ---
+The (average) difference between the true causal effect and observed effect of a treatment can be elegantly partitioned into the causal effect and selection bias:
 
 $$\begin{array}{lcl}
 \underbrace{E\Big[Y\Bigl|T=1\Big] - E\Big[Y\Bigl|T=0\Big]}_{

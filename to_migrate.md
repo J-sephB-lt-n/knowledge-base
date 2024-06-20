@@ -6,37 +6,6 @@ I've put the sections links in a disordered heap to make serendipity more likely
 
 [OAuth2.0](#oauth-20), [Association, Bias & Causation](#association-bias--causation), [Algorithms list](#algorithms-list), [Database Normalisation (incomplete)](#database-normalisation), [Learning Resources](#learning-resources), [product value proposition frameworks (incomplete)](#product-value-proposition-frameworks), [Cool open-source software tools](#cool-open-source-software-tools), [useful bash terminal commands](#useful-bash-terminal-commands), [useful regex patterns](#useful-regex-patterns), [open-source data annotation tools](#open-source-data-annotation-tools), [Rust Traits Example](#rust-traits-example)
 
-## Algorithms List
-
-| Name                                    | Description                                                 | Example Use Cases       | Useful Resources                                                                                                     |
-| --------------------------------------- | ----------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Anomaly Detection                       |                                                             | payment fraud detection | <https://scikit-learn.org/stable/modules/outlier_detection.html>                                                     |
-| Bayesian Hierarchical Modelling         |                                                             |                         |
-| Bayesian Networks                       |                                                             |                         |
-| Causal (decision) Bayesian Networks     |                                                             |                         |
-| Clustering                              |                                                             |                         |
-| Collaborative Filtering                 |                                                             |                         |
-| Computer Vision: Image Classification   |                                                             |                         | <https://huggingface.co/models>                                                                                      |
-| Computer Vision: Image Segmentation     |                                                             |                         | <https://huggingface.co/models>                                                                                      |
-| Computer Vision: Object Detection       |                                                             |                         | <https://huggingface.co/models>                                                                                      |
-| Confidence/Credibility Intervals        |                                                             |                         |
-| Data Drift                              |                                                             |                         | see also: "Population Stability Index" (PSI), "KL Divergence"                                                        |
-| Dimension Reduction                     |                                                             |                         |
-| Document Question Answering             |                                                             |                         | <https://huggingface.co/models>                                                                                      |
-| Hypothesis Testing                      |                                                             |                         |
-| Image Generation (image variation)      |                                                             |                         | <https://huggingface.co/models>                                                                                      |
-| Image Generation (text prompt)          |                                                             |                         | <https://huggingface.co/models>                                                                                      |
-| Knowledge Graphs                        |                                                             |                         |
-| Mathematical Optimisation               |                                                             |                         |
-| Multi-Armed Bandit Algorithms           |                                                             |                         |
-| Optical Character Recognition (OCR)     | Read text from an image                                     |                         | <https://github.com/kba/awesome-ocr> (the [tesseract](https://github.com/tesseract-ocr/tesseract) engine is amazing) |
-| Retrival-Augmented Generation (RAG)     |                                                             |                         |
-| Sequential Hypothesis Testing           | Cost-effective experimentation through valid early stopping |                         | <https://en.wikipedia.org/wiki/Sequential_analysis>                                                                  |
-| Shrinkage Estimators (e.g. James Stein) |                                                             |                         |
-| Supervised Learning                     |                                                             |                         |
-| Survival Analysis                       |                                                             |                         |
-| Topic Modelling (NLP)                   |                                                             |                         |
-
 ## Learning Resources
 
 | Is Free | Name                                                  | Description                                                                                   | Link(s)                                                                                                                  |

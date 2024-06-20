@@ -5,6 +5,7 @@
     "tags": "tags",
     "status": "multitext",
     "modified": "datetime",
-    "type": "multitext"
+    "type": "multitext",
+    "created": "datetime"
   }
 }
