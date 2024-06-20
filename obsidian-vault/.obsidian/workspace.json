@@ -70,9 +70,85 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "2b3fd104d9d0663d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a8e4b8572f78195",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current Reading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13f9081355360916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Current Reading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c544c634a886b515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c54fb754c92f4bb6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "958080953140e034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal Development Areas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4697fa419cc1b42",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -195,13 +271,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4c0d81dbb3466e9",
+  "active": "d4697fa419cc1b42",
   "lastOpenFiles": [
+    "4 - Maps of Content/Causal Inference.md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "Past Reading.md",
+    "Personal Development Areas.md",
+    "Reading Lists.md",
+    "Current Reading.md",
+    "Untitled.canvas",
     "2 - Full Notes/Association, Bias & Causation.md",
     "2 - Full Notes/The Kelly Criterion.md",
-    "3 - Source Material/Causal Inference for The Brave and True.md",
     "3 - Source Material/Kelly Criterion (wikipedia).md",
+    "3 - Source Material/Causal Inference for The Brave and True.md",
     "5 - Templates/Base Template.md",
+    "6 - Topics",
+    "Future Reading.md",
     "[[Kelly.md",
     "5 - Templates/Reference Template.md",
     "Linked Note.md",

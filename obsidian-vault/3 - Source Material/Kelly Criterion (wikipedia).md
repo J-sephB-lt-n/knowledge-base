@@ -1,11 +1,13 @@
 ---
 created:
   - " 2024-06-20 15:39"
-modified: 2024-06-20 16:00
+modified: 2024-06-20 20:10
 tags:
   - "#wikipedia"
   - "#reference"
 type: web-page
 status: 
 ---
+Wikipedia page on the [[The Kelly Criterion]]
+
 https://en.wikipedia.org/wiki/Kelly_criterion

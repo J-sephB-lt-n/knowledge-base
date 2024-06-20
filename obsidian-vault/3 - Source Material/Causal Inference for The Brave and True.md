@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 15:53"
-modified: 2024-06-20 16:00
+modified: 2024-06-20 20:09
 tags:
   - "#python"
   - "#causality"
@@ -12,6 +12,6 @@ tags:
 type: book
 status: 
 ---
-Free online book
+Very readable free online book about causal inference.
 
 https://matheusfacure.github.io/python-causality-handbook/
