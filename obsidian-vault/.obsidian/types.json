@@ -4,6 +4,6 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "status": "text",
-    "modified": "text"
+    "modified": "datetime"
   }
 }

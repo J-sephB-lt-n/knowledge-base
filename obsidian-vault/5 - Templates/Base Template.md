@@ -1,9 +1,10 @@
 ---
 created:
   - "{{date: YYYY-MM-DD}} {{time}}"
-tags: 
-status: 
 modified: 2024-06-20 15:36
+tags: 
+type: 
+status:
 ---
 Main body of note goes here
 ## References

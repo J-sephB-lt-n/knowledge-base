@@ -1,6 +1,7 @@
 ---
 created:
   - " 2024-06-20 15:35"
+modified: 2024-06-20 16:00
 tags:
   - "#kelly_criterion"
   - "#kelly"
@@ -8,8 +9,8 @@ tags:
   - "#probability"
   - "#statistics"
   - "#gambling"
+type: note
 status: completed
-modified: 2024-06-20 15:45
 ---
 The *Kelly Criterion* or *Kelly Strategy* is a result from probability theory. In a specific repeated game (which resembles some gambling games and investment scenarios), it is the strategy achieving maximum gain/reward in the long run.
 
@@ -36,4 +37,4 @@ The solution is:
 $$arg\space max_r\space P_n \quad=\quad \displaystyle\frac{w}{b} - \frac{1-w}{g}$$
 ## References
 
-* [[Kelly Criterion (wikipedia page)]]
+* [[Kelly Criterion (wikipedia)]]

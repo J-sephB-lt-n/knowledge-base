@@ -1,11 +1,11 @@
 ---
 created:
-  - " 2024-06-20 15:38"
   - " 2024-06-20 15:39"
+modified: 2024-06-20 16:00
 tags:
   - "#wikipedia"
   - "#reference"
-status: reference
-modified: 2024-06-20 15:40
+type: web-page
+status: 
 ---
 https://en.wikipedia.org/wiki/Kelly_criterion

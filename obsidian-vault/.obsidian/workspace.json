@@ -50,9 +50,29 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "e4c2ea1cfdf1c0b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Source Material/Kelly Criterion (wikipedia).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4c0d81dbb3466e9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -175,10 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5615e6cf5c5a4dab",
+  "active": "f4c0d81dbb3466e9",
   "lastOpenFiles": [
-    "3 - Source Material/Kelly Criterion (wikipedia page).md",
+    "2 - Full Notes/Association, Bias & Causation.md",
     "2 - Full Notes/The Kelly Criterion.md",
+    "3 - Source Material/Causal Inference for The Brave and True.md",
+    "3 - Source Material/Kelly Criterion (wikipedia).md",
     "5 - Templates/Base Template.md",
     "[[Kelly.md",
     "5 - Templates/Reference Template.md",
