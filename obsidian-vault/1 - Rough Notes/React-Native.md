@@ -1,14 +1,16 @@
 ---
 created:
   - 2024-06-21T08:46
-modified: 2024-06-21 08:50
+modified: 2024-06-21 22:46
 tags:
   - programming
   - code
   - frontend
   - javascript
-type: 
-status: 
+type:
+  - programming-framework
+status:
+  - not-started
 ---
 A framework for creating mobile apps
 ## Related

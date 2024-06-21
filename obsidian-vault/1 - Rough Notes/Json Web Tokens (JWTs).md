@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-20T22:01
-modified: 2024-06-20 22:06
+modified: 2024-06-21 22:48
 tags:
   - web
   - auth
@@ -11,7 +11,8 @@ tags:
   - crytographic
   - jwt
 type: 
-status: 
+status:
+  - not-started
 ---
 ## Related
 * [[jwt.io (website)]]

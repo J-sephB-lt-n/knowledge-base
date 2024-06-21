@@ -83,6 +83,8 @@ from sklearn.semi_supervised import LabelPropagation
 label_propagation_model = LabelPropagation()
 label_propagation_model.fit(data[:, :2], data[:, 2])
 predictions = label_propagation_model.predict(data[:, :2])
+predicted_probs = label_propagation_model.predict_proba(data[:, :2])
+
 
 plt.figure(figsize=(10, 5))
 plt.scatter(
