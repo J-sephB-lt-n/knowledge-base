@@ -4,47 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "b5b6d98b038eb9af",
+        "id": "9f522fc3b0de128c",
         "type": "tabs",
         "children": [
           {
-            "id": "47fc8a0a3df25b23",
+            "id": "897fbfd29d0b5515",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Current Reading.md",
+                "file": "1 - Rough Notes/React-Native.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "47659c8d289112cb",
+            "id": "4fb4d4b7b210b85f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Full Notes/how-much-remains (github repo).md",
+                "file": "4 - Maps of Content/Personal Development Areas.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ad166301d6a19a09",
+            "id": "263ca5ecd5babc76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Full Notes/how-much-remains (github repo).md",
+                "file": "4 - Maps of Content/Machine Learning on Small Datasets.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "e0c2822510abfb46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 - Maps of Content/Machine Learning on Small Datasets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16fd65164c12d7f6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -74,7 +94,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/how-much-remains (github repo).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Full Notes/how-much-remains (github repo).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2 - Full Notes/how-much-remains (github repo).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,35 +188,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "567283c12ce93536",
+  "active": "1e5cb634d8a592d5",
   "lastOpenFiles": [
-    "4 - Maps of Content/GitHub Repos.md",
-    "4 - Maps of Content/Causal Inference.md",
-    "4 - Maps of Content/Personal Development Areas.md",
-    "1 - Rough Notes/Flutter.md",
-    "2 - Full Notes/how-much-remains (github repo).md",
     "1 - Rough Notes/Current Reading.md",
+    "3 - Source Material/Causal Inference for The Brave and True.md",
+    "2 - Full Notes/Association, Bias & Causation.md",
+    "4 - Maps of Content/Causal Inference.md",
+    "2 - Full Notes/dotfiles (github repo).md",
+    "2 - Full Notes/The Kelly Criterion.md",
+    "2 - Full Notes/learning-rust (github repo).md",
+    "3 - Source Material/Machine Learning Q & AI.md",
+    "3 - Source Material/Kelly Criterion (wikipedia).md",
+    "2 - Full Notes/Label Propagation Algorithm.md",
+    "2 - Full Notes/knowledge-base (github repo).md",
+    "2 - Full Notes/how-much-remains (github repo).md",
+    "1 - Rough Notes/React.md",
+    "1 - Rough Notes/React-Native.md",
+    "1 - Rough Notes/Rust (programming language).md",
+    "4 - Maps of Content/Personal Development Areas.md",
+    "4 - Maps of Content/Machine Learning on Small Datasets.md",
+    "5 - Templates/Base Template.md",
+    "4 - Maps of Content/List of Useful Algorithms.md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "3 - Source Material/jwt.io (website).md",
+    "2 - Full Notes/useful-code-snippets (github repo).md",
+    "2024-06-21.md",
+    "1 - Rough Notes/Flutter.md",
     "1 - Rough Notes/Future Reading.md",
     "1 - Rough Notes/Json Web Tokens (JWTs).md",
-    "1 - Rough Notes/jwt-checkout (github repo).md",
-    "1 - Rough Notes/Past Reading.md",
-    "1 - Rough Notes/Rust (programming language).md",
-    "2 - Full Notes/useful-code-snippets (github repo).md",
-    "2 - Full Notes/Association, Bias & Causation.md",
-    "1 - Rough Notes/Bash (programming language).md",
-    "4 - Maps of Content/List of Useful Algorithms.md",
-    "3 - Source Material/Causal Inference for The Brave and True.md",
-    "3 - Source Material/Kelly Criterion (wikipedia).md",
-    "2 - Full Notes/dotfiles (github repo).md",
-    "2 - Full Notes/jwt.io (website).md",
-    "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
-    "2 - Full Notes/learning-rust (github repo).md",
-    "2 - Full Notes/Reading Lists.md",
-    "2 - Full Notes/J-sephB-lt-n (github repo).md",
-    "2 - Full Notes/The Kelly Criterion.md",
     "Untitled.canvas",
-    "2 - Full Notes/my-reading-list (github repo).md",
-    "2 - Full Notes/knowledge-base (github repo).md",
     "6 - Topics",
     "5 - Templates",
     "2 - Full Notes",

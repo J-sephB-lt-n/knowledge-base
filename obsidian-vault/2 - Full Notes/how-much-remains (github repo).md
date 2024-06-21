@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-21T08:34
-modified: 2024-06-21 08:37
+modified: 2024-06-21 08:50
 tags:
   - git
   - github
@@ -17,4 +17,5 @@ status:
 The code base for the app "how much remains?" - an app for calculating how many days are left til payday, and from that quantifying daily disposable income.
 ## Related
 * [[GitHub Repos]]
-* [[Flutter]]
+* [[React-Native]]
+* [[React]]
