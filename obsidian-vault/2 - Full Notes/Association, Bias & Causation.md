@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 15:50"
-modified: 2024-06-20 21:35
+modified: 2024-06-20 23:18
 tags:
   - "#causality"
   - "#statistics"
@@ -115,6 +115,7 @@ Selection Bias: E[Y(0)|T=1] - E[Y(0)|T=0] = 0.33516
 ```
 
 ## References
-
 * [[Causal Inference for The Brave and True]]
 
+## Related
+* [[Causal Inference]]
