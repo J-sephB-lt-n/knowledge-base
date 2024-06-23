@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-20T21:36
-modified: 2024-06-20 21:37
+modified: 2024-06-23 23:08
 tags:
   - code
   - programming
@@ -11,9 +11,13 @@ tags:
   - gcp
   - git
   - github
+  - apache-spark
 type:
   - github-repo
-status: 
+status:
+  - ongoing
 ---
 
 https://github.com/J-sephB-lt-n/useful-code-snippets
+
+Searchable collection of useful code snippets.

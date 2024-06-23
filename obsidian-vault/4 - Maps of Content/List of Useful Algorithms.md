@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-20T23:00
-modified: 2024-06-23 20:53
+modified: 2024-06-23 23:10
 tags:
   - algorithm
   - machine-learning
@@ -9,7 +9,8 @@ tags:
   - model
 type:
   - map-of-content
-status: 
+status:
+  - ongoing
 ---
 
 | Name                                    | Description                                                 | Example Use Cases       | Useful Resources/Links                                                                                               |

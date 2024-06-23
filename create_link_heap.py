@@ -8,8 +8,14 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 markdown_links: list[str] = []
 
+folders_to_include: tuple[str, ...] = (
+    "2 - Full Notes",
+    "3 - Source Material",
+    "4 - Maps of Content",
+)
+
 for path in Path("obsidian-vault").rglob("*.md"):
-    if "Rough Notes" not in str(path):
+    if path.parts[1] in (folders_to_include):
         markdown_links.append(f"[{path.name}](./{str(path).replace(" ", "%20")})")
 
 random.shuffle(markdown_links)

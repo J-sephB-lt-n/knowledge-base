@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 20:08"
-modified: 2024-06-21 08:36
+modified: 2024-06-23 23:10
 tags:
   - "#git"
   - github
@@ -9,7 +9,8 @@ tags:
   - programming
 type:
   - map-of-content
-status: 
+status:
+  - ongoing
 ---
 
 ## My GitHub Repos
