@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-20T23:00
-modified: 2024-06-20 23:16
+modified: 2024-06-23 20:53
 tags:
   - algorithm
   - machine-learning
@@ -31,6 +31,7 @@ status:
 | Image Generation (image variation)      |                                                             |                         | <https://huggingface.co/models>                                                                                      |
 | Image Generation (text prompt)          |                                                             |                         | <https://huggingface.co/models>                                                                                      |
 | Knowledge Graphs                        |                                                             |                         |                                                                                                                      |
+| [[Label Propagation]]                   |                                                             | Large dataset with few labelled samples | 
 | Mathematical Optimisation               |                                                             |                         |                                                                                                                      |
 | Multi-Armed Bandit Algorithms           |                                                             |                         |                                                                                                                      |
 | Optical Character Recognition (OCR)     | Read text from an image                                     |                         | <https://github.com/kba/awesome-ocr> (the [tesseract](https://github.com/tesseract-ocr/tesseract) engine is amazing) |
