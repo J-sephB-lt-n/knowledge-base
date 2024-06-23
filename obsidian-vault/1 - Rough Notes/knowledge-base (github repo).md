@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-20T21:32
-modified: 2024-06-20 21:33
+modified: 2024-06-23 21:47
 tags:
   - git
   - github
@@ -9,6 +9,7 @@ tags:
   - markdown
 type:
   - github-repo
-status: 
+status:
+  - ongoing
 ---
 https://github.com/J-sephB-lt-n/knowledge-base

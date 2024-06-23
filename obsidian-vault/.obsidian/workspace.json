@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Full Notes/Label Propagation Algorithm.md",
-                "mode": "preview",
-                "source": true
+                "file": "1 - Rough Notes/Scikit-Learn.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/Label Propagation Algorithm.md",
+                "file": "1 - Rough Notes/Scikit-Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Full Notes/Label Propagation Algorithm.md",
+                "file": "1 - Rough Notes/Scikit-Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Full Notes/Label Propagation Algorithm.md"
+                "file": "1 - Rough Notes/Scikit-Learn.md"
               }
             }
           }
@@ -148,9 +148,26 @@
   },
   "active": "1b29c2e401058a0f",
   "lastOpenFiles": [
+    "1 - Rough Notes/Rust (programming language).md",
+    "1 - Rough Notes/React-Native.md",
+    "1 - Rough Notes/React.md",
+    "1 - Rough Notes/Radial Basis Function.md",
+    "1 - Rough Notes/Python.md",
+    "1 - Rough Notes/Past Reading.md",
+    "1 - Rough Notes/knowledge-base (github repo).md",
+    "1 - Rough Notes/jwt-checkout (github repo).md",
+    "1 - Rough Notes/Json Web Tokens (JWTs).md",
+    "1 - Rough Notes/J-sephB-lt-n (github repo).md",
+    "1 - Rough Notes/Future Reading.md",
+    "1 - Rough Notes/Flutter.md",
+    "1 - Rough Notes/Euclidean Distance.md",
+    "1 - Rough Notes/dotfiles (github repo).md",
+    "1 - Rough Notes/Current Reading.md",
+    "1 - Rough Notes/Classification.md",
+    "1 - Rough Notes/Bash (programming language).md",
+    "2 - Full Notes/Label Propagation Algorithm.md",
     "4 - Maps of Content/List of Useful Algorithms.md",
     "2 - Full Notes/useful-code-snippets (github repo).md",
-    "2 - Full Notes/Label Propagation Algorithm.md",
     "2 - Full Notes/how-much-remains (github repo).md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
@@ -169,30 +186,13 @@
     "2 - Full Notes/assets",
     "4 - Maps of Content/Machine Learning on Small Datasets.md",
     "4 - Maps of Content/Personal Development Areas.md",
-    "1 - Rough Notes/React-Native.md",
     "7 - assets/label_propagation_algorithn/model_preds.png",
     "7 - assets/label_propagation_algorithn/train_data.png",
     "7 - assets/label_propagation_algorithn",
     "assets",
-    "1 - Rough Notes/Python.md",
-    "1 - Rough Notes/Euclidean Distance.md",
-    "1 - Rough Notes/Classification.md",
-    "1 - Rough Notes/J-sephB-lt-n (github repo).md",
     "2 - Full Notes/gmail-email-automation (github repo).md",
-    "1 - Rough Notes/dotfiles (github repo).md",
     "2 - Full Notes/Association, Bias & Causation.md",
-    "1 - Rough Notes/knowledge-base (github repo).md",
-    "1 - Rough Notes/jwt-checkout (github repo).md",
-    "1 - Rough Notes/Json Web Tokens (JWTs).md",
-    "1 - Rough Notes/Past Reading.md",
-    "1 - Rough Notes/Bash (programming language).md",
-    "1 - Rough Notes/Current Reading.md",
-    "1 - Rough Notes/Future Reading.md",
     "1 - Rough Notes/Scikit-Learn.md",
-    "1 - Rough Notes/Radial Basis Function.md",
-    "1 - Rough Notes/React.md",
-    "1 - Rough Notes/Rust (programming language).md",
-    "3 - Source Material/Causal Inference for The Brave and True.md",
     "Untitled.canvas",
     "6 - Topics"
   ]

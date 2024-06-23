@@ -1,13 +1,14 @@
 ---
 created:
   - 2024-06-22T17:59
-modified: 2024-06-22 18:00
+modified: 2024-06-23 21:46
 tags:
   - statistics
   - model
   - machine-learning
 type: 
-status: 
+status:
+  - not-started
 ---
 
 ## Related
