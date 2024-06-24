@@ -1,12 +1,12 @@
 ---
 created:
   - " 2024-06-20 20:08"
-modified: 2024-06-23 23:10
+modified: 2024-06-23 23:15
 tags:
-  - "#git"
   - github
   - code
   - programming
+  - git
 type:
   - map-of-content
 status:
