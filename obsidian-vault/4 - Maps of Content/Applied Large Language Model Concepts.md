@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-26T20:43
-modified: 2024-06-26 20:50
+modified: 2024-06-26 20:51
 tags:
   - llm
   - large-language-model
@@ -23,4 +23,9 @@ status:
 * LLM Tool Use
 * LLM Function-Calling
 * Retrieval-Augmented Generation (RAG)
+
 ## Related
+* LLM ReAct Prompting
+
+## References
+* https://www.promptingguide.ai
