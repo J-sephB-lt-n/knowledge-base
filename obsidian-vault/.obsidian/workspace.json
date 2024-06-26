@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1b29c2e401058a0f",
+            "id": "dc71aaef0fc6a1b9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4 - Maps of Content/Applied Large Language Model Concepts.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "4 - Maps of Content/Applied Large Language Model Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "4 - Maps of Content/Applied Large Language Model Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4 - Maps of Content/Applied Large Language Model Concepts.md"
+              }
             }
           }
         ]
@@ -138,9 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b29c2e401058a0f",
+  "active": "567283c12ce93536",
   "lastOpenFiles": [
     "4 - Maps of Content/GitHub Repos.md",
+    "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "2 - Full Notes/OAuth 2.0.md",
     "2 - Full Notes/OIDC.md",
     "4 - Maps of Content/Causal Inference.md",
@@ -165,7 +174,6 @@
     "2 - Full Notes/Association, Bias & Causation.md",
     "1 - Rough Notes/Scikit-Learn.md",
     "1 - Rough Notes/Rust (programming language).md",
-    "1 - Rough Notes/React-Native.md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
