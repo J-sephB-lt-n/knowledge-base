@@ -1,13 +1,14 @@
 ---
 created:
   - 2024-06-26T20:43
-modified: 2024-06-26 20:51
+modified: 2024-06-26 21:09
 tags:
   - llm
   - large-language-model
   - applied
   - nlp
   - agent
+  - practical
 type:
   - map-of-content
 status:
@@ -25,7 +26,8 @@ status:
 * Retrieval-Augmented Generation (RAG)
 
 ## Related
-* LLM ReAct Prompting
+* [[LLM ReAct Prompting]]
+* [[One-Shot and Few-Shot Learning]]
 
 ## References
 * https://www.promptingguide.ai
