@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 20:08"
-modified: 2024-06-26 20:43
+modified: 2024-07-01 22:43
 tags:
   - github
   - code
@@ -15,6 +15,7 @@ status:
 
 ## My GitHub Repos
 
+* [[semantic-search-engine (github repo)]]
 * [[dotfiles (github repo)]]
 * [[gmail-email-automation (github repo)]]
 * [[how-much-remains (github repo)]]

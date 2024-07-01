@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9f522fc3b0de128c",
+        "id": "2216d83cd93789fb",
         "type": "tabs",
         "children": [
           {
-            "id": "dc71aaef0fc6a1b9",
+            "id": "d6cdad07ec09cf77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Maps of Content/Applied Large Language Model Concepts.md",
+                "file": "4 - Maps of Content/GitHub Repos.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "015cb0d95a6b426a",
+            "id": "ee55d6f5b968fb9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Maps of Content/Applied Large Language Model Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d97d3cb803bad1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM Chain-of-Thought Prompting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b92968141c8a9419",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM Chain-of-Thought Prompting.md",
+                "file": "4 - Maps of Content/GitHub Repos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "f4cde7520428266c",
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM Chain-of-Thought Prompting.md",
+                "file": "4 - Maps of Content/GitHub Repos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM Chain-of-Thought Prompting.md",
+                "file": "4 - Maps of Content/GitHub Repos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM Chain-of-Thought Prompting.md"
+                "file": "4 - Maps of Content/GitHub Repos.md"
               }
             }
           }
@@ -183,19 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b92968141c8a9419",
+  "active": "ee55d6f5b968fb9c",
   "lastOpenFiles": [
-    "2 - Full Notes/One-Shot and Few-Shot Learning.md",
+    "2 - Full Notes/semantic-search-engine (github repo).md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "2 - Full Notes/Text Chunking for Semantic Search.md",
     "LLM Chain-of-Thought Prompting.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "2 - Full Notes/Association, Bias & Causation.md",
+    "4 - Maps of Content/Causal Inference.md",
+    "2 - Full Notes/One-Shot and Few-Shot Learning.md",
     "2 - Full Notes/The Kelly Criterion.md",
     "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
     "3 - Source Material/Kelly Criterion (wikipedia).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
-    "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/OAuth 2.0.md",
     "2 - Full Notes/OIDC.md",
-    "4 - Maps of Content/Causal Inference.md",
     "3 - Source Material/Causal Inference for The Brave and True.md",
     "3 - Source Material/jwt.io (website).md",
     "3 - Source Material/Machine Learning Q & AI.md",
@@ -208,9 +187,6 @@
     "2 - Full Notes/personal-projects (github repo).md",
     "1 - Rough Notes/my-reading-list (github repo).md",
     "2 - Full Notes/learning-rust (github repo).md",
-    "2 - Full Notes/Label Propagation Algorithm.md",
-    "2 - Full Notes/how-much-remains (github repo).md",
-    "2 - Full Notes/gmail-email-automation (github repo).md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
