@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2216d83cd93789fb",
+        "id": "6ee799878f4ea547",
         "type": "tabs",
         "children": [
           {
-            "id": "d6cdad07ec09cf77",
+            "id": "dd75c03eb3a80917",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Maps of Content/GitHub Repos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee55d6f5b968fb9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Maps of Content/GitHub Repos.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4 - Maps of Content/GitHub Repos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4 - Maps of Content/GitHub Repos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4 - Maps of Content/GitHub Repos.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,17 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee55d6f5b968fb9c",
+  "active": "dd75c03eb3a80917",
   "lastOpenFiles": [
-    "2 - Full Notes/semantic-search-engine (github repo).md",
     "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
+    "2 - Full Notes/The Kelly Criterion.md",
+    "2 - Full Notes/semantic-search-engine (github repo).md",
     "LLM Chain-of-Thought Prompting.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "2 - Full Notes/Association, Bias & Causation.md",
     "4 - Maps of Content/Causal Inference.md",
     "2 - Full Notes/One-Shot and Few-Shot Learning.md",
-    "2 - Full Notes/The Kelly Criterion.md",
     "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
     "3 - Source Material/Kelly Criterion (wikipedia).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
