@@ -11,8 +11,12 @@
             "id": "dd75c03eb3a80917",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2 - Full Notes/Data Ingestion Best Practices.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2 - Full Notes/Data Ingestion Best Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2 - Full Notes/Data Ingestion Best Practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2 - Full Notes/Data Ingestion Best Practices.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd75c03eb3a80917",
+  "active": "567283c12ce93536",
   "lastOpenFiles": [
+    "2 - Full Notes/Data Ingestion Best Practices.md",
     "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
     "2 - Full Notes/The Kelly Criterion.md",
@@ -165,7 +174,6 @@
     "2 - Full Notes/useful-code-snippets (github repo).md",
     "2 - Full Notes/personal-projects (github repo).md",
     "1 - Rough Notes/my-reading-list (github repo).md",
-    "2 - Full Notes/learning-rust (github repo).md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
