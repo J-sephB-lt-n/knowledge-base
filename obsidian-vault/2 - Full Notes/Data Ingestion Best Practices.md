@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-03T14:09
-modified: 2024-07-03 14:36
+modified: 2024-07-04 09:23
 tags:
   - data
   - ETL
@@ -40,7 +40,7 @@ status:
 * Documentation
 	* Data dictionary
 	* Pipeline diagram
-* Have a Data SLA
+	* Have a Data SLA
 * Separate analytical and operational databases
 * High performance:
 	* Parallelisation

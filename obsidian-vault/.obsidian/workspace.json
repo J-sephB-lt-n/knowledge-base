@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd75c03eb3a80917",
+            "id": "a3c52073e15096a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Full Notes/Data Ingestion Best Practices.md",
+                "file": "2 - Full Notes/Data Transformation Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d64c92d7b7f62cd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Data Validation Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/Data Ingestion Best Practices.md",
+                "file": "2 - Full Notes/Data Transformation Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Full Notes/Data Ingestion Best Practices.md",
+                "file": "2 - Full Notes/Data Transformation Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Full Notes/Data Ingestion Best Practices.md"
+                "file": "2 - Full Notes/Data Transformation Tools.md"
               }
             }
           }
@@ -146,19 +158,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "567283c12ce93536",
+  "active": "a3c52073e15096a1",
   "lastOpenFiles": [
+    "Untitled.md",
+    "2 - Full Notes/Data Transformation Tools.md",
+    "Python Data Validation Tools.md",
+    "LLM Chain-of-Thought Prompting.md",
+    "4 - Maps of Content/Data Engineering.md",
+    "2 - Full Notes/personal-projects (github repo).md",
+    "2 - Full Notes/One-Shot and Few-Shot Learning.md",
+    "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
+    "2 - Full Notes/semantic-search-engine (github repo).md",
+    "4 - Maps of Content/Personal Development Areas.md",
     "2 - Full Notes/Data Ingestion Best Practices.md",
     "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
     "2 - Full Notes/The Kelly Criterion.md",
-    "2 - Full Notes/semantic-search-engine (github repo).md",
-    "LLM Chain-of-Thought Prompting.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "2 - Full Notes/Association, Bias & Causation.md",
     "4 - Maps of Content/Causal Inference.md",
-    "2 - Full Notes/One-Shot and Few-Shot Learning.md",
-    "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
     "3 - Source Material/Kelly Criterion (wikipedia).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
     "2 - Full Notes/OAuth 2.0.md",
@@ -168,12 +186,6 @@
     "3 - Source Material/Machine Learning Q & AI.md",
     "4 - Maps of Content/Machine Learning on Small Datasets.md",
     "1 - Rough Notes/Current Reading.md",
-    "4 - Maps of Content/Reading Lists.md",
-    "4 - Maps of Content/Personal Development Areas.md",
-    "4 - Maps of Content/List of Useful Algorithms.md",
-    "2 - Full Notes/useful-code-snippets (github repo).md",
-    "2 - Full Notes/personal-projects (github repo).md",
-    "1 - Rough Notes/my-reading-list (github repo).md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
