@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8f57d79b147a8b1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 - Source Material/Machine Learning Q & AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d64c92d7b7f62cd3",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/Data Transformation Tools.md",
+                "file": "3 - Source Material/Machine Learning Q & AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Full Notes/Data Transformation Tools.md",
+                "file": "3 - Source Material/Machine Learning Q & AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Full Notes/Data Transformation Tools.md"
+                "file": "3 - Source Material/Machine Learning Q & AI.md"
               }
             }
           }
@@ -158,9 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3c52073e15096a1",
+  "active": "8f57d79b147a8b1c",
   "lastOpenFiles": [
-    "Untitled.md",
+    "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
+    "3 - Source Material/Machine Learning Q & AI.md",
+    "3 - Source Material/Kelly Criterion (wikipedia).md",
     "2 - Full Notes/Data Transformation Tools.md",
     "Python Data Validation Tools.md",
     "LLM Chain-of-Thought Prompting.md",
@@ -174,16 +190,13 @@
     "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
     "2 - Full Notes/The Kelly Criterion.md",
-    "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "2 - Full Notes/Association, Bias & Causation.md",
     "4 - Maps of Content/Causal Inference.md",
-    "3 - Source Material/Kelly Criterion (wikipedia).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
     "2 - Full Notes/OAuth 2.0.md",
     "2 - Full Notes/OIDC.md",
     "3 - Source Material/Causal Inference for The Brave and True.md",
     "3 - Source Material/jwt.io (website).md",
-    "3 - Source Material/Machine Learning Q & AI.md",
     "4 - Maps of Content/Machine Learning on Small Datasets.md",
     "1 - Rough Notes/Current Reading.md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
