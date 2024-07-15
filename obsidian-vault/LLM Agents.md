@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-15T10:05
-modified: 2024-07-15 12:38
+modified: 2024-07-15 13:31
 tags:
   - llm
   - large-language-model
@@ -15,7 +15,6 @@ status:
 ---
 _LLM-based agents_ is a reasoning engine based on large language models. 
 _LLM-based agents_ refers to a system in which LLMs execute complex tasks through sequential reasoning, and their augmentation with additional modules such as planning, memory, [[Retrieval-Augmented Generation (RAG)]], code interpreter, [tool usage](#tool-usage) etc.
-
 
 ## Tool Usage
 Examples of tools:
