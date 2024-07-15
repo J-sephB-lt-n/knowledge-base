@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6ee799878f4ea547",
+        "id": "c407edfab5f97bc4",
         "type": "tabs",
         "children": [
           {
-            "id": "a3c52073e15096a1",
+            "id": "108988d02a4ebff8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Full Notes/Data Transformation Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f57d79b147a8b1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Source Material/Machine Learning Q & AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d64c92d7b7f62cd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Data Validation Tools.md",
+                "file": "2 - Full Notes/LLM Chain-of-Thought Prompting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Source Material/Machine Learning Q & AI.md",
+                "file": "2 - Full Notes/LLM Chain-of-Thought Prompting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Source Material/Machine Learning Q & AI.md",
+                "file": "2 - Full Notes/LLM Chain-of-Thought Prompting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Source Material/Machine Learning Q & AI.md"
+                "file": "2 - Full Notes/LLM Chain-of-Thought Prompting.md"
               }
             }
           }
@@ -171,34 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f57d79b147a8b1c",
+  "active": "567283c12ce93536",
   "lastOpenFiles": [
+    "2 - Full Notes/LLM ReAct Prompting.md",
+    "LLM Agents.md",
+    "2 - Full Notes/LLM Chain-of-Thought Prompting.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "1 - Rough Notes/React.md",
+    "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
+    "2 - Full Notes/Productive Note-Taking Systems.md",
+    "Untitled 1.md",
+    "2 - Full Notes/Happy RAG Friends (github repo).md",
+    "1 - Rough Notes/Future Reading.md",
+    "4 - Maps of Content/Reading Lists.md",
+    "2 - Full Notes/semantic-search-engine (github repo).md",
+    "2 - Full Notes/The Rasa CALM method.md",
+    "2 - Full Notes/useful-code-snippets (github repo).md",
     "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
     "3 - Source Material/Machine Learning Q & AI.md",
     "3 - Source Material/Kelly Criterion (wikipedia).md",
-    "2 - Full Notes/Data Transformation Tools.md",
+    "3 - Source Material/jwt.io (website).md",
+    "3 - Source Material/Causal Inference for The Brave and True.md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "Real Python Application Number 1.md",
+    "4 - Maps of Content/Personal Development Areas.md",
     "Python Data Validation Tools.md",
-    "LLM Chain-of-Thought Prompting.md",
+    "2 - Full Notes/Data Transformation Tools.md",
     "4 - Maps of Content/Data Engineering.md",
     "2 - Full Notes/personal-projects (github repo).md",
-    "2 - Full Notes/One-Shot and Few-Shot Learning.md",
-    "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
-    "2 - Full Notes/semantic-search-engine (github repo).md",
-    "4 - Maps of Content/Personal Development Areas.md",
-    "2 - Full Notes/Data Ingestion Best Practices.md",
-    "4 - Maps of Content/GitHub Repos.md",
-    "2 - Full Notes/Text Chunking for Semantic Search.md",
-    "2 - Full Notes/The Kelly Criterion.md",
-    "2 - Full Notes/Association, Bias & Causation.md",
-    "4 - Maps of Content/Causal Inference.md",
-    "2 - Full Notes/LLM ReAct Prompting.md",
-    "2 - Full Notes/OAuth 2.0.md",
-    "2 - Full Notes/OIDC.md",
-    "3 - Source Material/Causal Inference for The Brave and True.md",
-    "3 - Source Material/jwt.io (website).md",
-    "4 - Maps of Content/Machine Learning on Small Datasets.md",
-    "1 - Rough Notes/Current Reading.md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",

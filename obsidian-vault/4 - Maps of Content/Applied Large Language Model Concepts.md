@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-26T20:43
-modified: 2024-07-11 17:07
+modified: 2024-07-15 10:14
 tags:
   - llm
   - large-language-model
@@ -29,6 +29,8 @@ status:
 * [[LLM ReAct Prompting]]
 * [[One-Shot and Few-Shot Learning]]
 * [[Searching for Best Practices in Retrieval-Augmented Generation (paper)]]
+* [[LLM Agents]]
+* [[Retrieval-Augmented Generation (RAG)]]
 
 ## References
 * https://www.promptingguide.ai

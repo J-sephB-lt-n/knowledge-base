@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-01T22:41
-modified: 2024-07-01 22:47
+modified: 2024-07-11 23:50
 tags:
   - github
   - git
@@ -13,11 +13,13 @@ tags:
 type:
   - github-repo
 status:
-  - in-progress
+  - abandoned
 ---
-Tool for searching for passages within a document
+Tool for searching for passages within a document.
 
 https://github.com/J-sephB-lt-n/semantic-search-engine
+
+I've abandoned this project in order to pursue [[Happy RAG Friends (github repo)]]
 ## Related 
 * [[GitHub Repos]]
 * [[Text Chunking for Semantic Search]]
