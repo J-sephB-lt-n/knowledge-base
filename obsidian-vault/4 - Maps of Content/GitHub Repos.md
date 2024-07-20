@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 20:08"
-modified: 2024-07-11 23:41
+modified: 2024-07-20 23:27
 tags:
   - github
   - code
@@ -12,10 +12,13 @@ type:
 status:
   - ongoing
 ---
-
+https://github.com/J-sephB-lt-n?tab=repositories
 ## My GitHub Repos
 
-* 
+* [[mpd-tpd (github repo)]]
+* [[happy-rag-friends (github repo)]]
+* [[GCP Workflows Example (github repo)]]
+* [[dbt-example (github repo)]]
 * [[semantic-search-engine (github repo)]]
 * [[dotfiles (github repo)]]
 * [[gmail-email-automation (github repo)]]

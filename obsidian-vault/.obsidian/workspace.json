@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4712163162ddf81a",
+        "id": "896102a5a11195bf",
         "type": "tabs",
         "children": [
           {
-            "id": "fdd4b6e2c8d57cce",
+            "id": "2f269bc67acb1233",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fdd4b6e2c8d57cce",
+  "active": "2f269bc67acb1233",
   "lastOpenFiles": [
+    "Python Data Validation Tools.md",
+    "2 - Full Notes/Real Python Application Number 1.md",
+    "2 - Full Notes/mpd-tpd (github repo).md",
+    "LLM Agents.md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "2 - Full Notes/happy-rag-friends (github repo).md",
+    "2 - Full Notes/dbt-example (github repo).md",
+    "2 - Full Notes/GCP Workflows Example (github repo).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
     "2 - Full Notes/LLM Chain-of-Thought Prompting.md",
-    "LLM Agents.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "1 - Rough Notes/React.md",
     "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
@@ -167,13 +174,6 @@
     "3 - Source Material/Kelly Criterion (wikipedia).md",
     "3 - Source Material/jwt.io (website).md",
     "3 - Source Material/Causal Inference for The Brave and True.md",
-    "4 - Maps of Content/GitHub Repos.md",
-    "Real Python Application Number 1.md",
-    "4 - Maps of Content/Personal Development Areas.md",
-    "Python Data Validation Tools.md",
-    "2 - Full Notes/Data Transformation Tools.md",
-    "4 - Maps of Content/Data Engineering.md",
-    "2 - Full Notes/personal-projects (github repo).md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
