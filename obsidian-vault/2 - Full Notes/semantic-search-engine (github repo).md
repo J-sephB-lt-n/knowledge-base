@@ -19,7 +19,7 @@ Tool for searching for passages within a document.
 
 https://github.com/J-sephB-lt-n/semantic-search-engine
 
-I've abandoned this project in order to pursue [[Happy RAG Friends (github repo)]]
+I've abandoned this project in order to pursue [[happy-rag-friends (github repo)]]
 ## Related 
 * [[GitHub Repos]]
 * [[Text Chunking for Semantic Search]]

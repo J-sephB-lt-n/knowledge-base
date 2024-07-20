@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Agents.md",
+                "file": "2 - Full Notes/semantic-search-engine (github repo).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM Agents.md",
+                "file": "2 - Full Notes/semantic-search-engine (github repo).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM Agents.md",
+                "file": "2 - Full Notes/semantic-search-engine (github repo).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM Agents.md"
+                "file": "2 - Full Notes/semantic-search-engine (github repo).md"
               }
             }
           }
@@ -148,12 +148,14 @@
   },
   "active": "2f269bc67acb1233",
   "lastOpenFiles": [
+    "2 - Full Notes/happy-rag-friends (github repo).md",
+    "2 - Full Notes/semantic-search-engine (github repo).md",
+    "2 - Full Notes/Happy RAG Friends (github repo).md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "LLM Agents.md",
     "Python Data Validation Tools.md",
     "2 - Full Notes/Real Python Application Number 1.md",
     "2 - Full Notes/mpd-tpd (github repo).md",
-    "LLM Agents.md",
-    "4 - Maps of Content/GitHub Repos.md",
-    "2 - Full Notes/happy-rag-friends (github repo).md",
     "2 - Full Notes/dbt-example (github repo).md",
     "2 - Full Notes/GCP Workflows Example (github repo).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
@@ -163,10 +165,8 @@
     "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
     "2 - Full Notes/Productive Note-Taking Systems.md",
     "Untitled 1.md",
-    "2 - Full Notes/Happy RAG Friends (github repo).md",
     "1 - Rough Notes/Future Reading.md",
     "4 - Maps of Content/Reading Lists.md",
-    "2 - Full Notes/semantic-search-engine (github repo).md",
     "2 - Full Notes/The Rasa CALM method.md",
     "2 - Full Notes/useful-code-snippets (github repo).md",
     "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
