@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-20T23:21
-modified: 2024-07-20 23:22
+modified: 2024-07-21 14:28
 tags:
   - git
   - github
@@ -12,6 +12,8 @@ type:
 status:
   - in-progress
 ---
+Command-line tool for helping you make your money last until you get paid again.
+
 https://github.com/J-sephB-lt-n/mpd-tpd
 ## Related
 * [[GitHub Repos]]

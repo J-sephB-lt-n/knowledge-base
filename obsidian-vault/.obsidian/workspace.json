@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "896102a5a11195bf",
+        "id": "2b14800cd937d25e",
         "type": "tabs",
         "children": [
           {
-            "id": "2f269bc67acb1233",
+            "id": "5a940268cdfc9413",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/semantic-search-engine (github repo).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Full Notes/semantic-search-engine (github repo).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Full Notes/semantic-search-engine (github repo).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2 - Full Notes/semantic-search-engine (github repo).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,16 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f269bc67acb1233",
+  "active": "5a940268cdfc9413",
   "lastOpenFiles": [
-    "2 - Full Notes/happy-rag-friends (github repo).md",
+    "2 - Full Notes/mpd-tpd (github repo).md",
     "2 - Full Notes/semantic-search-engine (github repo).md",
+    "2 - Full Notes/happy-rag-friends (github repo).md",
     "2 - Full Notes/Happy RAG Friends (github repo).md",
     "4 - Maps of Content/GitHub Repos.md",
     "LLM Agents.md",
     "Python Data Validation Tools.md",
     "2 - Full Notes/Real Python Application Number 1.md",
-    "2 - Full Notes/mpd-tpd (github repo).md",
     "2 - Full Notes/dbt-example (github repo).md",
     "2 - Full Notes/GCP Workflows Example (github repo).md",
     "2 - Full Notes/LLM ReAct Prompting.md",
