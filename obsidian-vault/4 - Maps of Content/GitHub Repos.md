@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 20:08"
-modified: 2024-07-20 23:27
+modified: 2024-07-23 13:41
 tags:
   - github
   - code
@@ -15,6 +15,7 @@ status:
 https://github.com/J-sephB-lt-n?tab=repositories
 ## My GitHub Repos
 
+* [[hosting-7B-llm-on-google-cloud (github repo)]]
 * [[mpd-tpd (github repo)]]
 * [[happy-rag-friends (github repo)]]
 * [[GCP Workflows Example (github repo)]]

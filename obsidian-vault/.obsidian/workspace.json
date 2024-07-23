@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b14800cd937d25e",
+        "id": "152bc6816a5d27f0",
         "type": "tabs",
         "children": [
           {
-            "id": "5a940268cdfc9413",
+            "id": "174a6808d06ebb18",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,13 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a940268cdfc9413",
+  "active": "567283c12ce93536",
   "lastOpenFiles": [
+    "2 - Full Notes/hosting-7B-llm-on-google-cloud (github repo).md",
+    "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/mpd-tpd (github repo).md",
     "2 - Full Notes/semantic-search-engine (github repo).md",
     "2 - Full Notes/happy-rag-friends (github repo).md",
     "2 - Full Notes/Happy RAG Friends (github repo).md",
-    "4 - Maps of Content/GitHub Repos.md",
     "LLM Agents.md",
     "Python Data Validation Tools.md",
     "2 - Full Notes/Real Python Application Number 1.md",
@@ -165,7 +166,6 @@
     "3 - Source Material/Machine Learning Q & AI.md",
     "3 - Source Material/Kelly Criterion (wikipedia).md",
     "3 - Source Material/jwt.io (website).md",
-    "3 - Source Material/Causal Inference for The Brave and True.md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
