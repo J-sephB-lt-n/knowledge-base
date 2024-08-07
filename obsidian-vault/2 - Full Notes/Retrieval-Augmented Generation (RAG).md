@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-15T10:13
-modified: 2024-07-15 10:18
+modified: 2024-08-01 13:28
 tags:
   - llm
   - rag
@@ -15,3 +15,4 @@ Retrieval-Augmented Generation (RAG) refers to the process of including addition
 ## Related
 
 * Links to other notes which are directly related go here
+* [[happy-rag-friends (github repo)]]
