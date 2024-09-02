@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d5495d69f5d75cef",
+        "id": "5e97a55599a9845c",
         "type": "tabs",
         "children": [
           {
-            "id": "b443c7c518a94ca3",
+            "id": "ca1a6e2dbde5cd61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Good API Design.md",
+                "file": "LLM Strengths & Weaknesses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cbf6f153001389c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GCP VM which creates other VMs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Good API Design.md",
+                "file": "GCP VM which creates other VMs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Good API Design.md",
+                "file": "GCP VM which creates other VMs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Good API Design.md"
+                "file": "GCP VM which creates other VMs.md"
               }
             }
           }
@@ -146,10 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b443c7c518a94ca3",
+  "active": "8cbf6f153001389c",
   "lastOpenFiles": [
-    "Good API Design.md",
+    "LLM Strengths & Weaknesses.md",
+    "GCP VM which creates other VMs.md",
+    "Interesting Ideas.md",
+    "7 - assets/Label Propagation Algorithm/model_preds.png",
+    "7 - assets/Label Propagation Algorithm/train_data.png",
+    "Software Best Practice.md",
+    "Python Data Validation Tools.md",
+    "Tasks which may be automated.md",
+    "Untitled.canvas",
+    "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "Tufte's Principles of Graphical Excellence.md",
+    "Named Entity Recognition (NER).md",
+    "IAM in GCP and AWS.md",
+    "4 - Maps of Content/List of Useful Algorithms.md",
+    "4 - Maps of Content/Causal Inference.md",
+    "2 - Full Notes/Good API Design.md",
+    "2 - Full Notes/Brewer's Theorem (CAP theorem).md",
+    "2 - Full Notes/Text Chunking for Semantic Search.md",
+    "2 - Full Notes/Cookie Security.md",
+    "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
     "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
+    "2 - Full Notes/LLM Agents.md",
     "2 - Full Notes/Zero-shot Classification using Embeddings.md",
     "2 - Full Notes/useful-code-snippets (github repo).md",
     "2 - Full Notes/The Rasa CALM method.md",
@@ -157,25 +190,6 @@
     "4 - Maps of Content/GitHub Repos.md",
     "2 - Full Notes/mpd-tpd (github repo).md",
     "2 - Full Notes/semantic-search-engine (github repo).md",
-    "2 - Full Notes/happy-rag-friends (github repo).md",
-    "2 - Full Notes/Happy RAG Friends (github repo).md",
-    "LLM Agents.md",
-    "Python Data Validation Tools.md",
-    "2 - Full Notes/Real Python Application Number 1.md",
-    "2 - Full Notes/dbt-example (github repo).md",
-    "2 - Full Notes/GCP Workflows Example (github repo).md",
-    "2 - Full Notes/LLM ReAct Prompting.md",
-    "2 - Full Notes/LLM Chain-of-Thought Prompting.md",
-    "4 - Maps of Content/Applied Large Language Model Concepts.md",
-    "1 - Rough Notes/React.md",
-    "2 - Full Notes/Productive Note-Taking Systems.md",
-    "Untitled 1.md",
-    "1 - Rough Notes/Future Reading.md",
-    "4 - Maps of Content/Reading Lists.md",
-    "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
-    "3 - Source Material/Machine Learning Q & AI.md",
-    "7 - assets/Label Propagation Algorithm/model_preds.png",
-    "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/Label Propagation Algorithm",
     "7 - assets/assets/train_data.png",
     "7 - assets/assets/model_preds.png",
@@ -193,7 +207,6 @@
     "7 - assets/label_propagation_algorithn/train_data.png",
     "7 - assets/label_propagation_algorithn",
     "assets",
-    "Untitled.canvas",
     "6 - Topics"
   ]
 }

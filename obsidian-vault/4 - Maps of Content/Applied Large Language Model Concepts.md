@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-26T20:43
-modified: 2024-07-15 10:14
+modified: 2024-08-27 10:23
 tags:
   - llm
   - large-language-model
@@ -9,11 +9,23 @@ tags:
   - nlp
   - agent
   - practical
+  - gpt
+  - llama
+  - llama-cpp
 type:
   - map-of-content
 status:
   - ongoing
 ---
+
+| Concept          | Explanation | Reference(s) | See also |
+| ---------------- | ----------- | ------------ | -------- |
+| Function-calling |             |              |          |
+| Self-evaluation  |             |              |          |
+| LLMs as Agents   |             |              |          |
+| Tokenisation     |             |              |          |
+|                  |             |              |          |
+
 * LLM Chain of Thought
 * LLM Tool Use
 * LLM Self Evaluation

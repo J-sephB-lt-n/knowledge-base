@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-08-04T20:18
-modified: 2024-08-04 21:23
+modified: 2024-08-18 20:29
 tags:
   - api
   - rest
@@ -21,6 +21,7 @@ status:
 	- Error handling
 	- Naming conventions
 	- Versioning
+- Endpoints should be idempotent, where possible (especially GET, PUT and DELETE endpoints)
 - Simple to use for the end user
 	- Sensible default arguments
 	- Don't force the user to deal with complicated things like timezones (unless necessary, obviously)
@@ -33,7 +34,12 @@ status:
 	- IDs must be primary keys (i.e. no duplicated or missing IDs etc.)
 - Make it easy for users to integrate your API into their other systems and APIs
 	- e.g. allow users to store their own custom metadata in your objects (for example, stripe allows you to store your own arbitrary json in a customer object)
+- Maintain backward compatibility and versioning 
 - Add support for webhooks
 - Provide an SDK
+- Protect the API from abuse
+	- rate-limiting
+	- CORS
+- 
 ## References
 * https://www.youtube.com/watch?v=SjUQLryotAk (ArjanCodes youtube video)
