@@ -1,12 +1,12 @@
 ---
 created:
   - " 2024-06-20 16:51"
-modified: 2024-06-20 21:46
+modified: 2024-09-11 09:16
 tags:
   - reading
   - learning
 type:
-  - map of content
+  - map-of-content
 status: 
 ---
 [[Current Reading]]

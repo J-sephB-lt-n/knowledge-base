@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5e97a55599a9845c",
+        "id": "1ff3d0dba1bd42d3",
         "type": "tabs",
         "children": [
           {
-            "id": "ca1a6e2dbde5cd61",
+            "id": "f02b4990544acb4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Strengths & Weaknesses.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8cbf6f153001389c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GCP VM which creates other VMs.md",
+                "file": "3 - Source Material/LLM Prompting Strategies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag: #llm  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 408.5
   },
   "right": {
     "id": "f4cde7520428266c",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GCP VM which creates other VMs.md",
+                "file": "3 - Source Material/LLM Prompting Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GCP VM which creates other VMs.md",
+                "file": "3 - Source Material/LLM Prompting Strategies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GCP VM which creates other VMs.md"
+                "file": "3 - Source Material/LLM Prompting Strategies.md"
               }
             }
           }
@@ -159,37 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cbf6f153001389c",
+  "active": "f02b4990544acb4b",
   "lastOpenFiles": [
+    "3 - Source Material/Shapley values and SHAP.md",
     "LLM Strengths & Weaknesses.md",
-    "GCP VM which creates other VMs.md",
+    "3 - Source Material/LLM Prompting Strategies.md",
     "Interesting Ideas.md",
+    "4 - Maps of Content/List of Useful Algorithms.md",
+    "4 - Maps of Content/GitHub Repos.md",
+    "4 - Maps of Content/Data Engineering.md",
+    "IAM in GCP and AWS.md",
+    "2024-09-11.md",
+    "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "4 - Maps of Content/Reading Lists.md",
+    "Untitled.canvas",
+    "Tufte's Principles of Graphical Excellence.md",
+    "2 - Full Notes/Python Logging on GCP Compute Engine.md",
+    "Named Entity Recognition (NER).md",
+    "Tasks which may be automated.md",
+    "Software Best Practice.md",
+    "2 - Full Notes/personal-projects (github repo).md",
+    "4 - Maps of Content/Personal Development Areas.md",
+    "2 - Full Notes/Data Transformation Tools.md",
+    "2 - Full Notes/GCP VM which creates other VMs.md",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
-    "Software Best Practice.md",
     "Python Data Validation Tools.md",
-    "Tasks which may be automated.md",
-    "Untitled.canvas",
-    "4 - Maps of Content/Applied Large Language Model Concepts.md",
-    "Tufte's Principles of Graphical Excellence.md",
-    "Named Entity Recognition (NER).md",
-    "IAM in GCP and AWS.md",
-    "4 - Maps of Content/List of Useful Algorithms.md",
     "4 - Maps of Content/Causal Inference.md",
     "2 - Full Notes/Good API Design.md",
     "2 - Full Notes/Brewer's Theorem (CAP theorem).md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
     "2 - Full Notes/Cookie Security.md",
-    "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
-    "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
-    "2 - Full Notes/LLM Agents.md",
-    "2 - Full Notes/Zero-shot Classification using Embeddings.md",
-    "2 - Full Notes/useful-code-snippets (github repo).md",
-    "2 - Full Notes/The Rasa CALM method.md",
-    "2 - Full Notes/hosting-7B-llm-on-google-cloud (github repo).md",
-    "4 - Maps of Content/GitHub Repos.md",
-    "2 - Full Notes/mpd-tpd (github repo).md",
-    "2 - Full Notes/semantic-search-engine (github repo).md",
     "7 - assets/Label Propagation Algorithm",
     "7 - assets/assets/train_data.png",
     "7 - assets/assets/model_preds.png",
