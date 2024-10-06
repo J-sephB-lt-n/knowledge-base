@@ -2,7 +2,7 @@
 created:
   - 2024-08-27T09:21
   - 2024-08-29T20:01
-modified: 2024-09-02 14:00
+modified: 2024-10-01 20:55
 tags:
   - llm
   - large-language-model
@@ -38,8 +38,7 @@ What language models are bad at:
 * Links to references (source material) go here
 ## Related
 
-* Links to other notes which are directly related go here                                                                                                                         |
-
+* Links to other notes which are directly related go here
 ## References
 * https://www.promptingguide.ai/
 ## Related

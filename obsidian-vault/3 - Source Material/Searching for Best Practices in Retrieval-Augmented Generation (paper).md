@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-11T16:03
-modified: 2024-07-11 17:07
+modified: 2024-10-01 20:53
 tags:
   - rag
   - retrieval-augmented-generation
@@ -25,3 +25,4 @@ Conclusions:
 
 ## Related
 * [[Applied Large Language Model Concepts]]
+* [[Advanced RAG Techniques]]

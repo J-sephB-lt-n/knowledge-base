@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-07-12 21:23
+modified: 2024-10-03 15:59
 tags:
   - reading
 type:
@@ -19,7 +19,7 @@ These are ordered by priority:
 | Causal Inference for The Brave and True                                                                   | Causality                 | Online book | Matheus Facure Alves     | <https://matheusfacure.github.io/python-causality-handbook/>                       |
 | Fortune's Formula                                                                                         | Investing                 | Book        | William Poundstone       | <https://www.amazon.com/Fortunes-Formula-Scientific-Betting-Casinos/dp/B072VX7DCS> |
 | Task-Oriented Dialogue with In-Context Learning                                                           | Large Language Models     | Paper       | Bocklisch et al          | <https://arxiv.org/abs/2402.12234>                                                 |
-| Build a Large Language Model (From Scratch)                                                               | Large Language Models     | Book        | Sebastian Raschka        |
+| Build a Large Language Model (From Scratch)                                                               | Large Language Models     | Book        | Sebastian Raschka        |                                                                                    |
 | Evaluating the World Model Implicit in a Generative Model                                                 | Large Language Models     | Paper       | Keyon Vafa et al         | <https://arxiv.org/abs/2406.03689>                                                 |
 | Relational Deep Learning: Graph Representation Learning on Relational Databases                           | Graph learning            | Paper       | Matthias Fey et al       | <https://arxiv.org/abs/2312.04615>                                                 |
 | Is Cosine-Similarity of Embeddings Really About Similarity?                                               | Machine Learning          | Paper       | Steck, Ekanadham, Kallus | <https://arxiv.org/pdf/2403.05440>                                                 |
@@ -34,5 +34,6 @@ These are ordered by priority:
 | Rules of Machine Learning: Best Practices for ML Engineering                                              | Machine Learning          | PDF         | Martin Zinkevich         | <https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf>                         |
 
 ## Related 
-
-[[Reading Lists]]
+* [[Current Reading]]
+* [[Past Reading]]
+* [[Reading Lists]]

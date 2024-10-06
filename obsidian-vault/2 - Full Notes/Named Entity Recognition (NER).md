@@ -2,7 +2,7 @@
 created:
   - 2024-08-21T20:27
   - 2024-08-24T14:13
-modified: 2024-09-02 22:38
+modified: 2024-10-01 20:56
 tags:
   - nlp
   - named-entity-recognition
@@ -12,14 +12,12 @@ type:
 status:
   - in-progress
 ---
-A class of algorithms aiming to locate and classify entities in unstructured text.
+A class of algorithms aiming to locate and classify entities in unstructured text (e.g. identify which words in a given sentence are names of people).
 ## References
 * https://en.wikipedia.org/wiki/Named-entity_recognition
 ## Related
 * https://github.com/urchade/GLiNER
 ## References
-
 * Links to references (source material) go here
 ## Related
-
 * Links to other notes which are directly related go hereLiNER

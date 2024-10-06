@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-26T20:43
-modified: 2024-08-27 10:23
+modified: 2024-10-01 20:54
 tags:
   - llm
   - large-language-model
@@ -43,6 +43,6 @@ status:
 * [[Searching for Best Practices in Retrieval-Augmented Generation (paper)]]
 * [[LLM Agents]]
 * [[Retrieval-Augmented Generation (RAG)]]
-
+* [[Advanced RAG Techniques]]
 ## References
 * https://www.promptingguide.ai
