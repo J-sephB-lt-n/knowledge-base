@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cac9f35d924055b4",
+            "id": "8b03efc0506375f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Past Reading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ce5854d62b4eec0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Kernel Trick.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "245285bfefa9f90d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Support Vector Machines (SVMs).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1b288153c4ce8a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough Notes/Current Reading.md",
+                "file": "Workout 2025.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Kernel Trick.md",
+                "file": "4 - Maps of Content/Current Reading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Kernel Trick.md",
+                "file": "4 - Maps of Content/Current Reading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Kernel Trick.md"
+                "file": "4 - Maps of Content/Current Reading.md"
               }
             }
           }
@@ -183,34 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ce5854d62b4eec0",
+  "active": "567283c12ce93536",
   "lastOpenFiles": [
-    "Support Vector Machines (SVMs).md",
-    "The Kernel Trick.md",
-    "3 - Source Material/LLM Prompting Strategies.md",
-    "Untitled.md",
-    "4 - Maps of Content/Advanced RAG Techniques.md",
+    "1 - Rough Notes/Classification.md",
+    "1 - Rough Notes/Bash (programming language).md",
     "1 - Rough Notes/Past Reading.md",
-    "1 - Rough Notes/Current Reading.md",
+    "4 - Maps of Content/Current Reading.md",
+    "Workout 2025.md",
+    "Tufte's Principles of Graphical Excellence.md",
+    "Untitled.md",
+    "Support Vector Machines (SVMs).md",
+    "Software Best Practice.md",
+    "2 - Full Notes/Shapley values and SHAP.md",
+    "2 - Full Notes/The Kernel Trick.md",
+    "Shannon Entropy.md",
+    "Python Data Validation Tools.md",
+    "Mutual Information as a measure of feature dependence.md",
+    "Mutual Information.md",
+    "LLM Strengths & Weaknesses.md",
+    "Fuzzy Logic.md",
+    "Label Propagation.md",
+    "3 - Source Material/LLM Prompting Strategies.md",
+    "4 - Maps of Content/Advanced RAG Techniques.md",
     "1 - Rough Notes/Future Reading.md",
     "4 - Maps of Content/Reading Lists.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "2 - Full Notes/Web Scraping Proxy Providers.md",
-    "Tufte's Principles of Graphical Excellence.md",
     "4 - Maps of Content/Tasks which may be automated.md",
-    "Software Best Practice.md",
-    "Shannon Entropy.md",
     "2 - Full Notes/Named Entity Recognition (NER).md",
-    "Mutual Information as a measure of feature dependence.md",
-    "Mutual Information.md",
-    "LLM Strengths & Weaknesses.md",
-    "Label Propagation.md",
-    "Kullback-Leibler Divergence.md",
-    "2 - Full Notes/IP address strategies for web scraping.md",
-    "Interesting Ideas.md",
-    "IAM in GCP and AWS.md",
-    "Entropy.md",
-    "Data Engineering Thesaurus.md",
     "7 - assets/Shannon Entropy/probability_vs_information.png",
     "7 - assets/Shannon Entropy",
     "7 - assets/vpn_diagram.jpg",

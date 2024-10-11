@@ -1,13 +1,30 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-10-03 16:02
+modified: 2024-10-10 23:10
 tags:
   - reading
-type: 
+type:
+  - note
 status:
-  - not-started
+  - ongoing
 ---
+If an entry has a "date finished", then I read the whole thing.
+
+| Title                                                                         | Topic                                | Type                    | Author(s)                                                                               | Date finished | Notes                                                                                              | Link(s)                                                                                               |
+| ----------------------------------------------------------------------------- | ------------------------------------ | ----------------------- | --------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Hermes: A Text-to-SQL solution at Swiggy                                      | Large Language Models                | Blog                    | Amaresh M, Rutvik Reddy (Swiggy Bytes tech blog)                                        | 2024-10-10    | Extremely insightful                                                                               | https://bytes.swiggy.com/hermes-a-text-to-sql-solution-at-swiggy-81573fb4fb6e                         |
+| Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown | Large Language Models                | Blog                    | Jina AI                                                                                 | 2024-10-10    |                                                                                                    | https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/    |
+| A simple recipe for model error analysis                                      | Machine Learning                     | Blog                    | Christoph Molnar                                                                        | 2024-10-10    |                                                                                                    | https://mindfulmodeler.substack.com/p/a-simple-recipe-for-model-error-analysis                        |
+| How good are LLMs at doing ML on an unknown dataset?                          | Large Language Models                | Blog                    | [Håvard Tveit Ihle](https://www.lesswrong.com/users/havard-tveit-ihle?from=post_header) | 2024-10-10    |                                                                                                    | https://www.lesswrong.com/posts/Fr6eJkjYWG9Mw6XQc/how-good-are-llms-at-doing-ml-on-an-unknown-dataset |
+| A RAG from scratch to query the scikit-learn documentation                    | Retrieval Augmented Generation (RAG) | Blog                    | Guillaume Lemaitre (probabl)                                                            | 2024-10-09    |                                                                                                    | https://papers.probabl.ai/a-rag-from-scratch-to-query-the-scikit-learn-documentation                  |
+| The Phoenix Project                                                           | Dev-Ops                              | Book                    | Gene Kim, Kevin Behr, George Spafford                                                   | 2024-07-1     | Loved it                                                                                           |                                                                                                       |
+| Tidy First?                                                                   | Software Development                 | Book                    | Kent Beck                                                                               | 2024-06-11    | A cool perspective                                                                                 | <https://www.oreilly.com/library/view/tidy-first/9781098151232/>                                      |
+| LazyVim for Ambitious Developers                                              | neovim                               | Book                    | Dusty Phillips                                                                          |               | Extremely good                                                                                     | <https://lazyvim-ambitious-devs.phillips.codes/>                                                      |
+| Machine Learning Q & AI                                                       | Machine Learning                     | Book                    | Sebastian Raschka                                                                       | 2024-06-11    | I loved that it targeted intermediate level ML practitioners (not beginner and not a textbook)     | <https://www.amazon.com/Machine-Learning-AI-Essential-Questions/dp/1718503768>                        |
+| OAuth2.0 spec                                                                 | security                             | technical documentation | Internet Engineering Task Force                                                         | 2024-06-10    | Very readable                                                                                      | <https://datatracker.ietf.org/doc/html/rfc6749>                                                       |
+| Chronos: Learning the Language of Time Series                                 | Forecasting, Large Language Models   | Paper                   | Ansari et al                                                                            | 2024-05-11    |                                                                                                    | <https://arxiv.org/abs/2403.07815><br><https://github.com/amazon-science/chronos-forecasting>         |
+| Spark: The Definitive Guide                                                   | Apache Spark                         | Book                    | Bill Chambers, Matei Zaharia                                                            |               | Lovely and clear, although a little outdated. Stopped reading when I had the information I needed. |                                                                                                       |
 ## Related
 * [[Current Reading]]
 * [[Future Reading]]
