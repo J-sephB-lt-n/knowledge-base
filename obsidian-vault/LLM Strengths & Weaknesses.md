@@ -2,7 +2,7 @@
 created:
   - 2024-08-27T09:21
   - 2024-08-29T20:01
-modified: 2024-10-01 20:55
+modified: 2024-10-12 12:27
 tags:
   - llm
   - large-language-model
@@ -17,7 +17,9 @@ status:
 ---
 In this note, I am talking specifically about decoder-only autoregressive text generators (such as the GPT and LLama models).
 Large Language Models (LLMs) are auto-regressive text generators (i.e. they generate text one word at a time). By applying additional logic, they can also act as agents, collaborate with each other and use tools (this is achieved by asking them in natural language what they would like to do - some are specifically fine-tuned to respond with structured output facilitating e.g. JSON output, API calls etc.). 
-They are pretrained on massive amounts of existing text data (which means that they memorise superhuman amounts of information and complex language patterns) and then fine-tuned on specific tasks such as chatting to a human, instruction-following, function-calling etc.
+They are pretrained on massive amounts of existing text data (which means that they memorise superhuman amounts of information and complex language patterns - essentially the entire internet) and then are then fine-tuned on specific tasks such as chatting to a human, instruction-following, function-calling etc.
+
+
 
 What language models are good at:
 

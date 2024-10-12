@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-21T22:46
-modified: 2024-06-21 22:47
+modified: 2024-10-12 13:27
 tags:
   - statistics
   - probability
@@ -17,3 +17,4 @@ status:
 
 ## Related
 * [[List of Useful Algorithms]]
+* [[Label Propagation Algorithm]]
