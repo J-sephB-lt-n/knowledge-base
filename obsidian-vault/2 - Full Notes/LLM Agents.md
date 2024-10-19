@@ -1,13 +1,15 @@
 ---
 created:
   - 2024-07-15T10:05
-modified: 2024-07-17 10:07
+modified: 2024-10-13 10:47
 tags:
   - llm
   - large-language-model
   - llm-agents
   - retrieval-augmented-generation
   - rag
+  - agent
+  - agentic
 type:
   - note
 status:
@@ -38,8 +40,8 @@ Examples of tools:
 ## Related
 * [[Applied Large Language Model Concepts]]
 * [[Retrieval-Augmented Generation (RAG)]]
-
 ## References
+* https://github.com/zjunlp/LLMAgentPapers
 * https://www.promptingguide.ai/research/llm-agents
 * https://python.langchain.com/v0.1/docs/modules/agents/ 
 * A Survey on Large Language Model based Autonomous Agents https://arxiv.org/abs/2308.11432

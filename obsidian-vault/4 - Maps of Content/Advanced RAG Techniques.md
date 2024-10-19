@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-10-01T20:49
-modified: 2024-10-06 13:56
+modified: 2024-10-16 12:55
 tags:
   - rag
   - llm
@@ -35,5 +35,4 @@ status:
 ## References
 * [Youtube: RAG Fundamentals and Advanced Techniques – Full Course (free code camp)](https://www.youtube.com/watch?v=InyinN_hHhA)
 ## Related
-
-* Links to other notes which are directly related go here
+* [[Graph RAG]]

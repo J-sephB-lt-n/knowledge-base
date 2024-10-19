@@ -2,7 +2,7 @@
 created:
   - 2024-08-27T09:21
   - 2024-08-29T20:01
-modified: 2024-10-12 12:27
+modified: 2024-10-16 12:54
 tags:
   - llm
   - large-language-model
@@ -19,8 +19,6 @@ In this note, I am talking specifically about decoder-only autoregressive text g
 Large Language Models (LLMs) are auto-regressive text generators (i.e. they generate text one word at a time). By applying additional logic, they can also act as agents, collaborate with each other and use tools (this is achieved by asking them in natural language what they would like to do - some are specifically fine-tuned to respond with structured output facilitating e.g. JSON output, API calls etc.). 
 They are pretrained on massive amounts of existing text data (which means that they memorise superhuman amounts of information and complex language patterns - essentially the entire internet) and then are then fine-tuned on specific tasks such as chatting to a human, instruction-following, function-calling etc.
 
-
-
 What language models are good at:
 
 | Task                                                 | Reason                                                                                                                                                                                                                                          | Notes                                                                                                      |
@@ -31,10 +29,12 @@ What language models are good at:
 
 What language models are bad at:
 
-| Task                                                        | Reason                          | Notes                                                                                                                                                                                            |
-| ----------------------------------------------------------- | :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reasoning                                                   |                                 | LLMs can be tricked into behaviour which resembles reasoning through a combination of clever prompting (e.g. chain-of-thought, ReAct etc.), collaboration, self-evaluation and function-calling. |
-| Achieving coherent structure when generating long documents | LLMs have finite context-length | There are algorithms (such as which can partially alleviate this issue) Main body of note goes here
+| Task                                                                                           | Reason                                | Notes                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------- | :------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reasoning                                                                                      |                                       | LLMs can be tricked into behaviour which resembles reasoning through a combination of clever prompting (e.g. chain-of-thought, self-consistency, ReAct etc.), collaboration, self-evaluation and function-calling. |
+| Achieving coherent structure when generating long documents                                    |                                       | There are algorithms (such as XXX which can partially alleviate this issue)                                                                                                                                        |
+| Question-answering on knowledge sparsely represented in (or missing from) their training data  |                                       | This problem is addressed by Retrieval-Augmented Generation (RAG).                                                                                                                                                 |
+| Working with numbers e.g. producing probability estimates, time series forecasting, regression | LLMs are trained on text and language | LLMs can however use tools and/or generate code which may perform these tasks very well                                                                                                                            |
 ## References
 
 * Links to references (source material) go here
