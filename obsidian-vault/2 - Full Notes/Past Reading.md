@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-10-13 22:32
+modified: 2024-10-21 11:02
 tags:
   - reading
 type:
@@ -13,6 +13,7 @@ If an entry has a "date finished", then I read the whole thing.
 
 | Title                                                                         | Topic                                | Type                    | Author(s)                                                                               | Date finished | Notes                                                                                              | Link(s)                                                                                               |
 | ----------------------------------------------------------------------------- | ------------------------------------ | ----------------------- | --------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| The ultimate guide to error-handling in python                                | python                               | blog                    | Miguel Grinberg                                                                         | 2024-10-18    | Very good                                                                                          | https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python                   |
 | ReAct: synergizing reasoning and acting in language models                    | Large Language Models                | Paper                   | Shunyu Yao et al (google brain)                                                         | 2024-10-13    | Compelling and readable paper                                                                      | https://arxiv.org/abs/2210.03629                                                                      |
 | 8 Things to Know about Large Language Models                                  | Large Language Models                | Paper                   | Samuel R. Bowman                                                                        | 2024-10-12    |                                                                                                    | https://arxiv.org/abs/2304.00612                                                                      |
 | Hermes: A Text-to-SQL solution at Swiggy                                      | Large Language Models                | Blog                    | Amaresh M, Rutvik Reddy (Swiggy Bytes tech blog)                                        | 2024-10-10    | Extremely insightful                                                                               | https://bytes.swiggy.com/hermes-a-text-to-sql-solution-at-swiggy-81573fb4fb6e                         |
