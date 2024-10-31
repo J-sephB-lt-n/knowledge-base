@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-10-11 20:34
+modified: 2024-10-26 23:08
 tags:
   - reading
   - personal-development
@@ -13,6 +13,7 @@ status:
 ---
 | Title                                                                                                | Author                              | Topic                 | Type  | Link(s)                                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------- | --------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| How Docker Containers Work                                                                           |                                     |                       |       | https://www.freecodecamp.org/news/how-docker-containers-work/                                                                           |
 | ML and LLM system design: 450 case studies to learn from                                             | Massive list curated by evidentlyai |                       |       | https://www.evidentlyai.com/ml-system-design                                                                                            |
 | FACTS About Building Retrieval Augmented Generation-based Chatbots                                   | Akkiraju et al (NVIDIA)             | Large Language Models | Paper | https://arxiv.org/abs/2407.07858                                                                                                        |
 | A Comprehensive Guide to RAG Implementations                                                         | Armand Ruiz                         | Large Language Models | Blog  | https://newsletter.armand.so/p/comprehensive-guide-rag-implementations                                                                  |

@@ -1,12 +1,15 @@
 ---
 created:
   - 2024-10-06T22:27
-modified: 2024-10-10 21:54
+modified: 2024-10-29 22:22
 tags:
   - workout
   - fitness
   - personal-development
   - reddit
+  - bodyweight
+  - calisthenics
+  - rings
 type:
   - note
 status:
