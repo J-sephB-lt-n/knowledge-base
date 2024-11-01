@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2ad680ef769269f1",
+        "id": "28c2f176b28659fc",
         "type": "tabs",
         "children": [
           {
-            "id": "ceebe2f2ae4ce6a8",
+            "id": "959b5bb590c0f08d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The GPT Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "440193b06d7be0d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4 - Maps of Content/Current Reading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92445f842004818f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Workout 2025.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1a4652a243ab912",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM Strengths & Weaknesses.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "workout",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workout 2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Workout 2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Workout 2025.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -184,18 +139,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92445f842004818f",
+  "active": "959b5bb590c0f08d",
   "lastOpenFiles": [
+    "Reinforcement Learning.md",
+    "Reflexion - Language Agents with Verbal Reinforcement Learning.md",
+    "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "2 - Full Notes/LLM ReAct Prompting.md",
+    "3 - Source Material/LLM Prompting Strategies.md",
+    "2 - Full Notes/LLM Agents.md",
+    "LLM Strengths & Weaknesses.md",
+    "The GPT Architecture.md",
+    "4 - Maps of Content/Current Reading.md",
+    "Workout 2025.md",
     "2 - Full Notes/Regex lookarounds (lookbehind lookahead).md",
     "2 - Full Notes/How Docker Containers Work.md",
-    "4 - Maps of Content/Current Reading.md",
     "4 - Maps of Content/Tasks which may be automated.md",
     "Chronos - Learning the Language of Time Series.md",
     "2 - Full Notes/Real Python Application Number 1.md",
     "2 - Full Notes/BERT model.md",
     "2 - Full Notes/Named Entity Recognition (NER).md",
-    "The GPT Architecture.md",
-    "LLM Strengths & Weaknesses.md",
     "2 - Full Notes/Past Reading.md",
     "3 - Source Material/A survey on large language model based autonomous agents (paper).md",
     "Miguel Grinberg's Python Error-Handling Strategy.md",
@@ -203,19 +165,12 @@
     "4 - Maps of Content/Advanced RAG Techniques.md",
     "7 - assets/The GPT Architecture/attention_illus.png",
     "3 - Source Material/Build a Large Language Model (From Scratch).md",
-    "3 - Source Material/LLM Prompting Strategies.md",
     "2 - Full Notes/Label Propagation Algorithm.md",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/The GPT Architecture/gpt_architecture_illus.png",
     "7 - assets/The GPT Architecture",
     "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
     "4 - Maps of Content/List of Useful Algorithms.md",
-    "LLMducation.md",
-    "2 - Full Notes/LLM Agents.md",
-    "2 - Full Notes/plotly-dash-dashboard-template (github repo).md",
-    "2 - Full Notes/Label Propagation.md",
-    "2 - Full Notes/Future Reading.md",
-    "3 - Source Material/AI in organizations - Some tactics (blog).md",
     "7 - assets/Shannon Entropy/probability_vs_information.png",
     "7 - assets/Shannon Entropy",
     "7 - assets/vpn_diagram.jpg",
