@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-11-06T09:42
-modified: 2024-11-06 10:03
+modified: 2024-11-06 11:55
 tags:
   - btyd
   - cltv
@@ -31,7 +31,7 @@ BTYD models typical assumptions/workings are as follows:
 	- frequency of purchasing
 	- purchase amounts
 	- probability of being churned/dead 
-- ...are drawn from probabilistic univariate distributions estimated uniquely for each customer.
+- ...are assumed drawn from probabilistic univariate distributions estimated uniquely for each customer.
 ## References
 * [lifetimes (python package)](https://github.com/CamDavidsonPilon/lifetimes)
 * [PyMC-Marketing (python package)](https://github.com/pymc-labs/pymc-marketing?tab=readme-ov-file)
