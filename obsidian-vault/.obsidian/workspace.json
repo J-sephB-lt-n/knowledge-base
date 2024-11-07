@@ -11,10 +11,14 @@
             "id": "7c5740872b5fcffb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "RAG Pipeline Evaluation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "RAG Pipeline Evaluation"
             }
           }
         ]
@@ -160,12 +164,17 @@
   },
   "active": "7c5740872b5fcffb",
   "lastOpenFiles": [
-    "Masked Multi-Head Attention.md",
+    "1 - Rough Notes/Masked Multi-Head Attention.md",
+    "RAG Pipeline Evaluation.md",
+    "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png",
+    "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png.crdownload",
+    "7 - assets/RAG Pipeline Evaluation",
+    "7 - assets/New folder",
+    "7 - assets/New shortcut.lnk",
     "The GPT Architecture.md",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png.crdownload",
     "7 - assets/Masked Multi-Head Attention",
-    "7 - assets/New folder",
     "2 - Full Notes/Workout 2025.md",
     "1 - Rough Notes/Shannon Entropy.md",
     "Reinforcement Learning.md",
@@ -188,7 +197,6 @@
     "4 - Maps of Content/List of Useful Algorithms.md",
     "1 - Rough Notes/Scikit-Learn.md",
     "4 - Maps of Content/Applied Large Language Model Concepts.md",
-    "2 - Full Notes/LLM ReAct Prompting.md",
     "7 - assets/The GPT Architecture/attention_illus.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/The GPT Architecture/gpt_architecture_illus.png",
@@ -201,10 +209,6 @@
     "7 - assets/Label Propagation Algorithm",
     "7 - assets/assets/train_data.png",
     "7 - assets/assets/model_preds.png",
-    "7 - assets/assets",
-    "7 - assets",
-    "2 - Full Notes/7 - assets/assets/train_data.png",
-    "2 - Full Notes/7 - assets/assets",
-    "2 - Full Notes/7 - assets"
+    "7 - assets/assets"
   ]
 }
