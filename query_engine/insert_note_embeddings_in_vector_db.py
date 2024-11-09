@@ -6,7 +6,7 @@ qd_client.create_collection(
     collection_name="note_embeddings",
     vectors_config={
         "jinaai/jina-embeddings-v3": models.VectorParams(
-            size=4, distance=models.Distance.COSINE
+            size=1024, distance=models.Distance.COSINE
         ),
     },
     sparse_vectors_config={"bm25": models.SparseVectorParams()},

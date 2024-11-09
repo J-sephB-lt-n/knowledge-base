@@ -1,6 +1,10 @@
 # Knowledge Base
 
-This is a repository containing any information which I am interested in recording. It is stored as an [obsidian vault](https://obsidian.md/) (I am still migrating everything to this new system), but you may find something interesting by following one of the links in this serendipitous random heap:
+This is a repository containing any information which I am interested in recording. It is stored as an [obsidian vault](https://obsidian.md/) (I am still migrating everything to this new system). 
+
+I'm experimenting with various search strategies - you can find more information in `query_engine/README.md`
+
+GitHub is an inefficient way to navigate this obsidian vault, but you may find something interesting by following one of the links in this serendipitous random heap:
 
 <br>
 
