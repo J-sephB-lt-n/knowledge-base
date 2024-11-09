@@ -6,7 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "einops>=0.8.0", # https://huggingface.co/arkohut/jina-embeddings-v3
-    "numpy<2", # https://huggingface.co/arkohut/jina-embeddings-v3
+    "numpy<2",
+    "qdrant-client>=1.12.1", # https://huggingface.co/arkohut/jina-embeddings-v3
     "torch>=2.5.1", # https://huggingface.co/arkohut/jina-embeddings-v3
     "transformers>=4.46.2", # https://huggingface.co/arkohut/jina-embeddings-v3
 ]
@@ -14,4 +15,6 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipython>=8.29.0",
+    "mypy>=1.13.0",
+    "wat-inspector>=0.4.2",
 ]
