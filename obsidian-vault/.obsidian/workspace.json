@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cbea27767bd3beab",
+        "id": "547ac5b8642b8e67",
         "type": "tabs",
         "children": [
           {
-            "id": "7c5740872b5fcffb",
+            "id": "389f5897795dc8a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG Pipeline Evaluation.md",
+                "file": "ChatGPT Prompt Engineering for Developers (DeepLearning.AI course).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG Pipeline Evaluation"
+              "title": "ChatGPT Prompt Engineering for Developers (DeepLearning.AI course)"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "prompt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 403.5,
-    "collapsed": true
+    "width": 403.5
   },
   "right": {
     "id": "f4cde7520428266c",
@@ -163,10 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c5740872b5fcffb",
+  "active": "389f5897795dc8a2",
   "lastOpenFiles": [
-    "1 - Rough Notes/Masked Multi-Head Attention.md",
+    "Graph RAG.md",
+    "Fuzzy Logic.md",
+    "Entropy.md",
+    "Customer Lifetime Value (CLV,CLTV).md",
+    "Untitled.canvas",
+    "Seizing the AI Opportunity - (2024 conference panel discussion).md",
     "RAG Pipeline Evaluation.md",
+    "1 - Rough Notes/Masked Multi-Head Attention.md",
     "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png",
     "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png.crdownload",
     "7 - assets/RAG Pipeline Evaluation",
@@ -186,10 +192,6 @@
     "1 - Rough Notes/Kullback-Leibler Divergence.md",
     "Interesting Ideas.md",
     "IAM in GCP and AWS.md",
-    "Graph RAG.md",
-    "Fuzzy Logic.md",
-    "Entropy.md",
-    "Customer Lifetime Value (CLV,CLTV).md",
     "2 - Full Notes/BTYD Modelling.md",
     "ChatGPT Prompt Engineering for Developers (DeepLearning.AI course).md",
     "1 - Rough Notes/knowledge-base (github repo).md",
@@ -197,7 +199,6 @@
     "1 - Rough Notes/Json Web Tokens (JWTs).md",
     "4 - Maps of Content/List of Useful Algorithms.md",
     "1 - Rough Notes/Scikit-Learn.md",
-    "4 - Maps of Content/Applied Large Language Model Concepts.md",
     "7 - assets/The GPT Architecture/attention_illus.png",
     "7 - assets/Label Propagation Algorithm/train_data.png",
     "7 - assets/The GPT Architecture/gpt_architecture_illus.png",
@@ -205,7 +206,6 @@
     "7 - assets/Shannon Entropy/probability_vs_information.png",
     "7 - assets/Shannon Entropy",
     "7 - assets/vpn_diagram.jpg",
-    "Untitled.canvas",
     "7 - assets/Label Propagation Algorithm/model_preds.png",
     "7 - assets/Label Propagation Algorithm",
     "7 - assets/assets/train_data.png",
