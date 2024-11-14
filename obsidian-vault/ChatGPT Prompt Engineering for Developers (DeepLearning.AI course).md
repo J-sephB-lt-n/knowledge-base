@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-11-04T21:25
-modified: 2024-11-13 10:37
+modified: 2024-11-14 21:22
 tags:
   - llm
   - large-language-model
@@ -30,9 +30,22 @@ This note is my own brief summary of the course content.
 		- Tactic 2: Request output in a specific standard output format. [example](#Guidelines%20>>%20Principle%202%20>>%20Tactic%202%20Request%20output%20in%20a%20specific%20standard%20output%20format)
 		- Tactic 3: Tell the model to perform the task itself first (and use this for comparison) rather than reviewing someone else's work directly. [example](#Guidelines%20>>%20Principle%202%20>>%20Tactic%203%20Tell%20the%20model%20to%20perform%20the%20task%20itself%20first%20(and%20use%20this%20for%20comparison)%20rather%20than%20reviewing%20someone%20else's%20work%20directly)
 - Iterative Prompt Development
-		- Treat the creation of the prompt as you would training of a Machine Learning model i.e. iteratively improve the prompt, at each step comparing/evaluating the model output against a predefined set of test cases and/or metrics
-		- Be structured about iterative development. Keep a record of what was tried and what the outcome was
-		- Possibly consider also a train/test split so that the prompt is not overfit to a small specific set of evaluation examples 
+	- Treat the creation of the prompt as you would training of a Machine Learning model i.e. iteratively improve the prompt, at each step comparing/evaluating the model output against a predefined set of test cases and/or metrics
+	- Be structured about iterative development. Keep a record of what was tried and what the outcome was
+	- Possibly consider also a train/test split so that the prompt is not overfit to a small specific set of evaluation examples 
+- Summarising
+	- LLMs are amazing at interpreting natural language and manipulating text.
+	- They can easily generate summaries of different types, or for different audiences e.g. "Your task is to summarise the following text, including only details relevant to the pricing department"
+- Inferring
+	- LLMs are very good at classification tasks based on raw text input e.g. sentiment analysis, labelling, categorisation, topic extraction, tagging, information extraction etc. They can do this via prompting alone i.e. no separate training or fine-tuning steps are required. [example](#Inferring)
+- Transforming
+	- LLMs are very good at mutating/reforming/translating text. Some example uses:
+		- Identifying what language a piece of text is in
+		- Translating between different languages (e.g. English -> Chinese)
+		- Changing writing tone (e.g. informal to formal, verbose/academic to simple)
+		- Translating between different computer formats e.g. html->markdown or XML->JSON etc.
+		- Spelling, grammar and style checking
+		  
 # Examples 
 
 ### Guidelines >> Principle 1 >> Tactic 1 : Use delimiters to clearly separate different parts of the input
@@ -155,6 +168,26 @@ correct or incorrect
 
 Here is the student's solution:
 {students_solution_text}
+""".strip()
+```
+
+### Inferring
+
+```python
+prompt = f"""
+Identify the following items from the review text: 
+- Sentiment (positive or negative)
+- Is the reviewer expressing anger? (true or false)
+- Item purchased by reviewer
+- Company that made the item
+
+The review is delimited with triple backticks. 
+Format your response as a JSON object with "Sentiment", "Anger", "Item" and "Brand" as the keys.
+If the information isn't present, use "unknown" as the value.
+Make your response as short as possible.
+Format the Anger value as a boolean.
+
+Review text: '''{review_text}'''
 """.strip()
 ```
 ## References
