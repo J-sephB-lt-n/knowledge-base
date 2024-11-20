@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-11-18T15:16
-modified: 2024-11-18 19:57
+modified: 2024-11-20 16:29
 tags:
   - llm
   - llm-evaluation
@@ -15,13 +15,13 @@ tags:
 type:
   - note
 status:
-  - in-progress
+  - completed
 ---
 [RefChecker](https://arxiv.org/abs/2405.14486) is a paper (and framework) released by Amazon AWS AI team in May 2024. It is a "fully automated framework that scales hallucination detection across different tasks" (their words). 
 
 i.e. [RefChecker](https://arxiv.org/abs/2405.14486) is a system for measuring/evaluating hallucination in large language models (LLMs).
 
-[RefChecker](https://arxiv.org/abs/2405.14486) works by comparing LLM output to known ground truth. i.e. it measures the agreement between the LLM response and the known correct answer to the question.   
+[RefChecker](https://arxiv.org/abs/2405.14486) works by comparing LLM output to known ground truth. i.e. it measures the agreement between the LLM answer to the question and the known correct answer to the question.   
 ## Claim Triplets 
 [RefChecker](https://arxiv.org/abs/2405.14486) uses *claim triplets* (or *knowledge triplets*) in order to represent a *single unit of factual information*. *Claim triplets* have the form: 
 
@@ -43,9 +43,9 @@ Examples of *claim triplets*:
 *Claim-triplets* are used because:
 - TODO
 ## How RefChecker Works
-1. A LLM generates an answer to a user question, for which there is a known correct answer (the *reference*).
-3. A different LLM (the claim *extractor*) is used to extract a set of *claim-triplets* from the LLM response. See [the prompt used for the extractor (from the original paper)](#The%20prompt%20used%20for%20the%20extractor)
-4. Another LLM (the claim *checker*) labels each extracted *claim triplet* as one of:
+1. A LLM generates an answer to a user question, for which there is a known correct answer (the *reference*). The answer could be generated on the LLMs own knowledge, from noisy context (RAG), or from clean context (e.g. summarisation or information extraction).
+2.  A different LLM (the claim *extractor*) is used to extract a set of *claim-triplets* from the LLM response. See [the prompt used for the extractor (from the original paper)](#The%20prompt%20used%20for%20the%20extractor)
+3. Another LLM (the claim *checker*) labels each extracted *claim triplet* as one of:
 	1. "Entailed" - the claim (information) in the LLM response is included in (and is in agreement with) the ground truth *reference* (known correct answer) i.e. ***the LLM claim is correct***.
 	2. "Contradicting" - the claim (information) in the LLM response is not supported by any information in the the ground truth *reference* (known correct answer), **and** there is information in the ground truth *reference* which actively contradicts the LLM response i.e. ***The LLM claim is incorrect***.
 	3. "Neutral" - the claim (information) in the LLM response is not included in the ground truth *reference* (known correct answer), or nothing in the ground truth *reference* contradicts the LLM claim i.e. ***we don't know whether the LLM claim is correct or not***  
@@ -57,7 +57,8 @@ flowchart TD
     C --|yes|--> D[Label=Contradicting]
     C --|no|--> E[Label=Neutral]
 ```
-  
+  In order to measure the amount of hallucination in a particular LLM response, the hallucination distribution can be reported (i.e. the relative proportions of entailing, neutral and contradictory claims).
+  A particular LLM can be globally assessed across all of it's responses by taking a macro average across it's claim ratios (i.e. mean %entailment, mean %neutral, mean %contradicting across all LLM responses).    
 ## The prompt used for the extractor
 This is the prompt used for the *claim-triplet* *extractor* LLM, from [the original RagChecker paper](https://arxiv.org/abs/2405.14486).
 I don't know why there are so many grammatical errors in it - it may be that the authors are not first-language English speakers, or that the paper on Arxiv is a preprint.
