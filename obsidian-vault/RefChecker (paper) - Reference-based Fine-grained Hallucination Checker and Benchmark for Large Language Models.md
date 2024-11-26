@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-11-18T15:16
-modified: 2024-11-20 16:29
+modified: 2024-11-26 15:42
 tags:
   - llm
   - llm-evaluation
@@ -19,9 +19,20 @@ status:
 ---
 [RefChecker](https://arxiv.org/abs/2405.14486) is a paper (and framework) released by Amazon AWS AI team in May 2024. It is a "fully automated framework that scales hallucination detection across different tasks" (their words). 
 
-i.e. [RefChecker](https://arxiv.org/abs/2405.14486) is a system for measuring/evaluating hallucination in large language models (LLMs).
+i.e. [RefChecker](https://arxiv.org/abs/2405.14486) is a system for measuring hallucination in large language models (LLMs).
 
-[RefChecker](https://arxiv.org/abs/2405.14486) works by comparing LLM output to known ground truth. i.e. it measures the agreement between the LLM answer to the question and the known correct answer to the question.   
+[RefChecker](https://arxiv.org/abs/2405.14486) works by comparing LLM output to known ground truth. i.e. it measures the agreement between the LLM answer to a user question against the known correct answer to the question.   
+
+## Example
+
+| Step | Explanation                                                                                                                                                                                                                                                                                                                                                         | Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | LLM is presented with a user query<br>(to which there is a known correct answer)                                                                                                                                                                                                                                                                                    | Query: “What are the common side effects of ibuprofen?”<br><br>Correct answer (ground truth): “Common side effects of ibuprofen are headaches, dizziness and nausea. Difficulty breathing is not a common side effect.”                                                                                                                                                                                                                                                                 |
+| 2    | LLM generates a response to the user query                                                                                                                                                                                                                                                                                                                          | LLM answer: “Ibuprofen is a commonly used nonsteroidal anti-inflammatory drug (NSAID) that helps reduce inflammation, pain, and fever. Common side effects of ibuprofen include nausea, giddiness and respiratory trouble.”                                                                                                                                                                                                                                                             |
+| 3    | An “extractor” LLM extracts knowledge triplets from the LLM response ([prompt used for the extractor](#The%20prompt%20used%20for%20the%20extractor))                                                                                                                                                                                                                | <I used ChatGPT 4o mini>  <br>("Ibuprofen", "is", "nonsteroidal anti-inflammatory drug (NSAID)")  <br>("Ibuprofen", "helps reduce", "inflammation")  <br>("Ibuprofen", "helps reduce", "pain")  <br>("Ibuprofen", "helps reduce", "fever")  <br>("Ibuprofen", "common side effects include", "nausea")  <br>("Ibuprofen", "common side effects include", "giddiness")  <br>("Ibuprofen", "common side effects include", "respiratory trouble")                                          |
+| 4    | A “checker” LLM labels each extracted knowledge triplet as one of:<br>- “Entailment”: ground truth reference supports the claim<br>- “Neutral”: ground truth reference neither supports nor contradicts the claim<br>- “Contradicting”: ground truth reference contradicts the claim<br>([prompt used for the checker](#The%20prompt%20used%20for%20the%20checker)) | <I used ChatGPT 4o mini>  <br>NEUTRAL ("Ibuprofen", "is", "nonsteroidal anti-inflammatory drug (NSAID)")NEUTRAL ("Ibuprofen", "helps reduce", "inflammation")NEUTRAL ("Ibuprofen", "helps reduce", "pain")  <br>NEUTRAL ("Ibuprofen", "helps reduce", "fever")  <br>ENTAILMENT ("Ibuprofen", "common side effects include", "nausea")NEUTRAL ("Ibuprofen", "common side effects include", "giddiness")CONTRADICTION ("Ibuprofen", "common side effects include", "respiratory trouble") |
+| 5    | The distribution of assigned labels is used to create model evaluation metrics                                                                                                                                                                                                                                                                                      | 14%  \|\|          ENTAILMENT  <br>72%  \|\|\|\|\|\|\|      NEUTRAL  <br>14%  \|\|          CONTRADICTION                                                                                                                                                                                                                                                                                                                                                                               |
+
 ## Claim Triplets 
 [RefChecker](https://arxiv.org/abs/2405.14486) uses *claim triplets* (or *knowledge triplets*) in order to represent a *single unit of factual information*. *Claim triplets* have the form: 
 
@@ -39,9 +50,6 @@ Examples of *claim triplets*:
 - (Albert Einstein) --was born in--> (Ulm, Germany)
 
 *Claim* (or *knowledge*) *triplets* are a standard way to represent the relation between 2 conceptual entities, used in many different domains (e.g. knowledge graphs). You can see more examples of *claim triplets* in [the prompt used for the extractor model](#The%20prompt%20used%20for%20the%20extractor).
-
-*Claim-triplets* are used because:
-- TODO
 ## How RefChecker Works
 1. A LLM generates an answer to a user question, for which there is a known correct answer (the *reference*). The answer could be generated on the LLMs own knowledge, from noisy context (RAG), or from clean context (e.g. summarisation or information extraction).
 2.  A different LLM (the claim *extractor*) is used to extract a set of *claim-triplets* from the LLM response. See [the prompt used for the extractor (from the original paper)](#The%20prompt%20used%20for%20the%20extractor)
@@ -97,7 +105,8 @@ Now generate the KG for the following candidate answer based on the provided que
 ### Question:
 {q}
 
-### Candidate Answer: {a}
+### Candidate Answer: 
+{a}
 
 ### KG:
 ```
@@ -111,8 +120,7 @@ The reference is a list of passages, and the claim is represented as a triplet f
 
 If the claim is supported by ANY passage in the reference, answer 'Entailment'.
 If NO passage in the reference entail the claim, and the claim is contradicted with some passage in the reference, answer 'Contradiction'.
-If NO
-passage entail or contradict with claim, or DOES NOT contain information to verify the claim, answer 'Neutral'.
+If NO passage entail or contradict with claim, or DOES NOT contain information to verify the claim, answer 'Neutral'.
 
 Please DO NOT use your own knowledge for the judgement, just compare the reference and the claim to get the answer.
 
@@ -132,3 +140,4 @@ Your answer should always be only a single word in ['Entailment', 'Neutral', 'Co
 * [(paper) RefChecker: Reference-based Fine-grained Hallucination Checker and Benchmark for Large Language Models](https://arxiv.org/abs/2405.14486)
 ## Related
 * [Applied Large Language Model Concepts](Applied%20Large%20Language%20Model%20Concepts.md)
+* [RagChecker (paper) - A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation](RagChecker%20(paper)%20-%20A%20Fine-grained%20Framework%20for%20Diagnosing%20Retrieval-Augmented%20Generation.md)
