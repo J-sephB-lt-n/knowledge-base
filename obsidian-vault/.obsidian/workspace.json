@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Jailbreaking Techniques.md",
+                "file": "RAG Pipeline Evaluation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Jailbreaking Techniques"
+              "title": "RAG Pipeline Evaluation"
             }
           }
         ]
@@ -164,10 +164,11 @@
   },
   "active": "b5a9daba2f53d969",
   "lastOpenFiles": [
+    "Python Data Validation Tools.md",
+    "LLM Jailbreaking Techniques.md",
     "RagChecker (paper) - A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation.md",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/relevant_noise_sensitivity.png",
-    "LLM Jailbreaking Techniques.md",
     "7 - assets/RagChecker/individual_metric_diags/context_utilisation.png",
     "7 - assets/RagChecker/individual_metric_diags/self_knowledge.png",
     "7 - assets/RagChecker/individual_metric_diags/hallucination.png",
@@ -207,7 +208,6 @@
     "2 - Full Notes/Workout 2025.md",
     "1 - Rough Notes/Shannon Entropy.md",
     "2 - Full Notes/Reflexion - Language Agents with Verbal Reinforcement Learning.md",
-    "Python Data Validation Tools.md",
     "1 - Rough Notes/Mutual Information.md",
     "Mutual Information as a measure of feature dependence.md"
   ]

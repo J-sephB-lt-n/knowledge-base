@@ -54,5 +54,5 @@ I found this beautiful image on https://github.com/amazon-science/RAGChecker and
 * https://docs.llamaindex.ai/en/stable/examples/evaluation/QuestionGeneration/
 * https://github.com/amazon-science/RAGChecker
 ## Related
-
-* Links to other notes which are directly related go here
+* [RagChecker (paper) - A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation](RagChecker%20(paper)%20-%20A%20Fine-grained%20Framework%20for%20Diagnosing%20Retrieval-Augmented%20Generation.md)
+* [RefChecker (paper) - Reference-based Fine-grained Hallucination Checker and Benchmark for Large Language Models](RefChecker%20(paper)%20-%20Reference-based%20Fine-grained%20Hallucination%20Checker%20and%20Benchmark%20for%20Large%20Language%20Models.md)
