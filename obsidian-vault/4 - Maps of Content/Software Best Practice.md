@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-08-12T21:07
-modified: 2024-10-01 20:57
+modified: 2024-12-09 19:58
 tags:
   - software
   - code
@@ -9,13 +9,15 @@ tags:
   - dev
   - engineering
 type:
-  - note
+  - map-of-content
 status:
   - ongoing
 ---
 Some general notes.
 
 - Version control
+- Dependency management
+- Containerisation
 - Testing (smoke, unit, integration, end-to-end)
 - CI/CD
 - Documentation (README, comments, docstrings, type-annotations)
@@ -29,5 +31,4 @@ Some general notes.
 	3. Efficiency (resources are used optimally)
 	4. Reliability (system maintains it's composure when things go wrong)
 ## Related
-
 * Links to other notes which are directly related go here
