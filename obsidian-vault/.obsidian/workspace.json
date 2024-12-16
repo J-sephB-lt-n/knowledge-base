@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "386badfbc3859cff",
+        "id": "0ff9153f50321ab8",
         "type": "tabs",
         "children": [
           {
-            "id": "0407084287fbcbdf",
+            "id": "d1acff5866013ec8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subnets.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Subnets"
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subnet",
+                "query": "normal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +69,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,8 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0407084287fbcbdf",
+  "active": "d1acff5866013ec8",
   "lastOpenFiles": [
+    "2 - Full Notes/Data Ingestion Best Practices.md",
+    "3 - Source Material/Inspired- how to create tech products customers love.md",
+    "3 - Source Material/A survey on large language model based autonomous agents (paper).md",
+    "2 - Full Notes/Relational Database Normalisation.md",
     "Subnets.md",
     "2 - Full Notes/LLM SQL Agents.md",
     "2 - Full Notes/BTYD Modelling.md",
@@ -187,7 +186,6 @@
     "2 - Full Notes/CIDI Prompting Strategy.md",
     "ChatGPT Prompt Engineering for Developers (DeepLearning.AI course).md",
     "mini.surround.md",
-    "Python Data Validation Tools.md",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/relevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/context_utilisation.png",
@@ -203,9 +201,6 @@
     "7 - assets/RagChecker/New folder",
     "7 - assets/RagChecker/ragchecker_metrics_simplified.png.crdownload",
     "7 - assets/RagChecker",
-    "4 - Maps of Content/List of Useful Algorithms.md",
-    "3 - Source Material/LLM Prompting Strategies.md",
-    "Fuzzy Logic.md",
     "Untitled.canvas",
     "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png.crdownload",
     "7 - assets/RAG Pipeline Evaluation",

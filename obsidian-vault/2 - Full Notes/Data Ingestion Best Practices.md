@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-03T14:09
-modified: 2024-07-04 09:23
+modified: 2024-12-16 19:50
 tags:
   - data
   - ETL
@@ -46,4 +46,4 @@ status:
 	* Parallelisation
 	* Compression
 * Data ingestion should be an automated process
-* Data in a relational database should be normalised (i.e. in 3rd normal form)
+* Data in a relational database should be normalised (i.e. in 3rd normal form). 
