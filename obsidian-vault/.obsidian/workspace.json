@@ -11,10 +11,14 @@
             "id": "d1acff5866013ec8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Data Dictionaries in PostgreSQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Data Dictionaries in PostgreSQL"
             }
           }
         ]
@@ -160,6 +164,7 @@
   },
   "active": "d1acff5866013ec8",
   "lastOpenFiles": [
+    "Data Dictionaries in PostgreSQL.md",
     "2 - Full Notes/Data Ingestion Best Practices.md",
     "3 - Source Material/Inspired- how to create tech products customers love.md",
     "3 - Source Material/A survey on large language model based autonomous agents (paper).md",
@@ -185,7 +190,6 @@
     "Entropy.md",
     "2 - Full Notes/CIDI Prompting Strategy.md",
     "ChatGPT Prompt Engineering for Developers (DeepLearning.AI course).md",
-    "mini.surround.md",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/relevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/context_utilisation.png",
