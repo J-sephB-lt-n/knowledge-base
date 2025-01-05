@@ -16,7 +16,7 @@ folders_to_include: tuple[str, ...] = (
 
 for path in Path("obsidian-vault").rglob("*.md"):
     if path.parts[1] in (folders_to_include):
-        markdown_links.append(f"[{path.name}](./{str(path).replace(" ", "%20")})")
+        markdown_links.append(f"[{path.name}](./{path.as_posix().replace(" ", "%20")})")
 
 random.shuffle(markdown_links)
 
