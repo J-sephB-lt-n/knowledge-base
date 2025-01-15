@@ -1,13 +1,15 @@
 ---
 created:
   - 2025-01-14T22:52
-modified: 2025-01-14 23:32
+modified: 2025-01-15 23:12
 tags:
   - python
   - design-patterns
   - software
   - software-engineering
   - dev
+  - builder-pattern
+  - polymorphism
 type:
   - note
 status:
@@ -16,6 +18,9 @@ status:
 These are my notes I took while working through the Linkedin-Learning course [Advanced Python: Build Hands-On Projects with Design Patterns](https://www.linkedin.com/learning/advanced-python-build-hands-on-projects-with-design-patterns)
 
 * [What are Design Patterns?](#What%20are%20Design%20Patterns?)
+* [Inheritance](#Inheritance)
+* [Polymorphism](#Polymorphism)
+* [Builder Pattern](#Builder%20Pattern)
 ## What are Design Patterns?
 
 _Design patterns_ are language-neutral solutions for common software problems.
@@ -30,14 +35,15 @@ A child class:
 ## Polymorphism
 
 * Depends on inheritance
-* Polymorphism refers to being able to use objects of different classes interchangeably because they share the same interface
+* Polymorphism is the ability of an object (e.g. entity or class) to take on different forms.
 Examples:
+
 ```python
 # Run-time Polymorphism (Method Overriding):
 # (subclass provides specific implementation of method defined in it's superclass (parent class)
 class StorageClient:
 	def save_file(file_contents: bytes, file_name: str):
-		raise NotImplementedError
+		NotImplementedError
 
 class LocalFilesystemClient(StorageClient):
 	def save_file(file_contents: bytes, file_name: str):
@@ -66,6 +72,10 @@ def greet(self, name: str = None, time_of_day: str = None) -> str:
 	else: 
 		return "Hello"
 ```
+
+## Builder Pattern
+
+A creational design pattern.
 ## References
 
 * Links to references (source material) go here
