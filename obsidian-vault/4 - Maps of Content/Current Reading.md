@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-10-26 23:08
+modified: 2025-01-26 20:16
 tags:
   - reading
   - personal-development
@@ -13,6 +13,7 @@ status:
 ---
 | Title                                                                                                | Author                              | Topic                 | Type  | Link(s)                                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------- | --------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| o1 isn’t a chat model (and that’s the point)                                                         | Ben Hylak, Swyx, Alessio            | Large Language Models | Blog  | https://www.latent.space/p/o1-skill-issue                                                                                               |
 | How Docker Containers Work                                                                           |                                     |                       |       | https://www.freecodecamp.org/news/how-docker-containers-work/                                                                           |
 | ML and LLM system design: 450 case studies to learn from                                             | Massive list curated by evidentlyai |                       |       | https://www.evidentlyai.com/ml-system-design                                                                                            |
 | FACTS About Building Retrieval Augmented Generation-based Chatbots                                   | Akkiraju et al (NVIDIA)             | Large Language Models | Paper | https://arxiv.org/abs/2407.07858                                                                                                        |

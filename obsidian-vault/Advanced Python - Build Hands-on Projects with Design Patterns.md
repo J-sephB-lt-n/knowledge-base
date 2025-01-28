@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-14T22:52
-modified: 2025-01-15 23:12
+modified: 2025-01-16 20:51
 tags:
   - python
   - design-patterns
@@ -13,7 +13,7 @@ tags:
 type:
   - note
 status:
-  - in-progress
+  - abandoned
 ---
 These are my notes I took while working through the Linkedin-Learning course [Advanced Python: Build Hands-On Projects with Design Patterns](https://www.linkedin.com/learning/advanced-python-build-hands-on-projects-with-design-patterns)
 
@@ -75,7 +75,11 @@ def greet(self, name: str = None, time_of_day: str = None) -> str:
 
 ## Builder Pattern
 
-A creational design pattern.
+A creational design pattern which addresses the "Telescoping Constructor" anti-pattern.
+
+The [Builder Pattern](#Builder%20Pattern) aims to reduce the complexity which results when constructing a complex object.
+
+
 ## References
 
 * Links to references (source material) go here
