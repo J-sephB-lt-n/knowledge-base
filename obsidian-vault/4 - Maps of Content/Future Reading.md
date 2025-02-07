@@ -1,21 +1,23 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-10-03 15:59
+modified: 2025-02-07 20:09
 tags:
   - reading
 type:
-  - note
+  - map-of-content
 status:
   - ongoing
 ---
-I want this note to sync with this github repo: https://github.com/J-sephB-lt-n/my-reading-list/blob/main/future.md
+
 ## Future (haven't read yet)
 
 These are ordered by priority:
 
 | Title                                                                                                     | Topic                     | Type        | Author(s)                | Link(s)                                                                            |
 | --------------------------------------------------------------------------------------------------------- | ------------------------- | ----------- | ------------------------ | ---------------------------------------------------------------------------------- |
+| Understanding Reasoning LLMs                                                                              | LLM Reasoning             | Blob        | Sebastian Raschka        | https://sebastianraschka.com/blog/2025/understanding-reasoning-llms.html           |
+| Open-source DeepResearch – Freeing our search agents                                                      | Large Language Models     | Blog        |                          | https://huggingface.co/blog/open-deep-research                                     |
 | Causal Inference for The Brave and True                                                                   | Causality                 | Online book | Matheus Facure Alves     | <https://matheusfacure.github.io/python-causality-handbook/>                       |
 | Fortune's Formula                                                                                         | Investing                 | Book        | William Poundstone       | <https://www.amazon.com/Fortunes-Formula-Scientific-Betting-Casinos/dp/B072VX7DCS> |
 | Task-Oriented Dialogue with In-Context Learning                                                           | Large Language Models     | Paper       | Bocklisch et al          | <https://arxiv.org/abs/2402.12234>                                                 |

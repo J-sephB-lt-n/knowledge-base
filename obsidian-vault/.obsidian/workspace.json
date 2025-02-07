@@ -4,39 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "fbeb0c32fa535e60",
+        "id": "26424c25800ae71f",
         "type": "tabs",
         "children": [
           {
-            "id": "4fd648c1374613a0",
+            "id": "c766e04a686ef6f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Adaptation of LLMs.md",
+                "file": "4 - Maps of Content/Future Reading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Domain Adaptation of LLMs"
+              "title": "Future Reading"
             }
           },
           {
-            "id": "a1cf078560de588e",
+            "id": "9b4cacb76c3cb592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM API Cost Comparison.md",
+                "file": "2 - Full Notes/Past Reading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM API Cost Comparison"
+              "title": "Past Reading"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prompt",
+                "query": "readi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,11 +178,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1cf078560de588e",
+  "active": "c766e04a686ef6f2",
   "lastOpenFiles": [
+    "2 - Full Notes/Past Reading.md",
+    "4 - Maps of Content/Future Reading.md",
+    "1 - Rough Notes/Json Web Tokens (JWTs).md",
+    "4 - Maps of Content/LLM API Cost Comparison.md",
+    "IAM in GCP and AWS.md",
+    "Graph RAG.md",
+    "Fuzzy Logic.md",
+    "4 - Maps of Content/Collection of LLM Prompts.md",
+    "Cognitive Architectures for Language Agents (CoALA).md",
+    "Chronos - Learning the Language of Time Series.md",
+    "Advanced Python - Build Hands-on Projects with Design Patterns.md",
+    "4 - Maps of Content/Reading Lists.md",
+    "4 - Maps of Content/Current Reading.md",
+    "4 - Maps of Content/Data Engineering Thesaurus.md",
+    "4 - Maps of Content/Data Engineering.md",
+    "4 - Maps of Content/Causal Inference.md",
+    "4 - Maps of Content/Applied Large Language Model Concepts.md",
+    "4 - Maps of Content/Advanced RAG Techniques.md",
+    "4 - Maps of Content/Python.md",
+    "2 - Full Notes/Domain Adaptation of LLMs.md",
     "2 - Full Notes/semantic-search-engine (github repo).md",
-    "LLM API Cost Comparison.md",
-    "Domain Adaptation of LLMs.md",
     "Untitled.md",
     "pgvector vs QDrant.md",
     "2 - Full Notes/Label Propagation Algorithm.md",
@@ -189,24 +208,6 @@
     "2 - Full Notes/RagChecker (paper) - A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation.md",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",
     "7 - assets/Possible approaches to LLM Domain Adaptation",
-    "Collection of LLM Prompts.md",
-    "LLM Strengths & Weaknesses.md",
-    "4 - Maps of Content/Current Reading.md",
-    "2 - Full Notes/How to see the GPT-4 System Prompt.md",
-    "2 - Full Notes/ChatGPT Prompt Engineering for Developers (DeepLearning.AI course).md",
-    "The Strategy Design Pattern.md",
-    "2 - Full Notes/Dependency Injection.md",
-    "Advanced Python - Build Hands-on Projects with Design Patterns.md",
-    "2 - Full Notes/Subnets.md",
-    "4 - Maps of Content/Important LLM Concepts.md",
-    "Graph RAG.md",
-    "Entropy.md",
-    "Interesting Ideas.md",
-    "Cognitive Architectures for Language Agents (CoALA).md",
-    "Data Dictionaries in PostgreSQL.md",
-    "2 - Full Notes/Data Ingestion Best Practices.md",
-    "3 - Source Material/Inspired- how to create tech products customers love.md",
-    "3 - Source Material/A survey on large language model based autonomous agents (paper).md",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/relevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/context_utilisation.png",

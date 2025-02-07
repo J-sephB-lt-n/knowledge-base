@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-30T09:25
-modified: 2025-01-30 13:10
+modified: 2025-02-02 20:42
 tags:
   - llm
   - large-language-model
@@ -16,7 +16,7 @@ tags:
 type:
   - map-of-content
 status:
-  - in-progress
+  - ongoing
 ---
 This is my own tracking of cost of Large Language Model inference under different API services which I use
 (500 words is approximately the amount fitting onto an A4 page with reasonable margins and spacing):

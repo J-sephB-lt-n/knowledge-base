@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-27T12:39
-modified: 2025-01-28 12:10
+modified: 2025-02-02 20:40
 tags:
   - llm
   - fine-tuning
@@ -22,7 +22,6 @@ type:
 status:
   - in-progress
 ---
-Main body of note goes here
 
 ## Possible approaches to LLM Domain Adaptation
 
@@ -41,8 +40,6 @@ In decreasing order of difficulty:
 
 ![](../7%20-%20assets/Possible%20approaches%20to%20LLM%20Domain%20Adaptation/choose_domain_adaptation_method.png)
 Source: https://ai.meta.com/blog/adapting-large-language-models-llms/
-## Use-cases
-
 ## Other notes
 
 Algorithms like LoRA and QLoRa make tuning large models more feasible
@@ -52,5 +49,6 @@ Algorithms like LoRA and QLoRa make tuning large models more feasible
 * [LoRA Land: 310 Fine-tuned LLMs that Rival GPT-4, A Technical Report](https://arxiv.org/abs/2405.00732)
 * https://www.llama.com/docs/how-to-guides/fine-tuning/
 ## Related
-
-* Links to other notes which are directly related go here
+* [Advanced RAG Techniques](Advanced%20RAG%20Techniques.md)
+* [Retrieval-Augmented Generation (RAG)](Retrieval-Augmented%20Generation%20(RAG).md)
+* [Searching for Best Practices in Retrieval-Augmented Generation (paper)](Searching%20for%20Best%20Practices%20in%20Retrieval-Augmented%20Generation%20(paper).md)

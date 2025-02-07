@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2024-10-21 11:02
+modified: 2025-02-07 20:08
 tags:
   - reading
 type:
@@ -13,6 +13,7 @@ If an entry has a "date finished", then I read the whole thing.
 
 | Title                                                                         | Topic                                | Type                    | Author(s)                                                                               | Date finished | Notes                                                                                              | Link(s)                                                                                               |
 | ----------------------------------------------------------------------------- | ------------------------------------ | ----------------------- | --------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| SmolAgents: Introduction to Agents                                            | LLM Agents                           | Package docs            |                                                                                         | 2025-02-07    | Insanely good. Changed my mind about agent frameworks                                              | https://huggingface.co/docs/smolagents/conceptual_guides/intro_agents                                 |
 | The ultimate guide to error-handling in python                                | python                               | blog                    | Miguel Grinberg                                                                         | 2024-10-18    | Very good                                                                                          | https://blog.miguelgrinberg.com/post/the-ultimate-guide-to-error-handling-in-python                   |
 | ReAct: synergizing reasoning and acting in language models                    | Large Language Models                | Paper                   | Shunyu Yao et al (google brain)                                                         | 2024-10-13    | Compelling and readable paper                                                                      | https://arxiv.org/abs/2210.03629                                                                      |
 | 8 Things to Know about Large Language Models                                  | Large Language Models                | Paper                   | Samuel R. Bowman                                                                        | 2024-10-12    |                                                                                                    | https://arxiv.org/abs/2304.00612                                                                      |
