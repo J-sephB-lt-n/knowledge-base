@@ -1,11 +1,11 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2025-02-07 20:08
+modified: 2025-02-14 09:58
 tags:
   - reading
 type:
-  - note
+  - map-of-content
 status:
   - ongoing
 ---

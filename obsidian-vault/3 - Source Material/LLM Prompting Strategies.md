@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-09-11T09:15
-modified: 2024-11-23 21:23
+modified: 2025-02-14 09:55
 tags:
   - llm
   - nlp
@@ -19,6 +19,12 @@ type:
 status:
   - ongoing
 ---
+# The Prompt Report: A Systematic Survey of Prompting Techniques
+
+- Website: https://trigaten.github.io/Prompt_Survey_Site/ 
+- Paper: https://arxiv.org/pdf/2406.06608
+
+# General Notes
 
 | Prompting Technique                     | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Link(s)                                                                                                              |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -37,6 +43,7 @@ status:
 | Verbal reinforcement                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                      |
 | ReAct                                   | LLM is coerced into interleaved thought->act->observe->thought steps by giving it examples of this behaviour in it's prompt.<br>This improves LLM reasoning on complex tasks.                                                                                                                                                                                                                                                                                                                                                      | https://arxiv.org/abs/2210.03629                                                                                     |
 ## References
+* [The Prompt Report: A Systematic Survey of Prompting Techniques](https://arxiv.org/pdf/2406.06608)
 * Youtube video: [Anthropic: AI prompt engineering: A deep dive](https://www.youtube.com/watch?v=T9aRN5JkmL8)
 * https://www.promptingguide.ai/
 * Paper: [Large Language Models Understand and Can be Enhanced by Emotional Stimuli](https://arxiv.org/abs/2307.11760)

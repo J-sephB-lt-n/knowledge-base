@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-26T20:12
-modified: 2025-01-26 21:16
+modified: 2025-02-19 09:17
 tags:
   - genAI
   - llm
@@ -16,11 +16,13 @@ type:
 status:
   - ongoing
 ---
+There is a wealth of amazing prompts in this massive paper: [The Prompt Report: A Systematic Survey of Prompting Techniques](https://arxiv.org/abs/2406.06608).
 ## Contents
 
 | Prompt Name                                                   | Description                                                                                       |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | [Solo Performance Prompting](#Solo%20Performance%20Prompting) | Elicits reasoning behaviour by simulating a conversation/debate between multiple different people |
+| [Plan-and-Solve Prompting](#Plan-and-Solve%20Prompting)       | An improved zero-shot Chain-Of-Thought prompt                                                     |
 ### Solo Performance Prompting
 Elicits reasoning behaviour by simulating a conversation/debate between multiple different people.
 
@@ -107,9 +109,16 @@ Task: {{ Task input }}
 ```
 
 
-JOE TO PUT PROMPT FROM PAPER HERE
-## References
-* [Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration](https://arxiv.org/abs/2307.05300)
+# Plan-and-Solve Prompting
+
+This is a proposed improvement to the original zero-shot chain-of-thought prompt.
+
+```
+Let’s first understand the problem and devise a plan to solve it. Then, let’s carry out the plan and solve the problem step by step
+```
+
+Source: [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models](https://arxiv.org/abs/2305.04091)
+
 ## Related
 * [LLM Prompting Strategies](LLM%20Prompting%20Strategies.md)
 * [CIDI Prompting Strategy](CIDI%20Prompting%20Strategy.md)
@@ -117,3 +126,8 @@ JOE TO PUT PROMPT FROM PAPER HERE
 * [ChatGPT Prompt Engineering for Developers (DeepLearning.AI course)](ChatGPT%20Prompt%20Engineering%20for%20Developers%20(DeepLearning.AI%20course).md)
 * [LLM Chain-of-Thought Prompting](LLM%20Chain-of-Thought%20Prompting.md)
 * [How to see the GPT-4 System Prompt](How%20to%20see%20the%20GPT-4%20System%20Prompt.md)
+
+## References
+* [The Prompt Report: A Systematic Survey of Prompting Techniques](https://arxiv.org/abs/2406.06608)
+* [Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration](https://arxiv.org/abs/2307.05300)
+* [Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models](https://arxiv.org/abs/2305.04091)

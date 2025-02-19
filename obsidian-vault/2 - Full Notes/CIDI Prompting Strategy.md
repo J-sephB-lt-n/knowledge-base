@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-11-15T10:38
-modified: 2024-11-15 11:49
+modified: 2025-02-12 09:09
 tags:
   - llm
   - large-language-model
@@ -30,7 +30,7 @@ The idea is to separate your prompt into [Context](#Context), [Instructions](#In
 - Be assertive and crystal clear. The LLM doesn’t have feelings, so clarity trumps tact. 
 - Example: “I am going to give you a message and you are going to write an instagram post containing this message”
 ### Details
-- Think about what an ideal output would look like, and describe it here.
+- Think about what an ideal output would look like, and describe it here. Provide some model examples.
 ### Input 
 - `Input` is information/data directly relevant to this specific request/task.
 - `Input` differs from `context` in that `context` is the kind of information that may be reused with different `inputs`, whereas `input` is information specific to only this request/task.

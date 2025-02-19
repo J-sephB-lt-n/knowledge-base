@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "26424c25800ae71f",
+        "id": "645b256d610884d6",
         "type": "tabs",
         "children": [
           {
-            "id": "c766e04a686ef6f2",
+            "id": "0c63cef852ff7e2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Maps of Content/Future Reading.md",
+                "file": "4 - Maps of Content/Collection of LLM Prompts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Future Reading"
+              "title": "Collection of LLM Prompts"
             }
           },
           {
-            "id": "9b4cacb76c3cb592",
+            "id": "e66f64a661b1ce22",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "readi",
+                "query": "LLM prompt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,10 +178,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c766e04a686ef6f2",
+  "active": "0c63cef852ff7e2e",
   "lastOpenFiles": [
+    "2 - Full Notes/Regex lookarounds (lookbehind lookahead).md",
+    "4 - Maps of Content/Current Reading.md",
     "2 - Full Notes/Past Reading.md",
+    "3 - Source Material/LLM Prompting Strategies.md",
+    "Adversarial Attacks on LLMs.md",
     "4 - Maps of Content/Future Reading.md",
+    "2 - Full Notes/CIDI Prompting Strategy.md",
+    "Upskilling for a Data Tech Job.md",
     "1 - Rough Notes/Json Web Tokens (JWTs).md",
     "4 - Maps of Content/LLM API Cost Comparison.md",
     "IAM in GCP and AWS.md",
@@ -192,7 +198,6 @@
     "Chronos - Learning the Language of Time Series.md",
     "Advanced Python - Build Hands-on Projects with Design Patterns.md",
     "4 - Maps of Content/Reading Lists.md",
-    "4 - Maps of Content/Current Reading.md",
     "4 - Maps of Content/Data Engineering Thesaurus.md",
     "4 - Maps of Content/Data Engineering.md",
     "4 - Maps of Content/Causal Inference.md",
@@ -201,11 +206,6 @@
     "4 - Maps of Content/Python.md",
     "2 - Full Notes/Domain Adaptation of LLMs.md",
     "2 - Full Notes/semantic-search-engine (github repo).md",
-    "Untitled.md",
-    "pgvector vs QDrant.md",
-    "2 - Full Notes/Label Propagation Algorithm.md",
-    "2 - Full Notes/Label Propagation.md",
-    "2 - Full Notes/RagChecker (paper) - A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation.md",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",
     "7 - assets/Possible approaches to LLM Domain Adaptation",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",

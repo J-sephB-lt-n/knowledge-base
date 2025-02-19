@@ -1,18 +1,20 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2025-01-26 20:16
+modified: 2025-02-14 09:58
 tags:
   - reading
   - personal-development
   - self-improvement
 type:
-  - note
+  - map-of-content
 status:
   - in-progress
 ---
+
 | Title                                                                                                | Author                              | Topic                 | Type  | Link(s)                                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------- | --------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| The Prompt Report: A Systematic Survey of Prompting Techniques                                       | Schulhoff et al.                    | Large Language Models | Paper | https://trigaten.github.io/Prompt_Survey_Site/<br>https://arxiv.org/pdf/2406.06608                                                      |
 | o1 isn’t a chat model (and that’s the point)                                                         | Ben Hylak, Swyx, Alessio            | Large Language Models | Blog  | https://www.latent.space/p/o1-skill-issue                                                                                               |
 | How Docker Containers Work                                                                           |                                     |                       |       | https://www.freecodecamp.org/news/how-docker-containers-work/                                                                           |
 | ML and LLM system design: 450 case studies to learn from                                             | Massive list curated by evidentlyai |                       |       | https://www.evidentlyai.com/ml-system-design                                                                                            |
