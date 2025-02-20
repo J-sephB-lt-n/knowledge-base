@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Maps of Content/Collection of LLM Prompts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Collection of LLM Prompts"
-            }
-          },
-          {
-            "id": "e66f64a661b1ce22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "2 - Full Notes/Past Reading.md",
                 "mode": "source",
                 "source": false
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LLM prompt",
+                "query": "past read",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,9 +166,10 @@
   },
   "active": "0c63cef852ff7e2e",
   "lastOpenFiles": [
-    "2 - Full Notes/Regex lookarounds (lookbehind lookahead).md",
     "4 - Maps of Content/Current Reading.md",
     "2 - Full Notes/Past Reading.md",
+    "4 - Maps of Content/Collection of LLM Prompts.md",
+    "2 - Full Notes/Regex lookarounds (lookbehind lookahead).md",
     "3 - Source Material/LLM Prompting Strategies.md",
     "Adversarial Attacks on LLMs.md",
     "4 - Maps of Content/Future Reading.md",
@@ -193,7 +180,6 @@
     "IAM in GCP and AWS.md",
     "Graph RAG.md",
     "Fuzzy Logic.md",
-    "4 - Maps of Content/Collection of LLM Prompts.md",
     "Cognitive Architectures for Language Agents (CoALA).md",
     "Chronos - Learning the Language of Time Series.md",
     "Advanced Python - Build Hands-on Projects with Design Patterns.md",
