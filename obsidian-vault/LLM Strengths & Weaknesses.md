@@ -2,7 +2,7 @@
 created:
   - 2024-08-27T09:21
   - 2024-08-29T20:01
-modified: 2024-12-09 19:57
+modified: 2025-02-22 12:50
 tags:
   - llm
   - large-language-model
@@ -16,8 +16,22 @@ status:
   - ongoing
 ---
 In this note, I am talking specifically about decoder-only autoregressive text generators (such as the GPT and LLama models).
-Large Language Models (LLMs) are auto-regressive text generators (i.e. they generate text one word at a time). By applying additional logic, they can also act as agents, collaborate with each other and use tools (this is achieved by asking them in natural language what they would like to do - some are specifically fine-tuned to respond with structured output facilitating e.g. JSON output, API calls etc.). 
-They are pretrained on massive amounts of existing text data (which means that they memorise superhuman amounts of information and complex language patterns - essentially the entire internet) and then are then fine-tuned on specific tasks such as chatting to a human, instruction-following, function-calling etc.
+Large Language Models (LLMs) are auto-regressive text generators (i.e. they generate text one token at a time). By applying additional logic, they can also act as agents, collaborate with each other and use tools (this is achieved by asking them in natural language what they would like to do - some are specifically fine-tuned to respond with structured output facilitating e.g. JSON output, API calls etc.). 
+They are pretrained on massive amounts of existing text data (which means that they memorise superhuman amounts of information and complex language patterns - essentially the common parts of the entire internet) and then are fine-tuned on specific tasks such as chatting to a human, instruction-following, function-calling etc.
+
+Here's my current take:
+*LLMs are useful for automating tasks which...*
+```
+are time-consuming for a person to do
+AND
+(
+		it's not a problem if there are some mistakes	
+	OR  it's easy to validate the model's output
+)
+AND     don't require too much information to be held in working memory    
+AND     are not too nuanced or domain-specific
+AND     don't require too much input or output text (can get expensive)
+```
 
 What language models are good at:
 
