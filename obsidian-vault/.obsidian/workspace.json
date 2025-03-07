@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02e79569a846c70e",
+            "id": "8fa7a0dd38b1d062",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Strengths & Weaknesses.md",
+                "file": "4 - Maps of Content/Current Reading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Strengths & Weaknesses"
+              "title": "Current Reading"
+            }
+          },
+          {
+            "id": "d9dd60715af4bd70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Retrieval (Search) Strategies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Information Retrieval (Search) Strategies"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "llm strengths",
+                "query": "current read",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5
+    "width": 445.5
   },
   "right": {
     "id": "f4cde7520428266c",
@@ -164,10 +179,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e79569a846c70e",
+  "active": "d9dd60715af4bd70",
   "lastOpenFiles": [
-    "2 - Full Notes/Past Reading.md",
     "4 - Maps of Content/Current Reading.md",
+    "Information Retrieval (Search) Strategies.md",
+    "Thoughts on LLM Application Development.md",
+    "LLM Strengths & Weaknesses.md",
+    "3 - Source Material/AI in organizations - Some tactics (blog).md",
+    "Overcome Failing Document Ingestion & RAG Strategies with Agentic Knowledge Distillation (pyramid search).md",
+    "2 - Full Notes/Past Reading.md",
     "4 - Maps of Content/Collection of LLM Prompts.md",
     "2 - Full Notes/Regex lookarounds (lookbehind lookahead).md",
     "3 - Source Material/LLM Prompting Strategies.md",
@@ -187,11 +207,6 @@
     "4 - Maps of Content/Data Engineering Thesaurus.md",
     "4 - Maps of Content/Data Engineering.md",
     "4 - Maps of Content/Causal Inference.md",
-    "4 - Maps of Content/Applied Large Language Model Concepts.md",
-    "4 - Maps of Content/Advanced RAG Techniques.md",
-    "4 - Maps of Content/Python.md",
-    "2 - Full Notes/Domain Adaptation of LLMs.md",
-    "2 - Full Notes/semantic-search-engine (github repo).md",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",
     "7 - assets/Possible approaches to LLM Domain Adaptation",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",

@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2025-02-20 09:46
+modified: 2025-02-28 10:53
 tags:
   - reading
 type:
@@ -13,6 +13,7 @@ If an entry has a "date finished", then I read the whole thing.
 
 | Title                                                                         | Topic                                | Type                    | Author(s)                                                                               | Date finished | Notes                                                                                              | Link(s)                                                                                               |
 | ----------------------------------------------------------------------------- | ------------------------------------ | ----------------------- | --------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| LLM-as-SERP                                                                   | Large Language Models; Search        | Blog                    | Han Xiao (jina.ai)                                                                      | 2025-02-28    | Very left field                                                                                    | https://jina.ai/news/llm-as-serp-search-engine-result-pages-from-large-language-models/               |
 | SmolAgents: Introduction to Agents                                            | LLM Agents                           | Package docs            |                                                                                         | 2025-02-07    | Insanely good. Changed my mind about agent frameworks                                              | https://huggingface.co/docs/smolagents/conceptual_guides/intro_agents                                 |
 | Building Effective Agents                                                     | LLM Agents                           | Blog                    | Erik Schluntz, Barry Zhang                                                              | 2025-01-13    | 69/10<br>This is now my go-to reference on this topic                                              | https://www.anthropic.com/research/building-effective-agents                                          |
 | o1 isn’t a chat model (and that’s the point)                                  | Large Language Models                | Blog                    | Ben Hylak, Swyx, Alessio                                                                | 2025-01-12    | Very insightful                                                                                    | https://www.latent.space/p/o1-skill-issue                                                             |

@@ -2,7 +2,7 @@
 created:
   - 2024-08-27T09:21
   - 2024-08-29T20:01
-modified: 2025-02-22 12:50
+modified: 2025-03-06 13:18
 tags:
   - llm
   - large-language-model
@@ -32,6 +32,8 @@ AND     don't require too much information to be held in working memory
 AND     are not too nuanced or domain-specific
 AND     don't require too much input or output text (can get expensive)
 ```
+
+I like this 
 
 What language models are good at:
 
