@@ -1,7 +1,7 @@
 ---
 created:
   - " 2024-06-20 17:21"
-modified: 2025-02-07 20:09
+modified: 2025-06-12 21:54
 tags:
   - reading
 type:
@@ -9,7 +9,7 @@ type:
 status:
   - ongoing
 ---
-
+**IMPORTANT NOTE**: I've consolidated all of my reading lists into this updated location: [Unified Reading List](Unified%20Reading%20List.md)
 ## Future (haven't read yet)
 
 These are ordered by priority:

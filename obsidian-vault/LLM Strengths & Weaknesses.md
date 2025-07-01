@@ -2,7 +2,7 @@
 created:
   - 2024-08-27T09:21
   - 2024-08-29T20:01
-modified: 2025-03-06 13:18
+modified: 2025-07-01 22:45
 tags:
   - llm
   - large-language-model
@@ -26,14 +26,22 @@ are time-consuming for a person to do
 AND
 (
 		it's not a problem if there are some mistakes	
-	OR  it's easy to validate the model's output
+	OR  it's easy to quickly validate the model's output
 )
 AND     don't require too much information to be held in working memory    
 AND     are not too nuanced or domain-specific
 AND     don't require too much input or output text (can get expensive)
 ```
 
-I like this 
+## Key LLM Problems
+
+1. Hallucination
+2. Outdated knowledge (data cutoff date)
+3. Biases (learned from training corpus)
+4. Data security
+5. Build-in model guardrails (can stuff up the output)
+6. Working with non-language data (e.g. tables, numbers)
+7. Finite memory (context window)
 
 What language models are good at:
 
@@ -58,5 +66,6 @@ What language models are bad at:
 ## References
 * https://www.promptingguide.ai/
 ## Related
-* [[Applied Large Language Model Concepts]]
-* [[LLM Agents]]
+* [Applied Large Language Model Concepts](Applied%20Large%20Language%20Model%20Concepts.md)
+* [LLM Agents](LLM%20Agents.md)
+* [Should I Use an LLM Prompt](Should%20I%20Use%20an%20LLM%20Prompt.md)

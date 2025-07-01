@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-10-06T22:27
-modified: 2024-11-07 13:33
+modified: 2025-06-07 20:17
 tags:
   - workout
   - fitness
@@ -50,5 +50,4 @@ The plan is:
 ## References
 * https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine
 ## Related
-
-* Links to other notes which are directly related go here
+* [Workout 2025b](Workout%202025b.md)
