@@ -1,10 +1,10 @@
 ---
 created:
-  - "{{date:YYYY-MM-DD}}T{{time:HH:mm}}"
-modified: 2024-06-20 15:36
+  - 2025-07-08T15:34
+modified: 2025-07-08 15:35
 tags: 
 type: 
-status:
+status: 
 ---
 Main body of note goes here
 ## References
