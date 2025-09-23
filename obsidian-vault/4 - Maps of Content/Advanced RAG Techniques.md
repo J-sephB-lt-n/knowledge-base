@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-10-01T20:49
-modified: 2024-10-16 12:55
+modified: 2025-09-23 09:28
 tags:
   - rag
   - llm
@@ -15,6 +15,10 @@ type:
 status:
   - ongoing
 ---
+
+### [[Agentic RAG]]
+[Agentic RAG](Agentic%20RAG) refers to using [LLM Agents](LLM%20Agents.md) to answer a user query using search tools (functions) provided to them.
+
 ### Query Expansion/Augmentation
 
 | Technique               | Explanation                                                                                                                                        | Link(s)                                                                                                                 |

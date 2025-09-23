@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-15T10:05
-modified: 2024-10-13 10:47
+modified: 2025-09-04 09:38
 tags:
   - llm
   - large-language-model
@@ -26,6 +26,7 @@ Andrew Ng describes the following 4 Agentic Reasoning Design Patterns in his [Ma
 | Tool use                  | Give the LLM access to external tools (e.g. search engine, wikipedia, code execution environment etc.) and give it examples of how to use them | MM-React                |
 | Planning                  | Coerce or force LLM(s) to solve a task by decomposing it into subtasks                                                                         | Chain of Thought, ReAct |
 | Multi-agent collaboration | Coerce/force LLMs to debate, collaborate, delegate etc. (like a human team)                                                                    | ChatDev, AutoGen        |
+| [memory](LLM%20Memory.md) |                                                                                                                                                |                         |
 
 
 ## Tool Usage
