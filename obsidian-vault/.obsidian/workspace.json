@@ -172,8 +172,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -265,8 +264,11 @@
   },
   "active": "9650c457f9ef6973",
   "lastOpenFiles": [
-    "Knowledge Graph.md",
+    "Hypothetical Document Embeddings (HyDE).md",
+    "Untitled.base",
+    "Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
     "Agentic RAG.md",
+    "Knowledge Graph.md",
     "LLM-Assisted Ideation.md",
     "Graph RAG.md",
     "hybrid search.md",
@@ -288,9 +290,6 @@
     "2 - Full Notes/happy-rag-friends (github repo).md",
     "MemEngine.md",
     "Code Assessment Rubric.md",
-    "4 - Maps of Content/Software Best Practice.md",
-    "2 - Full Notes/Real Python Application Number 1.md",
-    "Python Logging Guide.md",
     "8 - Algorithmic Solution Summaries",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/LLM logprobs and temperature/example_temperature_plot.png",
@@ -310,7 +309,6 @@
     "7 - assets/RagChecker/ragchecker_metrics_simplified.png.crdownload",
     "7 - assets/RagChecker",
     "Untitled.canvas",
-    "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png.crdownload",
-    "7 - assets/RAG Pipeline Evaluation"
+    "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png.crdownload"
   ]
 }
