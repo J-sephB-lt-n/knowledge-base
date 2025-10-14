@@ -4,119 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "279f1b88c56ebd4e",
+        "id": "d8f987ac137af5e0",
         "type": "tabs",
         "children": [
           {
-            "id": "9650c457f9ef6973",
+            "id": "a49937b5a721dad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agentic RAG.md",
+                "file": "Thoughts on LLM Application Development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentic RAG"
-            }
-          },
-          {
-            "id": "170b65f0f3c0dbe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph RAG.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Graph RAG"
-            }
-          },
-          {
-            "id": "8459136a5102e3fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/happy-rag-friends (github repo).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "happy-rag-friends (github repo)"
-            }
-          },
-          {
-            "id": "f69af628a7081a7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Overcome Failing Document Ingestion & RAG Strategies with Agentic Knowledge Distillation (pyramid search).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Overcome Failing Document Ingestion & RAG Strategies with Agentic Knowledge Distillation (pyramid search)"
-            }
-          },
-          {
-            "id": "af2cb5162b7d7995",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RAG Pipeline Evaluation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RAG Pipeline Evaluation"
-            }
-          },
-          {
-            "id": "d0487cb62a0bd3f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Retrieval-Augmented Generation (RAG)"
-            }
-          },
-          {
-            "id": "8870396cfeded55a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Searching for Best Practices in Retrieval-Augmented Generation (paper)"
-            }
-          },
-          {
-            "id": "85c0f567792b1ef6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Full Notes/Text Chunking for Semantic Search.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Text Chunking for Semantic Search"
+              "title": "Thoughts on LLM Application Development"
             }
           }
         ]
@@ -151,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:rag",
+                "query": "untitled",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -262,34 +164,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9650c457f9ef6973",
+  "active": "a49937b5a721dad4",
   "lastOpenFiles": [
-    "Hypothetical Document Embeddings (HyDE).md",
+    "Tufte's Principles of Graphical Excellence.md",
+    "Thoughts on LLM Application Development.md",
+    "Unified Reading List.md",
+    "Upskilling for a Data Tech Job.md",
     "Untitled.base",
-    "Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
-    "Agentic RAG.md",
-    "Knowledge Graph.md",
-    "LLM-Assisted Ideation.md",
-    "Graph RAG.md",
-    "hybrid search.md",
-    "Semantic search.md",
-    "tf-idf.md",
-    "Okapi BM25.md",
-    "regex.md",
-    "ripgrep (cli tool).md",
-    "grep (linux CLI utility).md",
-    "4 - Maps of Content/Advanced RAG Techniques.md",
-    "3 - Source Material/A survey on large language model based autonomous agents (paper).md",
-    "2 - Full Notes/LLM Agents.md",
-    "LLM Memory.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
+    "Joe PDF RAG 2025.md",
     "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
+    "4 - Maps of Content/Advanced RAG Techniques.md",
+    "Graph RAG.md",
+    "Knowledge Graph.md",
+    "Agentic RAG.md",
+    "LLM Structured Outputs.md",
     "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
     "RAG Pipeline Evaluation.md",
     "Overcome Failing Document Ingestion & RAG Strategies with Agentic Knowledge Distillation (pyramid search).md",
     "2 - Full Notes/happy-rag-friends (github repo).md",
-    "MemEngine.md",
-    "Code Assessment Rubric.md",
+    "Good Questions to Ask Reasoning Models.md",
+    "Should I Use an AI Agent Framework.md",
+    "Hypothetical Document Embeddings (HyDE).md",
+    "Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
+    "LLM-Assisted Ideation.md",
+    "hybrid search.md",
+    "Semantic search.md",
+    "tf-idf.md",
+    "Okapi BM25.md",
     "8 - Algorithmic Solution Summaries",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/LLM logprobs and temperature/example_temperature_plot.png",
@@ -307,8 +212,6 @@
     "7 - assets/RagChecker/metric_diags",
     "7 - assets/RagChecker/New folder",
     "7 - assets/RagChecker/ragchecker_metrics_simplified.png.crdownload",
-    "7 - assets/RagChecker",
-    "Untitled.canvas",
-    "7 - assets/RAG Pipeline Evaluation/amazon_ragchecker_metrics.png.crdownload"
+    "Untitled.canvas"
   ]
 }

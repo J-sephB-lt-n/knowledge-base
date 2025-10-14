@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-10-01T20:49
-modified: 2025-09-23 09:28
+modified: 2025-10-10 23:32
 tags:
   - rag
   - llm
@@ -25,6 +25,7 @@ status:
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Hallucinated answers    | LLM is used to hallucinate an answer to the user query, and this hallucinated answer is combined with the original user query in the vector search | [Youtube: RAG Fundamentals and Advanced Techniques – Full Course (free code camp)](https://youtu.be/ea2W8IogX80?t=4140) |
 | Self-querying retrieval | LLM is prompted to use a querying interface in order to fetch data (e.g. a specific JSON format, SQL etc.)                                         |                                                                                                                         |
+| HyDE                    |                                                                                                                                                    |                                                                                                                         |
 ### Embeddings 
 | Technique | Explanation | Link(s) |
 | --------- | ----------- | ------- |
@@ -34,6 +35,12 @@ status:
 | Technique | Explanation | Link(s) |
 | --------- | ----------- | ------- |
 |           |             |         |
+|           |             |         |
+
+### Other
+| Technique | Explanation | Link(s) |
+| --------- | ----------- | ------- |
+| RECOMP    |             |         |
 |           |             |         |
 
 ## References

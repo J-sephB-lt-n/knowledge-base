@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-03-06T14:22
-modified: 2025-03-06 14:55
+modified: 2025-10-14 12:01
 tags:
   - llm
   - large-language-model
@@ -40,13 +40,14 @@ status:
 	- Run each subtask in a different independent chat completion. Be intentional about what context each subtask has access to (don't include irrelevant information).
 	- Subtasks which can be performed deterministically without using genAI should not use genAI.
 	- You can run validation (and retry patterns) on each individual subtask, not allowing the full pipeline to proceed if a single subtask fails.
-- Robustness can be achieved by doing the same thing using different methods and then verifying that the outputs agree (e.g. parse the text from an image using different models and then compare their outputs)
+- Robustness can be achieved by doing the same thing using different methods and then verifying that the outputs agree (e.g. parse the text from an image using different models and then compare their outputs). A single LLM with a higher temperature can also generate multiple parallel outputs (which can be combined to give a "vote").
 - Give end-users insight into what the model output means, or how it was generated.
 	- e.g. Run a separate LLM to explain what a generated SQL query is doing, with no context of the original user request.
 	- i.e. Give the end-user tools which they can use to evaluate the system output and make an informed decision on whether it is correct/incorrect. 
 - LLMs are sensitive to emotional language. Telling them that something is "critical" or "you will lose your job if they get it wrong" can have a material impact on the quality of their output (read [Large Language Models Understand and Can be Enhanced by Emotional Stimuli](https://arxiv.org/abs/2307.11760))
+- Use structured outputs for everything. You can get this directly in the `openai` python library using `client.chat.completions.parse(response_format=YourCustomPydanticModelHere)` 
 ## References
-* Links to references (source material) go here
+* https://platform.openai.com/docs/guides/structured-outputs/introduction
 ## Related
 * [LLM Strengths & Weaknesses](LLM%20Strengths%20&%20Weaknesses.md)
 * [LLM Prompting Strategies](LLM%20Prompting%20Strategies.md)
