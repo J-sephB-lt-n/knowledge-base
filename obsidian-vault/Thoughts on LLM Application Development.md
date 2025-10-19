@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-03-06T14:22
-modified: 2025-10-14 12:01
+modified: 2025-10-17 13:18
 tags:
   - llm
   - large-language-model
@@ -46,6 +46,7 @@ status:
 	- i.e. Give the end-user tools which they can use to evaluate the system output and make an informed decision on whether it is correct/incorrect. 
 - LLMs are sensitive to emotional language. Telling them that something is "critical" or "you will lose your job if they get it wrong" can have a material impact on the quality of their output (read [Large Language Models Understand and Can be Enhanced by Emotional Stimuli](https://arxiv.org/abs/2307.11760))
 - Use structured outputs for everything. You can get this directly in the `openai` python library using `client.chat.completions.parse(response_format=YourCustomPydanticModelHere)` 
+- For search (e.g. RAG or agent search tools), it's useful to include **why** a result is highly ranked (e.g. which keywords matched and their relative importance weights).
 ## References
 * https://platform.openai.com/docs/guides/structured-outputs/introduction
 ## Related
