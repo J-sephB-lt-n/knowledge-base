@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-16T22:07
-modified: 2025-01-17 08:56
+modified: 2025-11-08 21:15
 tags:
   - strategy
   - strategy-pattern

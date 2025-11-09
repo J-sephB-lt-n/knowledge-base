@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a49937b5a721dad4",
+            "id": "3308d8bf183ef04e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Logging Guide.md",
+                "file": "Attentive Reasoning Queries (ARQ) by Parlant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Logging Guide"
+              "title": "Attentive Reasoning Queries (ARQ) by Parlant"
             }
           },
           {
-            "id": "3ca00238c6699140",
+            "id": "3e9e2610e30409b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to do Application Logging Properly.md",
+                "file": "LLM Uncertainty Quantification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to do Application Logging Properly"
+              "title": "LLM Uncertainty Quantification"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "logging",
+                "query": "application observability",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,17 +179,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ca00238c6699140",
+  "active": "3e9e2610e30409b5",
   "lastOpenFiles": [
-    "Python Logging Guide.md",
-    "How to do Application Logging Properly.md",
-    "Thoughts on LLM Application Development.md",
-    "Tufte's Principles of Graphical Excellence.md",
-    "Unified Reading List.md",
-    "Upskilling for a Data Tech Job.md",
     "Untitled.base",
+    "LLM Uncertainty Quantification.md",
+    "Untitled 5.base",
+    "Python Application Observability Presentation (end of 2025).md",
+    "7 - assets/Python Application Observability Presentation/python_logging_architecture.png",
+    "7 - assets/Python Application Observability Presentation/span_detail_example.avif",
+    "7 - assets/Python Application Observability Presentation/Unconfirmed 336133.crdownload",
+    "7 - assets/Python Application Observability Presentation/trace_example.avif",
+    "7 - assets/Python Application Observability Presentation/Unconfirmed 469937.crdownload",
+    "String Similarity Measures.md",
+    "The GPT Architecture.md",
+    "Thoughts on LLM Application Development.md",
+    "The Strategy Design Pattern.md",
+    "Unified Reading List.md",
+    "A Survey on Uncertainty Quantification of Large Language Models - Taxonomy, Open Research Challenges, and Future Directions.md",
+    "Untitled 1.md",
     "Untitled 2.base",
     "Untitled 1.base",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "7 - assets/Python Application Observability Presentation/tracing_example.png",
+    "7 - assets/Python Application Observability Presentation/Unconfirmed 262446.crdownload",
+    "7 - assets/Python Application Observability Presentation",
+    "7 - assets/New folder",
+    "Attentive Reasoning Queries (ARQ) by Parlant.md",
+    "4 - Maps of Content/List of Useful Algorithms.md",
+    "LLM-Assisted Ideation.md",
+    "Code Assessment Rubric.md",
+    "2 - Full Notes/Subnets.md",
+    "How to do Application Logging Properly.md",
+    "Python Logging Guide.md",
+    "Tufte's Principles of Graphical Excellence.md",
+    "Upskilling for a Data Tech Job.md",
     "Untitled.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
     "Joe PDF RAG 2025.md",
@@ -198,36 +221,12 @@
     "4 - Maps of Content/Advanced RAG Techniques.md",
     "Graph RAG.md",
     "Knowledge Graph.md",
-    "Agentic RAG.md",
-    "LLM Structured Outputs.md",
-    "2 - Full Notes/Retrieval-Augmented Generation (RAG).md",
-    "RAG Pipeline Evaluation.md",
-    "Overcome Failing Document Ingestion & RAG Strategies with Agentic Knowledge Distillation (pyramid search).md",
-    "2 - Full Notes/happy-rag-friends (github repo).md",
-    "Good Questions to Ask Reasoning Models.md",
-    "Should I Use an AI Agent Framework.md",
-    "Hypothetical Document Embeddings (HyDE).md",
-    "Precise Zero-Shot Dense Retrieval without Relevance Labels.md",
-    "LLM-Assisted Ideation.md",
-    "hybrid search.md",
-    "Semantic search.md",
-    "8 - Algorithmic Solution Summaries",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/LLM logprobs and temperature/example_temperature_plot.png",
-    "7 - assets/LLM logprobs and temperature",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",
-    "7 - assets/Possible approaches to LLM Domain Adaptation",
     "7 - assets/RagChecker/individual_metric_diags/irrelevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/relevant_noise_sensitivity.png",
     "7 - assets/RagChecker/individual_metric_diags/context_utilisation.png",
-    "7 - assets/RagChecker/individual_metric_diags/self_knowledge.png",
-    "7 - assets/RagChecker/individual_metric_diags/hallucination.png",
-    "7 - assets/RagChecker/individual_metric_diags/faithfulness.png",
-    "7 - assets/RagChecker/individual_metric_diags/claim_recall.png",
-    "7 - assets/RagChecker/individual_metric_diags",
-    "7 - assets/RagChecker/metric_diags",
-    "7 - assets/RagChecker/New folder",
-    "7 - assets/RagChecker/ragchecker_metrics_simplified.png.crdownload",
     "Untitled.canvas"
   ]
 }
