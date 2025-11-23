@@ -1,14 +1,21 @@
 ---
 created:
   - 2025-10-17T20:13
-modified: 2025-10-17 21:31
+modified: 2025-11-10 13:30
 tags:
+  - logging
+  - python
+  - log
+  - monitoring
+  - observability
+  - natural-language-processing
 type:
   - note
 status:
-  - in-progress
+  - obsolete
 ---
 
+I've got a better note on this exact topic here: [Python Application Observability Presentation (end of 2025)](Python%20Application%20Observability%20Presentation%20(end%20of%202025).md)
 # Logging vs Tracing vs Metrics
 
 | Observation | Description                                                                                                  |     | Popular Tools                                  |
@@ -49,8 +56,6 @@ status:
 - Logging can slow down app performance - there are ways to make it more efficient.
 - 
 ## References
-
 * Links to references (source material) go here
 ## Related
-
-* Links to other notes which are directly related go here
+* [Python Application Observability Presentation (end of 2025)](Python%20Application%20Observability%20Presentation%20(end%20of%202025).md)

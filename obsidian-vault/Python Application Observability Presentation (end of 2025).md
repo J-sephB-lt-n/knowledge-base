@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-11-07T16:12
-modified: 2025-11-09 13:41
+modified: 2025-11-17 09:26
 tags:
   - logging
   - python
@@ -15,22 +15,40 @@ type:
 status:
   - in-progress
 ---
-## Observability vs Monitoring
-
- *Observability* is a term [borrowed from control theory, where the "observability" of a system measures how well its state can be determined from its outputs](https://en.wikipedia.org/wiki/Observability_(software)#Etymology,_terminology_and_definition).
-
 ## Telemetry
 
+*Telemetry* refers to the automatic collection, transmission and analysis of software/system usage/performance/status data.
+
+## Observability vs Monitoring
+
+ [*Observability*](https://en.wikipedia.org/wiki/Observability_(software)) is a term [borrowed from control theory, where the "observability" of a system measures how well its state can be determined from its outputs](https://en.wikipedia.org/wiki/Observability_(software)#Etymology,_terminology_and_definition).
+
+In terms of software, an application is *observable* if one can answer novel unforeseen questions about the internal app state using just the app’s telemetry data (i.e. the data which the application automatically collects such as metrics, logs and traces) without one having to write or deploy new app code.
+
+*Monitoring* refers to tracking predefined metrics and states of an application, such as CPU usage or number of HTTP errors.
+
+*Monitoring* is reactive, whereas *observability* is causal and exploratory. 
+
+## How Does One Achieve Application Observability?
+
+| Practice                                                                                                | Why?                                                                                                                                                                                                                                                         | How?                                                                                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Context-rich structured events (e.g. JSON objects) with standardised schema.                            | - Context-rich makes logs auditable and actionable, and makes debugging easier/possible.<br>- Context-rich also enables different logs to be linked (correlated).<br>- Structured is machine-readable, and enables efficient indexing, filtering and search. | - Build a user-friendly library/API/interface for devs which  create wide structured logs, and enforces schema adherence.<br>- Automatically inject contextual info into logs records.                                   |
+| Log context propagates across functions, modules, languages, services and other application boundaries. | - Simplifies/enables root-cause analysis.<br>- Enables understanding/visibility of the system as a whole.<br>                                                                                                                                                | - Use a language-agnostic standard such as OpenTelemetry or W3C Trace Context.<br>- Propagate trace IDs and context objects across boundaries.<br>- Use instrumentation libraries which automatically propagate context. |
+| All log records contain the "5 whys" (Who?, What?, When?, Where?, Why?)                                 | - A nice heuristic for ensuring that log records are sufficiently complete.                                                                                                                                                                                  | - Documentation/education of devs<br>- Enforce mandatory log fields (I don't like this)                                                                                                                                  |
+| A query engine/interface allowing telemetry to be easily filtered, searched and aggregated              | - Enables fast, efficient analysis and debugging.                                                                                                                                                                                                            | - If telemetry is structured and complete, any good query interface can be used (or built) to query it.                                                                                                                  |
+| Telemetry which is performant (does not slow the actual application down)                               | - Keeps the app user experience good.<br>- Devs will avoid using telemetry which makes their app bad.<br>                                                                                                                                                    | - Move expensive logging operations to a queue away from the application                                                                                                                                                 |
+| All devs use a standardised approach to logging                                                         | - Reduces onboarding time and makes collaboration easier.<br>- Reduces human errors.<br>- Ensures consistent quality                                                                                                                                         | - Build shared tools/libraries which devs are excited to use (makes dev easier)<br>- Write good documentation, usage examples and onboarding docs                                                                        |
 
 ## The 3 Pillars of Observability
 
 Software observability relies on 3 main types of telemetry data: 
 
-| Type    | Description                                                                                                                                | Example                                                           |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| Metrics | A scalar value measured over time (i.e. a value in a numeric time series)                                                                  | Number of HTTP requests per second.                               |
-| Logs    | Immutable records of discrete events occurring within the system                                                                           | Record of an instance of a specific user logging in to the system |
-| Traces  | Tracking the flow of a single request as it travels through different services and components of a (typically distributed) software system |                                                                   |
+| Type    | Description                                                                                                                                | Example                                                                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Metrics | A scalar value measured over time (i.e. a value in a numeric time series)                                                                  | Number of HTTP requests per second.                                                                                                                      |
+| Logs    | Immutable records of discrete events occurring within the system                                                                           | Record of an instance of a specific user logging in to the system                                                                                        |
+| Traces  | Tracking the flow of a single request as it travels through different services and components of a (typically distributed) software system | Record the lineage of a user-request by injected trace IDs and span IDs into every log record in the journey of the request (across service boundaries). |
 
 ## Traces (Distributed Tracing)
 
@@ -56,6 +74,29 @@ Individual spans within the trace can be drilled down into to reveal additional 
 ![source: https://betterstack.com/community/guides/observability/jaeger-guide/](../7%20-%20assets/Python%20Application%20Observability%20Presentation/span_detail_example.avif)
 
 ## Open Telemetry
+
+https://opentelemetry.io/
+
+- OpenTelemetry is an open-source, tool-agnostic and vendor-agnostic approach to standardising the creation and capture of telemetry data (metrics, logs and traces).
+- Standardisation is important because it makes it extremely portable, and easy to switch e.g. storage backends or visualisation frontends.
+- It is developed and managed by the Cloud Native Computing Foundation (CNCF), whose other projects include e.g. kubernetes, helm, prometheus, argo, and gRPC.
+- It has SDKs in all major programming languages (python, C++, .net, java, javascript, rust etc.).
+- It is widely used and supported by many libraries and vendors.
+
+Example of creating spans in python:
+```python
+def do_work():
+    with tracer.start_as_current_span("parent") as parent:
+        # do some work that 'parent' tracks
+        print("doing some work...")
+        # Create a nested span to track nested work
+        with tracer.start_as_current_span("child") as child:
+            # do some work that 'child' tracks
+            print("doing some nested work...")
+            # the nested span is closed when it's out of scope
+
+        # This span is also closed when it goes out of scope
+```
 
 
 ## Native Python Logging
@@ -117,6 +158,17 @@ A single logger in python works like this:
 	- You don't have to use `logging.getLogger(__name__)` - you can define your own hierarchy of loggers however you like e.g. `logging.getLogger("app.llm")`
 	- Each logger automatically sends it's log records also to it's parent logger, which processes the record itself, then passes it to it's own parent logger etc. (back up to the root logger). This behaviour can be turned off, if desired.
 	- Typically, you don't need any of this. Just put all of your handlers and filters on the root logger, and let all logs propagate to the root logger for filtering, formatting and writing (don't use the root logger for generating log messages directly though).
+
+## Python Logging Config as JSON/YAML
+
+Python logging config can be defined in python code or in a config file (e.g. .json or .yaml) using `logging.config.dictConfig`.
+
+| Aspect                              | Code or dictConfig?                                                                                                                     |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| OPs-friendly/separation of concerns | dictConfig better - logging config can be completely separated from the codebase, if desired (e.g. config change without app redeploy). |
+| Expressiveness                      | Python code is more flexible for highly custom logging behaviour                                                                        |
+| Readability                         | dictConfig is much more readable                                                                                                        |
+|                                     |                                                                                                                                         |
 
 ## References
 * [A Practical Guide to Distributed Tracing with Jaeger (betterstack.com)](https://betterstack.com/community/guides/observability/jaeger-guide/)

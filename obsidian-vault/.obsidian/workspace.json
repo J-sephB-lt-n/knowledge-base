@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3308d8bf183ef04e",
+            "id": "28d368cadc1e39b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attentive Reasoning Queries (ARQ) by Parlant.md",
+                "file": "Install a Docker Engine in WSL2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attentive Reasoning Queries (ARQ) by Parlant"
-            }
-          },
-          {
-            "id": "3e9e2610e30409b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM Uncertainty Quantification.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LLM Uncertainty Quantification"
+              "title": "Install a Docker Engine in WSL2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "application observability",
+                "query": "tag:red-team",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 443.5,
+    "collapsed": true
   },
   "right": {
     "id": "f4cde7520428266c",
@@ -179,19 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e9e2610e30409b5",
+  "active": "28d368cadc1e39b3",
   "lastOpenFiles": [
-    "Untitled.base",
+    "PRs vs everyone pushing to dev branch.md",
+    "Install a Docker Engine in WSL2.md",
     "LLM Uncertainty Quantification.md",
-    "Untitled 5.base",
+    "3 - Source Material/Build a Large Language Model (From Scratch).md",
+    "The GPT Architecture.md",
+    "1 - Rough Notes/Masked Multi-Head Attention.md",
     "Python Application Observability Presentation (end of 2025).md",
+    "How to do Application Logging Properly.md",
+    "Advanced Python - Build Hands-on Projects with Design Patterns.md",
+    "Attentive Reasoning Queries (ARQ) by Parlant.md",
+    "Untitled.base",
+    "Untitled 5.base",
     "7 - assets/Python Application Observability Presentation/python_logging_architecture.png",
     "7 - assets/Python Application Observability Presentation/span_detail_example.avif",
     "7 - assets/Python Application Observability Presentation/Unconfirmed 336133.crdownload",
     "7 - assets/Python Application Observability Presentation/trace_example.avif",
     "7 - assets/Python Application Observability Presentation/Unconfirmed 469937.crdownload",
     "String Similarity Measures.md",
-    "The GPT Architecture.md",
     "Thoughts on LLM Application Development.md",
     "The Strategy Design Pattern.md",
     "Unified Reading List.md",
@@ -204,23 +198,16 @@
     "7 - assets/Python Application Observability Presentation/tracing_example.png",
     "7 - assets/Python Application Observability Presentation/Unconfirmed 262446.crdownload",
     "7 - assets/Python Application Observability Presentation",
-    "7 - assets/New folder",
-    "Attentive Reasoning Queries (ARQ) by Parlant.md",
     "4 - Maps of Content/List of Useful Algorithms.md",
     "LLM-Assisted Ideation.md",
     "Code Assessment Rubric.md",
     "2 - Full Notes/Subnets.md",
-    "How to do Application Logging Properly.md",
     "Python Logging Guide.md",
     "Tufte's Principles of Graphical Excellence.md",
     "Upskilling for a Data Tech Job.md",
-    "Untitled.md",
     "2 - Full Notes/Text Chunking for Semantic Search.md",
     "Joe PDF RAG 2025.md",
     "3 - Source Material/Searching for Best Practices in Retrieval-Augmented Generation (paper).md",
-    "4 - Maps of Content/Advanced RAG Techniques.md",
-    "Graph RAG.md",
-    "Knowledge Graph.md",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/LLM logprobs and temperature/example_temperature_plot.png",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",
