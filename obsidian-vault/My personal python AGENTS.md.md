@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2025-12-21 16:31
+modified: 2025-12-21 22:38
 tags:
   - llm-agents
   - claude-code
@@ -50,7 +50,8 @@ You must always write code that (where relevant) fulfils all of the requirements
 - All classes and functions should have google-style docstrings.
 - Use assert statements frequently as lightweight validation of the expected state of the system.
 	- Always include a short assert message.
-- Aim for high cohesion within modules and low coupling between them. 
+- Aim for high cohesion within modules and low coupling between them.
+- Unless you are only providing a single argument and it is obvious what that argument is, always use named arguments when calling a function.
 ## Python Error Handling 
 - Exceptions are an important signal and should not be thoughtlessly suppressed.
 - Unexpected program behaviour must raise an exception (don't try to catch developer mistakes with error-handling code).
