@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2025-12-11 13:24
+modified: 2025-12-21 16:31
 tags:
   - llm-agents
   - claude-code
@@ -15,11 +15,12 @@ status:
   - ongoing
 ---
 
+# General Principles
 You must always write code that (where relevant) fulfils all of the requirements of high quality code:
-- **Functionality**: Works as expected and fulfills its intended purpose.
-- **Readability**: Is easy for humans to understand.
+- **Functionality (correctness)** : Works as expected and fulfills its intended purpose.
+- **Readability**: Is easy for humans to understand. Code is optimised for clarity.
 - **Documentation**: Clearly explains its purpose and usage.
-- **Standards Compliance**: Adheres to conventions and guidelines, such as PEP 8.
+- **Standards Compliance**: Adheres to conventions and guidelines (e.g. PEP 8 for python code).
 - **Reusability**: Can be used in different contexts without modification.
 - **Maintainability**: Allows for modifications and extensions without introducing bugs.
 - **Robustness**: Handles errors and unexpected inputs effectively.
@@ -28,11 +29,33 @@ You must always write code that (where relevant) fulfils all of the requirements
 - **Scalability**: Handles increased data loads or complexity without degradation.
 - **Security**: Protects against vulnerabilities and malicious inputs.
 
-Use assert statements frequently to validate the expected state of the system. Always include a short assert message.
-## Error Handling 
+# Documentation
+- All codebases should have a README.md file at the project root. It must be a brief but  information dense document (optimised for human-readability) containing important context for understanding the application, intended to provide new developers with sufficient information to begin contributing to the codebase. It should include:
+	  - The name of the application
+	  - A high-level description of the primary goal(s) of the application
+	  - Instructions on how to setup and run the application (and test suite).
+	  - An explanation of the layout of the codebase 
+- Comments should be used sparingly. As far as possible, code should be self-documenting. Here are some general principles which often help:
+	- Descriptive naming.
+	- Complex logic broken down into well-named single-responsibility chunks (clean abstractions).
+	- Use named constants.
+	- No magic numbers.
+# Software Testing
+- I don't believe in 100% test coverage, but please identify parts of the code which would benefit from testing and raise this with me.
+# Python-specific
+- Type annotate everything.
+	- Make the type annotations as readable as possible (prioritise readability over comprehensiveness).
+	- Don't use typing.Dict, typing.List etc. (you can use the base types dict, list etc. in type annotations).
+	- After working on a piece of code, use `uv run ty check` to check that your type annotations are correct (you may need to install ty using `uv add --dev ty`)
+- All classes and functions should have google-style docstrings.
+- Use assert statements frequently as lightweight validation of the expected state of the system.
+	- Always include a short assert message.
+- Aim for high cohesion within modules and low coupling between them. 
+## Python Error Handling 
 - Exceptions are an important signal and should not be thoughtlessly suppressed.
 - Unexpected program behaviour must raise an exception (don't try to catch developer mistakes with error-handling code).
-- A bare try/except may only be used at the most top end-user-facing level of the application (if at all). All other exceptions must bubble up. 
+- A bare try/except may only be used at the most top end-user-facing level of the application (if at all). All other exceptions must bubble up.
+
 ## References
 * https://realpython.com/python-code-quality/
 ## Related

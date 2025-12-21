@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,13 +209,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f76db2da05ffe255",
+  "active": "6580654da517b9c0",
   "lastOpenFiles": [
+    "Software Application Architectures.md",
     "No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025).md",
     "Effective harnesses for long-running agents (Anthropic Engineering Blog).md",
     "My personal python AGENTS.md.md",
     "Layered Software Architecture.md",
-    "Software Application Architectures.md",
     "Install a Docker Engine in WSL2.md",
     "PRs vs everyone pushing to dev branch.md",
     "LLM Uncertainty Quantification.md",
