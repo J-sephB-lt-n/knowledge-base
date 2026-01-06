@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-11-27T09:42
-modified: 2025-11-28 12:02
+modified: 2025-12-30 21:02
 tags:
 type:
   - map-of-content
@@ -31,7 +31,7 @@ Note also that:
 
 | Architecture                                    | Description                 |
 | ----------------------------------------------- | --------------------------- |
-| [Layered](Layered%20Software%20Architecture.md) |                             |
+| [Layered](Layered%20(n-tier)%20Software%20Architecture.md) |                             |
 | Model View Controller (MVC)                     |                             |
 | Vertical Slice                                  |                             |
 | Domain Driven Design (bounded contexts)         |                             |
@@ -56,8 +56,7 @@ Note also that:
 - microservices
 
 ## References
-
 * Links to references (source material) go here
 ## Related
-
+- [Layered (n-tier) Software Architecture](Layered%20(n-tier)%20Software%20Architecture.md)
 * Links to other notes which are directly related go here

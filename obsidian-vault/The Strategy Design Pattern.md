@@ -1,13 +1,14 @@
 ---
 created:
   - 2025-01-16T22:07
-modified: 2025-11-08 21:15
+modified: 2025-12-30 21:10
 tags:
   - strategy
   - strategy-pattern
   - design-patterns
   - software-engineering
   - dev
+  - pattern
 type:
   - note
 status:
@@ -96,7 +97,6 @@ if __name__ == "__main__":
 			context.strategy = ConcreteStrategyD()
 	# INFO - __main__ - set strategy to ConcreteStrategyD
 	context.launch_process()
-	# 
 ```
 ## References
 * https://www.freecodecamp.org/news/a-beginners-guide-to-the-strategy-design-pattern/

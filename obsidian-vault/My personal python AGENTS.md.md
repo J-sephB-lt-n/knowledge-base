@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2025-12-21 22:38
+modified: 2026-01-02 11:38
 tags:
   - llm-agents
   - claude-code
@@ -9,6 +9,10 @@ tags:
   - ai-coding
   - coding-agent
   - cursor
+  - agentic
+  - IDE
+  - software-development
+  - software-engineering
 type:
   - note
 status:
@@ -18,7 +22,7 @@ status:
 # General Principles
 You must always write code that (where relevant) fulfils all of the requirements of high quality code:
 - **Functionality (correctness)** : Works as expected and fulfills its intended purpose.
-- **Readability**: Is easy for humans to understand. Code is optimised for clarity.
+- **Readability**: Is easy for humans to quickly comprehend (code is optimised for clarity).
 - **Documentation**: Clearly explains its purpose and usage.
 - **Standards Compliance**: Adheres to conventions and guidelines (e.g. PEP 8 for python code).
 - **Reusability**: Can be used in different contexts without modification.
@@ -39,23 +43,29 @@ You must always write code that (where relevant) fulfils all of the requirements
 	- Descriptive naming.
 	- Complex logic broken down into well-named single-responsibility chunks (clean abstractions).
 	- Use named constants.
-	- No magic numbers.
+	- No magic numbers (use named constants instead).
 # Software Testing
-- I don't believe in 100% test coverage, but please identify parts of the code which would benefit from testing and raise this with me.
+- I don't believe in 100% test coverage, but please identify parts of the code which would be made more robust by adding tests and raise these with me.
+- The test suite is going to consist of hundreds of tests, so ensure that no individual unit test takes more than 1 second to run.
 # Python-specific
 - Type annotate everything.
 	- Make the type annotations as readable as possible (prioritise readability over comprehensiveness).
-	- Don't use typing.Dict, typing.List etc. (you can use the base types dict, list etc. in type annotations).
-	- After working on a piece of code, use `uv run ty check` to check that your type annotations are correct (you may need to install ty using `uv add --dev ty`)
-- All classes and functions should have google-style docstrings.
+	- Don't use typing.Dict, typing.List, typing.Tuple etc. (you can use the base types dict, list, tuple etc. in type annotations since python 3.9).
+	- After working on a piece of code, use `uv run ty check` to check that your type annotations are correct (you may need to install `ty` using `uv add --dev ty`)
+- All modules, classes and functions must have google-style docstrings.
 - Use assert statements frequently as lightweight validation of the expected state of the system.
 	- Always include a short assert message.
 - Aim for high cohesion within modules and low coupling between them.
 - Unless you are only providing a single argument and it is obvious what that argument is, always use named arguments when calling a function.
+- Very long `.py` scripts are a code smell. Over 500 lines is a warning, but generally still ok if there is a good reason. Python scripts over 1000 lines require a strong justification. Obviously, one expects HTML, template files, data files like CSV etc. to be very long.
 ## Python Error Handling 
 - Exceptions are an important signal and should not be thoughtlessly suppressed.
 - Unexpected program behaviour must raise an exception (don't try to catch developer mistakes with error-handling code).
-- A bare try/except may only be used at the most top end-user-facing level of the application (if at all). All other exceptions must bubble up.
+- A bare try/except may only be used at the topmost end-user-facing level of the application (if at all). All other exceptions must bubble up.
+
+## User Inputs 
+- User inputs should always be 
+
 
 ## References
 * https://realpython.com/python-code-quality/

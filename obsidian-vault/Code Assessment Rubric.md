@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-04-23T09:19
-modified: 2025-04-23 13:20
+modified: 2025-12-30 21:07
 tags:
   - code
   - assess
@@ -46,3 +46,4 @@ This rubric is python-specific at the moment
 * https://qped-eu.github.io/io4_rubric.pdf
 ## Related
 * Links to other notes which are directly related go here
+* [Software Architecture Concepts](Software%20Architecture%20Concepts.md)

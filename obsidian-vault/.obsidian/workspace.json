@@ -8,49 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "233bc3ea9821adb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Application Architectures.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Software Application Architectures"
-            }
-          },
-          {
-            "id": "bf6ad4ae5e5a1aae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025)"
-            }
-          },
-          {
-            "id": "f76db2da05ffe255",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Effective harnesses for long-running agents (Anthropic Engineering Blog).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Effective harnesses for long-running agents (Anthropic Engineering Blog)"
-            }
-          },
-          {
-            "id": "6580654da517b9c0",
+            "id": "de29aee5cdbdc81c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +20,37 @@
               "icon": "lucide-file",
               "title": "My personal python AGENTS.md"
             }
+          },
+          {
+            "id": "89f3f0934f39d304",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Architecture Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Software Architecture Concepts"
+            }
+          },
+          {
+            "id": "fd4abe4d40be8bce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domain-Driven Design (DDD).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Domain-Driven Design (DDD)"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:red-team",
+                "query": "architecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,13 +103,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 443.5,
-    "collapsed": true
+    "width": 443.5
   },
   "right": {
     "id": "f4cde7520428266c",
@@ -209,23 +193,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6580654da517b9c0",
+  "active": "fd4abe4d40be8bce",
   "lastOpenFiles": [
-    "Software Application Architectures.md",
-    "No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025).md",
-    "Effective harnesses for long-running agents (Anthropic Engineering Blog).md",
     "My personal python AGENTS.md.md",
-    "Layered Software Architecture.md",
+    "Code Assessment Rubric.md",
+    "Domain-Driven Design (DDD).md",
+    "Software Architecture Concepts.md",
+    "Event storming.md",
+    "Bounded contexts.md",
+    "Layered (n-tier) Software Architecture.md",
+    "2 - Full Notes/Joe PDF RAG 2025.md",
+    "Interesting Ideas.md",
     "Install a Docker Engine in WSL2.md",
-    "PRs vs everyone pushing to dev branch.md",
-    "LLM Uncertainty Quantification.md",
-    "3 - Source Material/Build a Large Language Model (From Scratch).md",
-    "The GPT Architecture.md",
-    "1 - Rough Notes/Masked Multi-Head Attention.md",
-    "Python Application Observability Presentation (end of 2025).md",
-    "How to do Application Logging Properly.md",
-    "Advanced Python - Build Hands-on Projects with Design Patterns.md",
-    "Attentive Reasoning Queries (ARQ) by Parlant.md",
+    "Information Retrieval (Search) Strategies.md",
+    "IAM in GCP and AWS.md",
+    "Hypothetical Document Embeddings (HyDE).md",
+    "hybrid search.md",
+    "2 - Full Notes/How to do Application Logging Properly.md",
+    "grep (linux CLI utility).md",
+    "Good Questions to Ask Reasoning Models.md",
+    "Golden Resources.md",
+    "GEPA - Reflective Prompt Evolution Can Outperform Reinforcement Learning.md",
+    "2 - Full Notes/Cursor allowlist.md",
+    "Customer Lifetime Value (CLV,CLTV).md",
+    "The Strategy Design Pattern.md",
+    "2 - Full Notes/Dependency Injection.md",
+    "Software Application Architectures.md",
+    "Effective harnesses for long-running agents (Anthropic Engineering Blog).md",
+    "No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025).md",
     "Untitled.base",
     "Untitled 5.base",
     "7 - assets/Python Application Observability Presentation/python_logging_architecture.png",
@@ -233,12 +228,6 @@
     "7 - assets/Python Application Observability Presentation/Unconfirmed 336133.crdownload",
     "7 - assets/Python Application Observability Presentation/trace_example.avif",
     "7 - assets/Python Application Observability Presentation/Unconfirmed 469937.crdownload",
-    "String Similarity Measures.md",
-    "Thoughts on LLM Application Development.md",
-    "The Strategy Design Pattern.md",
-    "Unified Reading List.md",
-    "A Survey on Uncertainty Quantification of Large Language Models - Taxonomy, Open Research Challenges, and Future Directions.md",
-    "Untitled 1.md",
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled 4.base",
@@ -246,11 +235,6 @@
     "7 - assets/Python Application Observability Presentation/tracing_example.png",
     "7 - assets/Python Application Observability Presentation/Unconfirmed 262446.crdownload",
     "7 - assets/Python Application Observability Presentation",
-    "4 - Maps of Content/List of Useful Algorithms.md",
-    "LLM-Assisted Ideation.md",
-    "Code Assessment Rubric.md",
-    "2 - Full Notes/Subnets.md",
-    "Python Logging Guide.md",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/LLM logprobs and temperature/example_temperature_plot.png",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",

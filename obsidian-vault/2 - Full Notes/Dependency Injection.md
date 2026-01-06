@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-05T15:05
-modified: 2025-01-05 22:07
+modified: 2025-12-30 21:09
 tags:
   - dependency-injection
 type:
@@ -141,3 +141,4 @@ if __name__ == "__main__":
 * Links to references (source material) go here
 ## Related
 * Links to other notes which are directly related go here
+* [Software Architecture Concepts](Software%20Architecture%20Concepts.md)
