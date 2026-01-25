@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-04-23T09:19
-modified: 2025-12-30 21:07
+modified: 2026-01-16 12:11
 tags:
   - code
   - assess
@@ -12,6 +12,7 @@ tags:
   - education
   - software
   - coding
+  - review
 type:
   - note
 status:
@@ -47,3 +48,4 @@ This rubric is python-specific at the moment
 ## Related
 * Links to other notes which are directly related go here
 * [Software Architecture Concepts](Software%20Architecture%20Concepts.md)
+* [My personal python AGENTS.md](My%20personal%20python%20AGENTS.md.md)

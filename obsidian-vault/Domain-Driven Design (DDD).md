@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-30T23:22
-modified: 2026-01-08 21:23
+modified: 2026-01-19 16:06
 tags:
   - software
   - software-development
@@ -64,11 +64,30 @@ TODO
 
 TODO
 
-## Aggregates
+## DDD Aggregates
 
-- An *INVARIANT* is a business rule which must always be true e.g. *"An order cannot be paid twice."*
-- *INVARIANTs* are enforced using an *AGGREGATE*.
-- 
+- An INVARIANT is a business rule that must always be true e.g. “an order cannot be paid twice”
+- INVARIANTs are enforced using an AGGREGATE
+- An AGGREGATE is a group of domain objects (e.g. entities and value objects) that must remain consistent together.
+- All domain objects within the AGGREGATE change together (INVARIANTs are kept true)
+- All changes to domain objects within the AGGREGATE must be made by interacting with a single entity in the AGGREGATE called the AGGREGATE ROOT.
+
+## Factory Pattern in DDD
+
+- A FACTORY in DDD is an object responsible for creating valid AGGREGATEs (i.e. all INVARIANTs hold).
+- Typically appears as a method on the AGGREGATE ROOT, although it can also be a class or function or service (lives in the domain model wherever the invariant lives).
+- FACTORIES are part of the domain model, and aren’t concerned with object persistence, databases, existing object mutation etc.
+- Not used when loading (rehydrating) an existing aggregate (only used at aggregate creation).
+
+  
+
+## Repository Pattern in DDD
+
+- An abstraction over persistent storage (e.g a database) which gives access to an AGGREGATE (CRUD) via the illusion (interface) of an in-memory hashmap.
+
+  
+
+	## DDD Modules 
 
 ## OLD STUFF
 

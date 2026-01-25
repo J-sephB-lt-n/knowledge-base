@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2026-01-02 11:38
+modified: 2026-01-22 21:55
 tags:
   - llm-agents
   - claude-code
@@ -21,17 +21,20 @@ status:
 
 # General Principles
 You must always write code that (where relevant) fulfils all of the requirements of high quality code:
-- **Functionality (correctness)** : Works as expected and fulfills its intended purpose.
-- **Readability**: Is easy for humans to quickly comprehend (code is optimised for clarity).
-- **Documentation**: Clearly explains its purpose and usage.
-- **Standards Compliance**: Adheres to conventions and guidelines (e.g. PEP 8 for python code).
-- **Reusability**: Can be used in different contexts without modification.
-- **Maintainability**: Allows for modifications and extensions without introducing bugs.
-- **Robustness**: Handles errors and unexpected inputs effectively.
-- **Testability**: Can be easily verified for correctness.
-- **Efficiency**: Optimizes time and resource usage.
-- **Scalability**: Handles increased data loads or complexity without degradation.
-- **Security**: Protects against vulnerabilities and malicious inputs.
+	- **Functionality (correctness)** : Works as expected and fulfills its intended purpose.
+	- **Readability**: Is easy for humans to quickly comprehend (code is optimised for clarity).
+	- **Documentation**: Clearly explains its purpose and usage.
+	- **Standards Compliance**: Adheres to conventions and guidelines (e.g. PEP 8 for python code).
+	- **Reusability**: Can be used in different contexts without modification.
+	- **Maintainability**: Allows for modifications and extensions without introducing bugs.
+	- **Robustness**: Handles errors and unexpected inputs effectively.
+	- **Testability**: Can be easily verified for correctness.
+	- **Efficiency**: Optimizes time and resource usage.
+	- **Scalability**: Handles increased data loads or complexity without degradation.
+	- **Security**: Protects against vulnerabilities and malicious inputs.
+- Aim for high cohesion within modules and low coupling between them.
+- Unless you are only providing a single argument and it is obvious what that argument is, always use named arguments when calling a function. 
+
 
 # Documentation
 - All codebases should have a README.md file at the project root. It must be a brief but  information dense document (optimised for human-readability) containing important context for understanding the application, intended to provide new developers with sufficient information to begin contributing to the codebase. It should include:
@@ -58,14 +61,14 @@ You must always write code that (where relevant) fulfils all of the requirements
 - Aim for high cohesion within modules and low coupling between them.
 - Unless you are only providing a single argument and it is obvious what that argument is, always use named arguments when calling a function.
 - Very long `.py` scripts are a code smell. Over 500 lines is a warning, but generally still ok if there is a good reason. Python scripts over 1000 lines require a strong justification. Obviously, one expects HTML, template files, data files like CSV etc. to be very long.
+- Code should not be platform-specific e.g. filepaths should use `Path(...)` from `pathlib` not windows path strings.
 ## Python Error Handling 
 - Exceptions are an important signal and should not be thoughtlessly suppressed.
 - Unexpected program behaviour must raise an exception (don't try to catch developer mistakes with error-handling code).
 - A bare try/except may only be used at the topmost end-user-facing level of the application (if at all). All other exceptions must bubble up.
 
 ## User Inputs 
-- User inputs should always be 
-
+- User inputs should always be assumed to be malicious.
 
 ## References
 * https://realpython.com/python-code-quality/
