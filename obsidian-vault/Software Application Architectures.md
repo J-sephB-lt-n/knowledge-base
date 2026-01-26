@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-11-27T09:42
-modified: 2025-12-30 21:02
+modified: 2026-01-26 15:21
 tags:
 type:
   - map-of-content
@@ -59,4 +59,4 @@ Note also that:
 * Links to references (source material) go here
 ## Related
 - [Layered (n-tier) Software Architecture](Layered%20(n-tier)%20Software%20Architecture.md)
-* Links to other notes which are directly related go here
+* [Software Architecture Characteristics](Software%20Architecture%20Characteristics.md)

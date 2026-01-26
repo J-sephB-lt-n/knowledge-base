@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-30T15:38
-modified: 2025-12-30 23:45
+modified: 2026-01-26 15:21
 tags:
   - software
   - code
@@ -69,3 +69,4 @@ status:
 * Links to references (source material) go here
 ## Related
 * [Software Application Architectures](Software%20Application%20Architectures.md)
+* [Software Architecture Characteristics](Software%20Architecture%20Characteristics.md)
