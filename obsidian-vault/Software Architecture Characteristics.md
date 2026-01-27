@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-01-26T15:20
-modified: 2026-01-26 15:21
+modified: 2026-01-27 11:00
 tags:
   - software
   - software-architecture
@@ -9,7 +9,7 @@ tags:
 type:
   - note
 status:
-  - in-progress
+  - ongoing
 ---
 
 | Grouping        | Characteristic   | Description                                                                                           |
