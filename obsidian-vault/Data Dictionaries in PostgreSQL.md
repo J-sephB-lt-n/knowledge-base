@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-12-17T09:01
-modified: 2025-07-08 15:35
+modified: 2026-02-01 22:55
 tags:
   - sql
   - documentation
@@ -13,8 +13,9 @@ tags:
   - data
   - comment
   - postgresql
-type: 
-status: 
+type:
+  - note
+status:
 ---
 Basically anything in PostgreSQL can be documented using a _COMMENT_, which is a piece of string metadata which attaches to the object itself. 
 # Writing Comments 

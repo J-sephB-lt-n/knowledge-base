@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-01-19T13:20
-modified: 2026-01-19 16:07
+modified: 2026-02-01 22:55
 tags:
   - ai
   - llm
@@ -52,4 +52,4 @@ Add a `agent_dev_helper` bash alias explaining all of these slash commands.
 * [Effective harnesses for long-running agents (Anthropic Engineering Blog)](Effective%20harnesses%20for%20long-running%20agents%20(Anthropic%20Engineering%20Blog).md)
 * [Dex Horthy's Research Codebase Prompt](Dex%20Horthy's%20Research%20Codebase%20Prompt.md)
 * [Dex Horthy's Create Plan Prompt](Dex%20Horthy's%20Create%20Plan%20Prompt.md)
-* 
+* [Joe's AI Coding Strategy 2026-01](Joe's%20AI%20Coding%20Strategy%202026-01.md)

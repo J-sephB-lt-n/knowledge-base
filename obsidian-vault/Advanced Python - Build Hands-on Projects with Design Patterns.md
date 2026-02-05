@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-01-14T22:52
-modified: 2025-11-10 11:38
+modified: 2026-01-31 15:12
 tags:
   - python
   - design-patterns

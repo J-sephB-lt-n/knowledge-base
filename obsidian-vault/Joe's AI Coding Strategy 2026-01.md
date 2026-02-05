@@ -1,8 +1,23 @@
 ---
 created:
   - 2026-01-24T23:05
-modified: 2026-01-30 13:17
+modified: 2026-02-05 22:41
 tags:
+  - llm
+  - ai
+  - ai-dev
+  - ai-development
+  - coding-agent
+  - ai-coding
+  - large-language-model
+  - agentic
+  - ai-agent
+  - cursor
+  - claude-code
+  - opencode
+  - openai
+  - codex
+  - openai-codex
 type:
   - note
 status:
@@ -14,7 +29,7 @@ I've been very convinced this month by these approaches to AI coding:
 1. https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
 2. [# Getting AI to Work in Complex Codebases (Dexter Horthy)](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md)
 
-Facts I consider to be true:
+Facts I consider to be true (about LLMs and LLM coding agents):
 (be careful if changing fact IDs here as these numbers are referenced later in this document)
 
 | Fact ID | Fact                                                                                                                                                       | My confidence | Source                                                                                                   | Implication for coding agents                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -27,7 +42,7 @@ Facts I consider to be true:
 | 6       | All LLMs are auto-regressive next token predictors                                                                                                         | HIGH          |                                                                                                          | - Ordering of information in the context window matters<br>- Place reasoning, motivation, discussion etc. before final decision or code generation.<br>- We can only control output quality through the content of the context window                                                                                                                                                                                                                                               |
 | 7       | MCP, skills, subagents, background agents may or may not be useful                                                                                         |               |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 8       | AI providers are running at a loss trying to capture market share                                                                                          | MEDIUM        |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| 9       | LLMs hallucinate and are convincing liars<br>(this is what they are trained to do)                                                                         | HIGH          | - Common knowledge<br>- My own experience                                                                | - to TDD<br>- agentic code reviewers                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 9       | LLMs hallucinate and are convincing liars<br>(this is what they are trained to do)                                                                         | HIGH          | - Common knowledge<br>- My own experience                                                                | - write explicit tests before the code is written (maybe hide these from the agent)<br>- do TDD<br>- agentic code review<br>                                                                                                                                                                                                                                                                                                                                                        |
 | 10      | Generating reasoning traces improves performance on complex tasks                                                                                          | HIGH          | Documented in many studies                                                                               | Choose reasoning ("thinking") models for more complex coding tasks                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 11      | Coding agents don't do long-term planning or architecture thinking                                                                                         | MEDIUM        | - My own experience                                                                                      | - This must be done for (and/or with) them<br>- Desired patterns must be documented and given to agents explicitly as context.<br>- Agents needs to be monitored to ensure they are complying with the architecture. Agent code reviewers?                                                                                                                                                                                                                                          |
 | 12      | LLM are very good at using tools<br>(I'm sure they are fine-tuned for this)                                                                                | HIGH          | - My own experience                                                                                      | Give agents tools to use                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -37,8 +52,8 @@ Facts I consider to be true:
 | 16      | LLMs' broad pretraining makes them great for discussing/exploring different possible approaches to a problem                                               | HIGH          | My own experience                                                                                        | Have an explicit agent which involves brainstorming different possible approaches                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 17      | Structured reasoning (e.g. step-by-step reasoning, plan then execute, explain decisions, decompose into subproblems) improves performance on complex tasks | MEDIUM        |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 18      | Different LLMs need different prompting approaches                                                                                                         | LOW           | - Picked this up online                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| 19      | Coding agents do better on small (tightly scoped) tasks than on large (loosely defined) ones                                                               | MEDIUM        |                                                                                                          | Break up big tasks into smaller tightly scoped ones                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 20      | Iterative refinement works better than one-shot prompting                                                                                                  |               | - My own experience                                                                                      | - Code review and QA (testing) agents<br>- Make use of the chatbot interface with the agent to iteratively explore the problem/solution space, ask the agent questions or iteratively guide the agent<br>                                                                                                                                                                                                                                                                           |
+| 19      | Coding agents do better on small (tightly scoped) tasks than on large (loosely defined) ones                                                               | MEDIUM        |                                                                                                          | Break up big tasks into smaller tightly scoped and defined ones                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 20      | Iterative refinement works better than one-shot prompting<br>(LLMs work well in a feedback loop)                                                           |               | - My own experience                                                                                      | - Code review and QA (testing) agents<br>- Make use of the chatbot interface with the agent to iteratively explore the problem/solution space, ask the agent questions or iteratively guide the agent<br>                                                                                                                                                                                                                                                                           |
 | 21      | Coding agents write code FAST.<br>Keeping the codebase under control is one of the biggest challenges.                                                     | HIGH          | - My own experience                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 22      | Agents benefit from a clean environment                                                                                                                    | MEDIUM        | - My own experience                                                                                      | - If things are consistent in the codebase, then the agent can maintain that consistency (or be instructed to). i.e. we should make style, language, environment and architecture patterns explicit.<br>- The agent shouldn't need to waste tokens working out how to run the app/tests etc. correctly. Agent can fix this, or work it out then document it.                                                                                                                        |
 | 23      | LLM agents are amazing at bash                                                                                                                             | HIGH          | - My own experience<br>- Claude Code                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -47,6 +62,9 @@ Facts I consider to be true:
 | 26      | LLMs are strong at language tasks (especially text generation)                                                                                             | HIGH          | - My own experience                                                                                      | - Use LLMs to review/improve prompts (e.g. "make this more precise", "apply LLM best practices")                                                                                                                                                                                                                                                                                                                                                                                    |
 | 27      | What's in the context window is the only quality control we have                                                                                           | HIGH          |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 28      | LLM quality degrades as the context window fills up ("context rot")                                                                                        | HIGH          | - My own experience<br>- This is well documented, with supporting data                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 29      | AI coding agents will proactively read files without asking for permission                                                                                 | HIGH          | - My own experience                                                                                      | - This is a feature, not a bug<br>- Explicitly tell them not to to avoid them having conflicting context                                                                                                                                                                                                                                                                                                                                                                            |
+| 30      | Coding agents won't necessarily consider input validation, resource cleanup, thread/process safety, security, error handling                               |               |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 31      | Few-shot prompting works well                                                                                                                              |               |                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 
 ## Proposed practices
@@ -78,6 +96,8 @@ Facts I consider to be true:
 ## Proposed coding agent workflow:
 (putting all of my proposed practices into practice)
 
+(For a more concise - maybe also more up to date - version of this, look at my bash function  `cursor_helper`)
+
 | Step                                                                                                                                                                                                       | What it Does                                                                                                                                                                                                                                                                                                                                                                                                                          | Practice ID(s) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | 1. **/discuss_potential_approaches_llm_general_knowledge**<br>and/or **discuss_potential_approaches_framework_based**<br>2.<br>**/more_solutions** (can run this many times)<br>3.<br>**/assess_solution** | - First, systematically explore potential solutions.<br>- Second, systematically assesses the chosen solution.<br>- This sequence of steps could just be run in ChatGPT web.                                                                                                                                                                                                                                                          | 15, 16, 19     |
@@ -92,123 +112,8 @@ Facts I consider to be true:
 | **SUBAGENT: codebase_research_agent**                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                       |                |
 
 
-
-
-
-
-**Accepted practice:**
-- Prompt for:
-  - Input validation
-  - Resource cleanup
-  - Thread/process safety
-  - Secure defaults (e.g., prepared statements, CSRF handling)
-
-**Commonly accepted as true:**
-- If you don’t explicitly ask for security and robustness, the agent often optimizes for “simple, illustrative code.”
-- Security, error handling, and resilience improve when explicitly requested (or when your prompt includes internal security guidelines).
-
----
-
-## 9. Use “review mode” and self-critique
-
-**Accepted practice:**
-- After getting code, ask the agent to:
-  - Review it as if it were written by someone else
-  - Identify possible bugs, edge cases, and performance issues
-  - Suggest improvements without rewriting everything unnecessarily
-
-**Commonly accepted as true:**
-- Self-review prompts (or “critic then fix” loops) materially improve quality.
-- Having the agent explain *why* the code is correct often surfaces hidden mistakes.
-
----
-
-## 10. Ground the agent on real tools and feedback
-
-**Accepted practice:**
-- Combine AI with:
-  - Compiler/interpreter errors
-  - Static analysis (mypy, ESLint, flake8, SonarQube)
-  - Test results
-- Paste outputs back into the conversation and ask for fixes.
-
-**Commonly accepted as true:**
-- The best reliability comes from AI + automated tools + human review.
-- When given real tool feedback, agents are much better at converging to correct, idiomatic solutions.
-
----
-
-## 11. Use system / “role” instructions to set global behavior
-
-**Accepted practice:**
-- Establish up front:
-  - “You are a senior backend engineer in Python.”
-  - “Prioritize readability over micro-optimizations.”
-  - “Never use network access; assume offline operation.”
-
-**Commonly accepted as true:**
-- Clear role + priorities at the start of the session improves consistency across many turns.
-- It reduces the need to restate preferences in every prompt.
-
----
-
-## 12. No prompt guarantees perfection; human review remains essential
-
-**Accepted practice:**
-- Always:
-  - Review logic manually for important code
-  - Run and extend tests
-  - Inspect edge cases that weren’t considered
-- Treat AI drafts as high-quality scaffolding, not final truth.
-
-**Commonly accepted as true:**
-- Even with excellent prompting, AI can:
-  - Misinterpret ambiguous requirements
-  - Produce subtly wrong logic
-  - Use APIs incorrectly in edge cases
-- “Guaranteed robust high-quality code” isn’t achievable solely via prompting; it requires verification.
-
----
-
-If you want, I can turn these into a concrete “prompt template” you can reuse when asking coding agents for non-trivial features or refactors.
-
-
-# Claude 4.5 Opus
-
-# Commonly Accepted Facts About Prompting AI Coding Agents (as of 2025)
-
-I should note that I can only speak to what's established through my knowledge cutoff in early 2025, not 2026. Here's what has become generally accepted:
-
-## Widely Accepted Principles
-
-**1. Specificity beats vagueness**
-- Explicit constraints (language version, frameworks, error handling requirements) produce more reliable output than open-ended requests
-
-**2. Examples work**
-- Providing input/output examples or code style samples significantly improves consistency
-
-**3. Decomposition helps**
-- Breaking complex tasks into smaller, sequential prompts yields better results than single monolithic requests
-
-**4. Context windows matter but aren't magic**
-- More context helps, but relevant context beats large dumps of irrelevant code
-
-**5. Verification is non-negotiable**
-- No prompting technique *guarantees* robust, high-quality code—human review and testing remain essential
-
-## What's Still Contested or Unclear
-
-- Whether "chain of thought" prompting reliably improves code correctness
-- Optimal prompt structure (there's no universal template that dominates)
-- Whether persona prompts ("you are a senior engineer...") have real effects or are placebo
-
-## Important Caveat
-
-The phrase **"guaranteed robust high quality code"** remains aspirational, not achievable through prompting alone. The 2025 consensus is that prompting improves *probability* of good output, but testing, review, and iteration remain mandatory.
-
-Would you like me to elaborate on any specific technique?
-
 ## References
 * [Effective harnesses for long-running agents (Anthropic engineering blog)](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 ## Related
 * [No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025)](No%20Vibes%20Allowed%20-%20Solving%20Hard%20Problems%20in%20Complex%20Codebases%20Dex%20Horthy%20HumanLayer%20(presentation%20at%20AI%20Engineer%202025).md)
+* [Effective harnesses for long-running agents (Anthropic Engineering Blog)](Effective%20harnesses%20for%20long-running%20agents%20(Anthropic%20Engineering%20Blog).md)
