@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2026-02-05 16:42
+modified: 2026-02-08 13:54
 tags:
   - llm-agents
   - claude-code
@@ -56,11 +56,11 @@ You must always write code that (where relevant) fulfils all of the requirements
 - Comments should be used sparingly. As far as possible, code should be self-documenting. Here are some general principles which often help:
 	- Descriptive naming.
 	- Complex logic broken down into well-named single-responsibility chunks (clean abstractions).
-	- Use named constants.
 	- No magic numbers (use named constants instead).
 # Software Testing
 - I don't believe in 100% test coverage, but please identify parts of the code which would be made more robust by adding tests and raise these with me.
 - The test suite is going to consist of hundreds of tests, so ensure that no individual unit test takes more than 1 second to run.
+- You are never allowed to delete or modify existing tests. If you have a compelling reason to do so, ask me directly for permission first.
 # Error Handling 
 - Exceptions are an important signal and should not be thoughtlessly suppressed.
 - Unexpected program behaviour must raise an exception (don't try to catch developer mistakes with error-handling code).
@@ -70,6 +70,14 @@ You must always write code that (where relevant) fulfils all of the requirements
 # User Inputs 
 - User inputs should always be assumed to be malicious.
 
+# Red Flags
+- ALWAYS ask permission before using any of the following functions/keywords:
+	- exec
+	- eval
+	- global
+
+# Coding Agents
+- NEVER include yourself in my git commits (e.g. "co-authored by cursor")
 ## References
 * https://realpython.com/python-code-quality/
 ## Related
