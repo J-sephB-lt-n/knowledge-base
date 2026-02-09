@@ -124,3 +124,4 @@ Facts I consider to be true (about LLMs and LLM coding agents):
 ## Related
 * [No Vibes Allowed - Solving Hard Problems in Complex Codebases Dex Horthy HumanLayer (presentation at AI Engineer 2025)](No%20Vibes%20Allowed%20-%20Solving%20Hard%20Problems%20in%20Complex%20Codebases%20Dex%20Horthy%20HumanLayer%20(presentation%20at%20AI%20Engineer%202025).md)
 * [Effective harnesses for long-running agents (Anthropic Engineering Blog)](Effective%20harnesses%20for%20long-running%20agents%20(Anthropic%20Engineering%20Blog).md)
+- [Choosing a LLM Agent Framework](<Choosing%20a%20LLM%20Agent%20Framework.md>)

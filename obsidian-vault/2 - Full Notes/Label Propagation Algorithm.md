@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-06-21T14:19
-modified: 2024-06-23 20:50
+modified: 2026-02-09 23:00
 tags:
   - inference
   - machine-learning
@@ -12,7 +12,7 @@ tags:
   - semi-supervised-learning
 type:
   - algorithm
-status: 
+status:
 ---
 This is a [[Classification]] algorithm. It is well-suited for problems in which there is a lot of feature data ($\mathbf{x}$), but very few labelled data points ($y$). 
 The algorithm diffuses ("propagates") the known labels from the labelled samples into the population of unlabelled samples using the structure present in the feature data.

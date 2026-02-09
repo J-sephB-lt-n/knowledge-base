@@ -13,6 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Choosing a LLM Agent Framework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Choosing a LLM Agent Framework"
+            }
+          },
+          {
+            "id": "794617c4df077860",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Should I Use an AI Agent Framework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Should I Use an AI Agent Framework"
+            }
+          },
+          {
+            "id": "0696d7b6877e2312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Choosing a LLM Agent Framework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Choosing a LLM Agent Framework"
+            }
+          },
+          {
+            "id": "b10b9cdc61edf4d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Choosing a LLM Agent Framework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Choosing a LLM Agent Framework"
+            }
+          },
+          {
+            "id": "b4289d60074c0126",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Joe's AI Coding Strategy 2026-01.md",
                 "mode": "source",
                 "source": false
@@ -22,20 +78,35 @@
             }
           },
           {
-            "id": "4d4d057898a04e55",
+            "id": "61fd8f727c68e21d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My personal python AGENTS.md.md",
+                "file": "Choosing a LLM Agent Framework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My personal python AGENTS.md"
+              "title": "Choosing a LLM Agent Framework"
+            }
+          },
+          {
+            "id": "365468e538603877",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Joe's AI Coding Strategy 2026-01.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Joe's AI Coding Strategy 2026-01"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -178,10 +249,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42d24973c39f8533",
+  "active": "365468e538603877",
   "lastOpenFiles": [
-    "My personal python AGENTS.md.md",
+    "Choosing a LLM Agent Framework.md",
     "Joe's AI Coding Strategy 2026-01.md",
+    "Should I Use an AI Agent Framework.md",
+    "2 - Full Notes/Label Propagation Algorithm.md",
+    "1 - Rough Notes/Classification.md",
+    "obsidian-vault/1 - Rough Notes/Classification.md",
+    "obsidian-vault/1 - Rough Notes",
+    "obsidian-vault",
+    "My personal python AGENTS.md.md",
+    "Label Propagation.md",
     "Catching up with AI coding practices start of 2026.md",
     "Agentic RAG.md",
     "Data Dictionaries in PostgreSQL.md",
@@ -200,12 +279,6 @@
     "String Similarity Measures.md",
     "LLM Structured Outputs.md",
     "LLM Strengths & Weaknesses.md",
-    "LLM Memory.md",
-    "My generic python AGENTS.md.md",
-    "Advanced Python - Build Hands-on Projects with Design Patterns.md",
-    "2 - Full Notes/How to see the GPT-4 System Prompt.md",
-    "3 - Source Material/LLM Prompting Strategies.md",
-    "Software Architecture Concepts.md",
     "Untitled.base",
     "Untitled 5.base",
     "7 - assets/Python Application Observability Presentation/python_logging_architecture.png",
@@ -218,8 +291,6 @@
     "Untitled 4.base",
     "Untitled 3.base",
     "7 - assets/Python Application Observability Presentation/tracing_example.png",
-    "7 - assets/Python Application Observability Presentation/Unconfirmed 262446.crdownload",
-    "7 - assets/Python Application Observability Presentation",
     "7 - assets/Masked Multi-Head Attention/toy_attention_example.png",
     "7 - assets/LLM logprobs and temperature/example_temperature_plot.png",
     "7 - assets/Possible approaches to LLM Domain Adaptation/choose_domain_adaptation_method.png",
