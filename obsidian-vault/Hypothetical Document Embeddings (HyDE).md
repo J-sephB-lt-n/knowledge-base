@@ -25,3 +25,4 @@ Main body of note goes here
 * [Information Retrieval (Search) Strategies](Information%20Retrieval%20(Search)%20Strategies.md)
 * [Retrieval-Augmented Generation (RAG)](Retrieval-Augmented%20Generation%20(RAG).md)
 * [Searching for Best Practices in Retrieval-Augmented Generation (paper)](Searching%20for%20Best%20Practices%20in%20Retrieval-Augmented%20Generation%20(paper).md)
+- [Cache-Augmented Generation (CAG)](<Cache-Augmented%20Generation%20%28CAG%29.md>)

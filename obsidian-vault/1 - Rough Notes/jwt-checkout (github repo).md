@@ -17,3 +17,4 @@ https://github.com/J-sephB-lt-n/jwt-checkout
 ## Related 
 * [[Json Web Tokens (JWTs)]]
 * [[jwt.io (website)]]
+- [Json Web Tokens (JWTs)](<1%20-%20Rough%20Notes/Json%20Web%20Tokens%20%28JWTs%29.md>)

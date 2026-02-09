@@ -141,3 +141,4 @@ Your answer should always be only a single word in ['Entailment', 'Neutral', 'Co
 ## Related
 * [Applied Large Language Model Concepts](Applied%20Large%20Language%20Model%20Concepts.md)
 * [RagChecker (paper) - A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation](RagChecker%20(paper)%20-%20A%20Fine-grained%20Framework%20for%20Diagnosing%20Retrieval-Augmented%20Generation.md)
+- [RAG Pipeline Evaluation](<RAG%20Pipeline%20Evaluation.md>)

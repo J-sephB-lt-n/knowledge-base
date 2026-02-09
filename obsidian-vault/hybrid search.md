@@ -25,3 +25,4 @@ status:
 ## Related
 
 * Links to other notes which are directly related go here
+- [tf-idf](<tf-idf.md>)

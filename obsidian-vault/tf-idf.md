@@ -23,3 +23,6 @@ Main body of note goes here
 * Links to references (source material) go here
 ## Related
 * [Okapi BM25](Okapi%20BM25.md)
+- [Okapi BM25](<Okapi%20BM25.md>)
+- [Semantic search](<Semantic%20search.md>)
+- [hybrid search](<hybrid%20search.md>)

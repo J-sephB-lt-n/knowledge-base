@@ -38,3 +38,5 @@ I also enjoyed this: [The OIDC Handbook](https://auth0.com/resources/ebooks/the-
 
 ## Related
 * [[OAuth 2.0]]
+- [OAuth 2.0](<2%20-%20Full%20Notes/OAuth%202.0.md>)
+- [Json Web Tokens (JWTs)](<1%20-%20Rough%20Notes/Json%20Web%20Tokens%20%28JWTs%29.md>)

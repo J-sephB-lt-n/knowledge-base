@@ -26,3 +26,4 @@ Main body of note goes here
 ## Related
 
 * Links to other notes which are directly related go here
+- [Regex lookarounds (lookbehind lookahead)](<2%20-%20Full%20Notes/Regex%20lookarounds%20%28lookbehind%20lookahead%29.md>)

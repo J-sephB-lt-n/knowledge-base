@@ -35,3 +35,6 @@ For more complex reasoning tasks, [[LLM Chain-of-Thought Prompting]] is probably
 ## Related
 * [[Applied Large Language Model Concepts]]
 * [[LLM Chain-of-Thought Prompting]]
+- [ChatGPT Prompt Engineering for Developers (DeepLearning.AI course)](<2%20-%20Full%20Notes/ChatGPT%20Prompt%20Engineering%20for%20Developers%20%28DeepLearning.AI%20course%29.md>)
+- [LLM Chain-of-Thought Prompting](<2%20-%20Full%20Notes/LLM%20Chain-of-Thought%20Prompting.md>)
+- [Applied Large Language Model Concepts](<4%20-%20Maps%20of%20Content/Applied%20Large%20Language%20Model%20Concepts.md>)

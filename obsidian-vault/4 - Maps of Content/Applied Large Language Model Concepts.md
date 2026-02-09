@@ -44,5 +44,7 @@ status:
 * [[LLM Agents]]
 * [[Retrieval-Augmented Generation (RAG)]]
 * [[Advanced RAG Techniques]]
+- [One-Shot and Few-Shot Learning](<2%20-%20Full%20Notes/One-Shot%20and%20Few-Shot%20Learning.md>)
+
 ## References
 * https://www.promptingguide.ai

@@ -25,3 +25,4 @@ Main body of note goes here
 * [Okapi BM25](Okapi%20BM25.md)
 * [hybrid search](hybrid%20search.md)
 * [tf-idf](tf-idf.md)
+- [tf-idf](<tf-idf.md>)

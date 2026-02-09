@@ -51,3 +51,4 @@ The plan is:
 * https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine
 ## Related
 * [Workout 2025b](Workout%202025b.md)
+- [Workout 2025b](<Workout%202025b.md>)

@@ -36,3 +36,5 @@ A novel idea: CAG and RAG can even be combined e.g. RAG performs an initial fetc
 * [Information Retrieval (Search) Strategies](Information%20Retrieval%20(Search)%20Strategies.md)
 * [Retrieval-Augmented Generation (RAG)](Retrieval-Augmented%20Generation%20(RAG).md)
 * [Searching for Best Practices in Retrieval-Augmented Generation (paper)](Searching%20for%20Best%20Practices%20in%20Retrieval-Augmented%20Generation%20(paper).md)
+- [Retrieval-Augmented Generation (RAG)](<2%20-%20Full%20Notes/Retrieval-Augmented%20Generation%20%28RAG%29.md>)
+- [Hypothetical Document Embeddings (HyDE)](<Hypothetical%20Document%20Embeddings%20%28HyDE%29.md>)

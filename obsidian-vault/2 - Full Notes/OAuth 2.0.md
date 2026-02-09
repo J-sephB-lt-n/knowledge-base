@@ -111,3 +111,4 @@ For a precise description on this process, refer to <https://developer.okta.com/
 
 ## Related
 * [[OIDC]]
+- [OIDC](<2%20-%20Full%20Notes/OIDC.md>)

@@ -19,3 +19,4 @@ Main body of note goes here
 * Links to references (source material) go here
 ## Related
 * [tf-idf](tf-idf.md)
+- [tf-idf](<tf-idf.md>)

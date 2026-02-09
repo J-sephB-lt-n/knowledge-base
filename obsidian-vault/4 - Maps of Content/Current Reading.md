@@ -31,3 +31,4 @@ status:
 * [[Past Reading]]
 * [[Future Reading]]
 * [[Reading Lists]]
+- [Past Reading](<2%20-%20Full%20Notes/Past%20Reading.md>)

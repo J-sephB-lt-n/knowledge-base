@@ -32,6 +32,8 @@ In the paper "Large Language Models are Zero-Shot Reasoners" (https://arxiv.org/
 * [[Applied Large Language Model Concepts]]
 * [[One-Shot and Few-Shot Learning]]
 * [[LLM ReAct Prompting]]
+- [One-Shot and Few-Shot Learning](<2%20-%20Full%20Notes/One-Shot%20and%20Few-Shot%20Learning.md>)
+
 ## References
 * (paper) Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (https://arxiv.org/abs/2201.11903)
 * https://www.promptingguide.ai/techniques/cot

@@ -23,3 +23,4 @@ Graph RAG refers to [[Retrieval-Augmented Generation (RAG)]], where the knowledg
 * [[Applied Large Language Model Concepts]]
 * [Knowledge Graph](Knowledge%20Graph.md)
 * [Overcome Failing Document Ingestion & RAG Strategies with Agentic Knowledge Distillation (pyramid search)](Overcome%20Failing%20Document%20Ingestion%20&%20RAG%20Strategies%20with%20Agentic%20Knowledge%20Distillation%20(pyramid%20search).md)
+- [Knowledge Graph](<Knowledge%20Graph.md>)

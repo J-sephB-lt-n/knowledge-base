@@ -18,3 +18,4 @@ Retrieval-Augmented Generation (RAG) refers to the process of including addition
 * [[Graph RAG]]
 * [[Searching for Best Practices in Retrieval-Augmented Generation (paper)]]
 * [[happy-rag-friends (github repo)]]
+- [Cache-Augmented Generation (CAG)](<Cache-Augmented%20Generation%20%28CAG%29.md>)

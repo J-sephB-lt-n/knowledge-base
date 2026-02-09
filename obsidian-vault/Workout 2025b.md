@@ -33,3 +33,4 @@ Here are my goals:
 * Links to references (source material) go here
 ## Related
 * [Workout 2025](Workout%202025.md)
+- [Workout 2025](<2%20-%20Full%20Notes/Workout%202025.md>)

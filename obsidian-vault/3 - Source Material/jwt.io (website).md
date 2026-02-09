@@ -22,3 +22,4 @@ The best resource I've ever found for understanding what [[Json Web Tokens (JWTs
 
 * [[Json Web Tokens (JWTs)]]
 * [[jwt-checkout (github repo)]]
+- [Json Web Tokens (JWTs)](<1%20-%20Rough%20Notes/Json%20Web%20Tokens%20%28JWTs%29.md>)

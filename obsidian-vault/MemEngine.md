@@ -24,3 +24,4 @@ Main body of note goes here
 * [MemGPT](MemGPT.md)
 * [Mem0 - Building Production-Ready AI Agents with Scalable Long-Term Memory](Mem0%20-%20Building%20Production-Ready%20AI%20Agents%20with%20Scalable%20Long-Term%20Memory.md)
 * [Zep - A Temporal Knowledge Graph Architecture for Agent Memory](Zep%20-%20A%20Temporal%20Knowledge%20Graph%20Architecture%20for%20Agent%20Memory.md)
+- [Knowledge Graph](<Knowledge%20Graph.md>)

@@ -43,3 +43,4 @@ If an entry has a "date finished", then I read the whole thing.
 * [[Current Reading]]
 * [[Future Reading]]
 * [[Reading Lists]]
+- [Current Reading](<4%20-%20Maps%20of%20Content/Current%20Reading.md>)

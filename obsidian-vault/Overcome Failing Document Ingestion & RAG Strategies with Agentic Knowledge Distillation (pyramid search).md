@@ -18,3 +18,4 @@ Main body of note goes here
 * https://towardsdatascience.com/overcome-failing-document-ingestion-rag-strategies-with-agentic-knowledge-distillation/?utm_source=flipboard&utm_content=topic/bigdata
 ## Related
 * Links to other notes which are directly related go here
+- [Knowledge Graph](<Knowledge%20Graph.md>)
