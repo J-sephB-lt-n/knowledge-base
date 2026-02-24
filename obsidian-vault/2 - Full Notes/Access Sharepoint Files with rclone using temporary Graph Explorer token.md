@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-02-18T10:57
-modified: 2026-02-18 15:15
+modified: 2026-02-19 15:09
 tags:
   - rclone
   - sharepoint
@@ -47,7 +47,7 @@ Authorization: Bearer {{ TEMP_GRAPH_EXPLORER_ACCESS_TOKEN }}
 Decode your TEMP_GRAPH_EXPLORER_ACCESS_TOKEN (it's a JWT) to get the expiry date of the token. It's a long integer (unix epoch timestamp) in there with key `exp`. 
 (I have a bash alias `decode_jwt` but you can also use https://jwt.ms/).
 
-Convert the unix epoch format expiry date to a RFC 3339 string (you need this format for your `rclone.conf`): 
+Convert the unix epoch format expiry date to a ISO 8601 (RFC 3339) string (you need this format for your `rclone.conf`): 
 ```bash
 # this is the command on ubuntu (macos unix differs) #
 # don't put in '@1771483940' - put in your own "exp" value #
@@ -65,7 +65,7 @@ drive_type = documentLibrary
 ```
 
 - All entries in `rclone.conf` must be a single line (e.g. you can't indent your JSON)
-- Set the "expiry" in `token` here to your RFC 3339 date (from the prior step)
+- Set the "expiry" in `token` here to your ISO 8601 date (from the prior step)
 
 If you have not been given access to the root folder of your sharepoint but only a subfolder within it, you will need to do this:
 ```http

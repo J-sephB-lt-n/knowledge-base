@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-02-10T22:51
-modified: 2026-02-11 21:55
+modified: 2026-02-19 21:21
 tags:
   - ai
   - ai-dev
@@ -63,6 +63,7 @@ sudo apt install -y qemu-system-x86 qemu-utils
 # lima VM #  
 limactl create --name agentvm --vm-type=qemu --containerd=system 
 limactl start agentvm
+limactl start agentvm --mount-only .:w # read/write access to only current folder
 limactl stop agentvm
 limactl stop --force agentvm
 limactl delete agentvm
