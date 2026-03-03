@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2026-02-19 21:03
+modified: 2026-03-03 13:06
 tags:
   - llm-agents
   - claude-code
@@ -36,7 +36,6 @@ status:
 - Unless you are only providing a single argument and it is obvious what that argument is, always use named arguments when calling a function. 
 - Use assert statements frequently as lightweight validation of the expected state of the system.
 	- Always include a short assert message.
-- Aim for high cohesion within modules and low coupling between them.
 - Very long `.py` scripts are a code smell. Over 500 lines is a warning, but generally still ok if there is a good reason. Python scripts over 1000 lines require a strong justification. Obviously, one expects HTML, template files, data files like CSV etc. to be very long.
 - Code should not be platform-specific e.g. filepaths should use `Path(...)` from `pathlib` not windows path strings.
 - Python imports should always appear at the top of the *.py* script (e.g. not within functions etc.), unless there is a strong justification for it.
@@ -48,20 +47,21 @@ status:
 - Don't use typing.Dict, typing.List, typing.Tuple etc. (you can use the base types dict, list, tuple etc. in type annotations on python 3.9+).
 - After working on a piece of code, use `uv run ty check` to check that your type annotations are correct (you may need to install `ty` using `uv add --dev ty`)
 - Never use `from __future__ import annotations` - just quote forward references directly (`foo: "Bar"`) or use `from typing import TYPE_CHECKING`
-- Use `typing.NewType` rather than base types so that complex type annotations become self-documenting e.g. `dict[UserId, UserMetadata]` rather than `dict[str, dict]`
+- Use `typing.NewType` or value objects rather than base types so that complex type annotations become self-documenting e.g. `dict[UserId, UserMetadata]` rather than `dict[str, dict]`
 
 # Documentation
 - All codebases should have a README.md file at the project root. It must be a brief but  information dense document (optimised for human-readability) containing important context for understanding the application, intended to provide new developers with sufficient information to begin contributing to the codebase. It should include:
 	  - The name of the application
 	  - A high-level description of the primary goal(s) of the application
 	  - Instructions on how to setup and run the application (and test suite).
-	  - An explanation of the layout of the codebase 
-  - All modules, classes and functions must have google-style docstrings.
+	  - An explanation of the layout of the codebase (or a link to a document which describes it) 
+- All modules, classes and functions must have google-style docstrings.
 - Comments should be used sparingly. As far as possible, code should be self-documenting. Here are some general principles which often help:
 	- Descriptive naming.
 	- Complex logic broken down into well-named single-responsibility chunks (clean abstractions).
 	- No magic numbers (use named constants instead).
 - In any other places where documentation is optional (e.g the "description" argument in `pydantic.Field` on attributes in a `pydantic.BaseModel`, the "help" argument in `argparse.ArgumentParser().add_argument()`, always provide useful documentation).
+- For pydantic models, use `Field(description=...)` for documenting attributes rather than a block in the class docstring.
 # Software Testing
 - I don't believe in 100% test coverage, but please identify parts of the code which would be made more robust by adding tests and raise these with me.
 - The test suite is going to consist of hundreds of tests, so ensure that no individual unit test takes more than 1 second to run.
