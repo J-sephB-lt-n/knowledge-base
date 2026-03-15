@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2026-03-03 13:06
+modified: 2026-03-11 13:30
 tags:
   - llm-agents
   - claude-code
@@ -18,9 +18,15 @@ type:
 status:
   - ongoing
 ---
+# General Instructions
+- Never read any files before explicitly asking my permission first.
 
-# General Principles
+# General Software Principles
 - You must always write code that (where relevant) fulfils all of the requirements of high quality code:
+	- **System Complexity is Minimised**: The architecture as whole must keep the codebase easy to understand and maintain.
+		- Making a small change must not require editing code/files in lots of different places.
+		- A developer should not need to hold a lot of information in their head at once to make a simple change.
+		- All knowledge required to make a small change must be visible at the change site (no unknown unknowns). i.e. **important information should be obvious**
 	- **Functionality (correctness)** : Works as expected and fulfills its intended purpose.
 	- **Readability**: Is easy for humans to quickly comprehend (code is optimised for clarity).
 	- **Documentation**: Clearly explains its purpose and usage.
@@ -41,6 +47,9 @@ status:
 - Python imports should always appear at the top of the *.py* script (e.g. not within functions etc.), unless there is a strong justification for it.
 - NEVER use relative pathing logic like `Path(__file__).resolve().parent.parent.parent` - this indicates a project organisation failure. All python scripts should be executed from the same project directory. 
 - If you encounter any inconsistencies or contradicting information in your task requirements, always bring this to my attention.
+
+# Module Architecture
+- Modules should be deep, not shallow i.e. functions/classes/methods should have a simple interface (with good defaults) and hide it's complexity from the caller inside it's implementation code. 
 # Type Annotation
 - Type annotate everything.
 - Make the type annotations as readable as possible (prioritise readability over comprehensiveness).
@@ -54,8 +63,10 @@ status:
 	  - The name of the application
 	  - A high-level description of the primary goal(s) of the application
 	  - Instructions on how to setup and run the application (and test suite).
-	  - An explanation of the layout of the codebase (or a link to a document which describes it) 
+	  - A filetree-style illustration of the layout of the codebase, with comments explaining the role of each module (or a link to another document containing this) 
 - All modules, classes and functions must have google-style docstrings.
+	- Function and method docstrings should include an explanation of each argument, the return type, any side effects and possible exceptions raised.  
+- Comments (and all other code documentation) should describe things which aren't obvious from the code itself. 
 - Comments should be used sparingly. As far as possible, code should be self-documenting. Here are some general principles which often help:
 	- Descriptive naming.
 	- Complex logic broken down into well-named single-responsibility chunks (clean abstractions).
