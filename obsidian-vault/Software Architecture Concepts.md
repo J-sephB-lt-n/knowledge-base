@@ -45,7 +45,7 @@ status:
 | Hexagonal architecture (ports and adapters)                                               |
 | Idempotency keys                                                                          |
 | Interfaces and Contracts                                                                  |
-| [Layered (n-tier) Software Architecture](Layered%20(n-tier)%20Software%20Architecture.md) |
+| [Layered Software Architecture](Layered%20Software%20Architecture.md) |
 | Mediator pattern                                                                          |
 | Microservices architecture                                                                |
 | Monolithic architecture                                                                   |

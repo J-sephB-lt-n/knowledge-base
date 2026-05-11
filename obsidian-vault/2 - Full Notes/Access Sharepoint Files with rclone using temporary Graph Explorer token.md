@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-02-18T10:57
-modified: 2026-02-27 13:01
+modified: 2026-05-07 21:04
 tags:
   - rclone
   - sharepoint
@@ -16,7 +16,7 @@ tags:
 type:
   - note
 status:
-  - in-progress
+  - completed
 ---
 This note explains how to programmatically list and download files from a microsoft sharepoint folder (and it's nested subfolders) without requiring you to have microsoft admin access.
 It uses [rclone](https://github.com/rclone/rclone) and a temporary access token from [microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) .   

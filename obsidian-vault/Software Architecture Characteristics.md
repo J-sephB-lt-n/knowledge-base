@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-01-26T15:20
-modified: 2026-01-27 11:00
+modified: 2026-04-29 12:47
 tags:
   - software
   - software-architecture

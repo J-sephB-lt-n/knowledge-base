@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-12-10T12:56
-modified: 2026-03-11 13:30
+modified: 2026-04-02 12:40
 tags:
   - llm-agents
   - claude-code
@@ -50,6 +50,7 @@ status:
 
 # Module Architecture
 - Modules should be deep, not shallow i.e. functions/classes/methods should have a simple interface (with good defaults) and hide it's complexity from the caller inside it's implementation code. 
+
 # Type Annotation
 - Type annotate everything.
 - Make the type annotations as readable as possible (prioritise readability over comprehensiveness).
@@ -73,15 +74,23 @@ status:
 	- No magic numbers (use named constants instead).
 - In any other places where documentation is optional (e.g the "description" argument in `pydantic.Field` on attributes in a `pydantic.BaseModel`, the "help" argument in `argparse.ArgumentParser().add_argument()`, always provide useful documentation).
 - For pydantic models, use `Field(description=...)` for documenting attributes rather than a block in the class docstring.
+
 # Software Testing
 - I don't believe in 100% test coverage, but please identify parts of the code which would be made more robust by adding tests and raise these with me.
 - The test suite is going to consist of hundreds of tests, so ensure that no individual unit test takes more than 1 second to run.
 - You are never allowed to delete or modify existing tests. If you have a compelling reason to do so, ask me directly for permission first.
+
 # Error Handling 
 - Exceptions are an important signal and should not be thoughtlessly suppressed.
 - Unexpected program behaviour must raise an exception (don't try to catch developer mistakes with error-handling code).
 - A bare try/except may only be used at the topmost end-user-facing level of the application (if at all). All other exceptions must bubble up.
-- Always log the full stack trace (e.g. use *logger.exception()* rather than *logger.error()*)
+- Always log the full stack trace (e.g. use *logger.exception()* rather than *logger.error(..., exc_info=True)*)
+- Don't add unnecessary handling code for rare or impossible scenarios.  
+
+# Package Dependencies
+- Never add dependencies to a `pyproject.toml` directly - use the package manager (e.g. `uv add` or `poetry add` etc.).
+- When adding new dependencies, don't pin versions explicitly - let the package manager download the latest package version.
+- Never add package dependencies without asking me first for explicit permission.
 
 # User Inputs 
 - User inputs should always be assumed to be malicious.
@@ -91,9 +100,14 @@ status:
 	- exec
 	- eval
 	- global
+
 # Environment Variables
 - Never print or log secrets
 - Always use `override=True` in `dotenv.load_dotenv()`, to avoid using existing global secrets by accident.
+
+# Large Language Models (LLMs)
+- When using a LLM to generate structured data, always use the structured output functionality of the LLM client (don't ask for structured data in a free-text chat completion and then manually parse out the data).
+
 ## References
 * https://realpython.com/python-code-quality/
 ## Related

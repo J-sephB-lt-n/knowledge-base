@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-11-07T16:12
-modified: 2025-11-17 09:26
+modified: 2026-05-07 21:03
 tags:
   - logging
   - python
@@ -13,7 +13,7 @@ tags:
 type:
   - note
 status:
-  - in-progress
+  - completed
 ---
 ## Telemetry
 

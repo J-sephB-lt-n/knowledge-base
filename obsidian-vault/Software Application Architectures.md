@@ -1,7 +1,7 @@
 ---
 created:
   - 2025-11-27T09:42
-modified: 2026-01-26 15:21
+modified: 2026-04-29 12:47
 tags:
 type:
   - map-of-content
@@ -29,17 +29,18 @@ Note also that:
 1. These philosophies/approaches can be combined within the same codebase
 2. A codebase can evolve from one approach to another as the project grows and it's requirements change.
 
-| Architecture                                    | Description                 |
-| ----------------------------------------------- | --------------------------- |
-| [Layered](Layered%20(n-tier)%20Software%20Architecture.md) |                             |
-| Model View Controller (MVC)                     |                             |
-| Vertical Slice                                  |                             |
-| Domain Driven Design (bounded contexts)         |                             |
-| Hexagonal (ports and adapters)                  |                             |
-| Onion                                           | might be same as hexagonal? |
-| Microservices                                   |                             |
-| modular monolith                                |                             |
-| clean architecture                              |                             |
+| Architecture                                                        | Description                 |
+| ------------------------------------------------------------------- | --------------------------- |
+| [Layered](Layered%20Software%20Architecture.md)                     |                             |
+| Model View Controller (MVC)                                         |                             |
+| Vertical Slice                                                      |                             |
+| Domain Driven Design (bounded contexts)                             |                             |
+| Hexagonal (ports and adapters)                                      |                             |
+| Onion                                                               | might be same as hexagonal? |
+| Microservices                                                       |                             |
+| modular monolith                                                    |                             |
+| clean architecture                                                  |                             |
+| [Pipe and Filter](Pipe%20and%20Filter%20Software%20Architecture.md) |                             |
 
 - Clean
 - Command Query Responsibility Segregation (CQRS)
@@ -56,7 +57,7 @@ Note also that:
 - microservices
 
 ## References
-* Links to references (source material) go here
+* [Just Enough Software Architecture - A Risk-Driven Approach](Just%20Enough%20Software%20Architecture%20-%20A%20Risk-Driven%20Approach.md)
 ## Related
-- [Layered (n-tier) Software Architecture](Layered%20(n-tier)%20Software%20Architecture.md)
+- [Layered Software Architecture](Layered%20Software%20Architecture.md)
 * [Software Architecture Characteristics](Software%20Architecture%20Characteristics.md)
