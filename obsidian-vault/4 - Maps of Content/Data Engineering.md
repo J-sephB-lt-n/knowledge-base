@@ -1,7 +1,7 @@
 ---
 created:
   - 2024-07-05T10:24
-modified: 2024-10-12 13:28
+modified: 2026-05-27 11:26
 tags:
   - data
   - data-engineering
@@ -17,3 +17,4 @@ status:
 * [[Data Engineering Thesaurus]]
 * [[Data Transformation Tools]]
 * [[Python Data Validation Tools]]
+* [19 Laws of Data Engineering](19%20Laws%20of%20Data%20Engineering.md)
