@@ -1,7 +1,7 @@
 ---
 created:
   - 2026-06-27T21:34
-modified: 2026-06-28 23:48
+modified: 2026-06-29 08:53
 tags:
   - db
   - database
@@ -13,7 +13,7 @@ tags:
 type:
   - note
 status:
-  - in-progress
+  - completed
 ---
 ```sql
 CREATE TABLE sales_long (
