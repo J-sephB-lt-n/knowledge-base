@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16e500a8dd7ebb9a",
+            "id": "63ab35a1fbbb7be0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Golden Resources.md",
+                "file": "Software Design Considerations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Golden Resources"
+              "title": "Software Design Considerations"
             }
           }
         ]
@@ -166,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16e500a8dd7ebb9a",
+  "active": "63ab35a1fbbb7be0",
   "lastOpenFiles": [
-    "OCR Approaches - Things I've Learned.md",
     "Golden Resources.md",
+    "Software Design Considerations.md",
+    "OCR Approaches - Things I've Learned.md",
     "Sharing Agent Skills across Claude, Opencode, Cursor.md",
     "4 - Maps of Content/Causal Inference.md",
     "Common Causal Inference Techniques.md",
@@ -193,7 +194,6 @@
     "2 - Full Notes/Data Dictionaries in PostgreSQL.md",
     "2 - Full Notes/Critique and Council Pattern for LLM Agents.md",
     "2 - Full Notes/Catching up with AI coding practices start of 2026.md",
-    "Bounded contexts.md",
     "Untitled.base",
     "obsidian-vault/1 - Rough Notes",
     "obsidian-vault",
